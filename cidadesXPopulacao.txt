@@ -1,0 +1,5570 @@
+São Paulo	12252023
+Rio de Janeiro	6718903
+Brasília	3015268
+Salvador	2872347
+Fortaleza	2669342
+Belo Horizonte	2512070
+Manaus	2182763
+Curitiba	1933105
+Recife	1645727
+Goiânia	1516113
+Belém	1492745
+Porto Alegre	1483771
+Guarulhos	1379182
+Campinas	1204073
+São Luís	1101884
+São Gonçalo	1084839
+Maceió	1018948
+Duque de Caxias	919596
+Campo Grande	895982
+Natal	884122
+Teresina	864845
+São Bernardo do Campo	838936
+Nova Iguaçu	821128
+João Pessoa	809015
+São José dos Campos	721944
+Santo André	718773
+Ribeirão Preto	703293
+Jaboatão dos Guararapes	702298
+Osasco	698418
+Uberlândia	691305
+Sorocaba	679378
+Contagem	663855
+Aracaju	657013
+Feira de Santana	614872
+Cuiabá	612547
+Joinville	590466
+Aparecida de Goiânia	578179
+Londrina	569733
+Juiz de Fora	568873
+Ananindeua	530598
+Porto Velho	529544
+Serra	517510
+Niterói	513584
+Belford Roxo	510906
+Caxias do Sul	510906
+Campos dos Goytacazes	507548
+Macapá	503327
+Florianópolis	500973
+Vila Velha	493838
+Mauá	472912
+São João de Meriti	472406
+São José do Rio Preto	460671
+Mogi das Cruzes	445842
+Betim	439340
+Santos	433311
+Diadema	423884
+Maringá	423666
+Jundiaí	418962
+Campina Grande	409731
+Montes Claros	409341
+Rio Branco	407319
+Piracicaba	404142
+Carapicuíba	400927
+Boa Vista	399213
+Olinda	392482
+Anápolis	386923
+Cariacica	381285
+Bauru	376818
+Itaquaquecetuba	370821
+São Vicente	365798
+Vitória	362097
+Caucaia	361400
+Caruaru	361118
+Blumenau	357199
+Franca	353187
+Ponta Grossa	351736
+Petrolina	349145
+Canoas	346616
+Pelotas	342405
+Vitória da Conquista	341597
+Ribeirão das Neves	334858
+Uberaba	333783
+Paulista	331774
+Cascavel	328454
+Praia Grande	325073
+São José dos Pinhais	323340
+Guarujá	320459
+Taubaté⿿	314924
+Petrópolis	306191
+Limeira	306114
+Santarém	304589
+Camaçari	299132
+Palmas	299127
+Suzano	297637
+Mossoró	297378
+Taboão da Serra	289664
+Várzea Grande	284971
+Sumaré	282441
+Santa Maria	282123
+Gravataí	281519
+Governador Valadares	279885
+Marabá	279349
+Juazeiro do Norte	274207
+Barueri	274182
+Embu das Artes	273726
+Volta Redonda	273012
+Ipatinga	263410
+Parnamirim	261469
+Imperatriz	258682
+Foz do Iguaçu	258532
+Macaé	256672
+Viamão	255224
+São Carlos	251983
+Indaiatuba	251627
+Cotia	249210
+Novo Hamburgo	246748
+São José	246586
+Magé	245071
+Colombo	243726
+Itaboraí	240592
+Sete Lagoas	239639
+Americana	239597
+Marília	238882
+Divinópolis	238230
+Itapevi	237700
+São Leopoldo	236835
+Araraquara	236072
+Rio Verde	235647
+Jacareí	233662
+Rondonópolis	232491
+Arapiraca	231747
+Hortolândia	230851
+Presidente Prudente	228743
+Maracanaú	227886
+Dourados	222949
+Chapecó	220367
+Cabo Frio	219863
+Itajaí	219536
+Santa Luzia	219134
+Juazeiro	216707
+Criciúma	215186
+Itabuna	213223
+ÿguas Lindas de Goiás	212440
+Rio Grande	211005
+Alvorada	210305
+Cachoeiro de Itapemirim	208972
+Sobral	208935
+Luziânia	208299
+Parauapebas	208273
+Cabo de Santo Agostinho	207048
+Rio Claro	206424
+Angra dos Reis	203785
+Passo Fundo	203275
+Castanhal	200793
+Lauro de Freitas	198440
+Araçatuba	197016
+Ferraz de Vasconcelos	194276
+Santa Bárbara d'Oeste	193475
+Nova Friburgo	190631
+Barra Mansa	184412
+Nossa Senhora do Socorro	183628
+Teresópolis	182594
+Guarapuava	181504
+Araguaína	180470
+Ibirité	180204
+Jaraguá do Sul	177697
+São José de Ribamar	177687
+Mesquita	176103
+Francisco Morato	175844
+Itapecerica da Serra	175693
+Itu	173939
+Linhares	173555
+Palhoça	171797
+Timon	169107
+Bragança Paulista	168668
+Valparaíso de Goiás	168468
+Pindamonhangaba	168328
+Poços de Caldas	167397
+Caxias	164880
+Itapetininga	163901
+Nilópolis	162485
+Ilhéus	162327
+Maricá	161207
+São Caetano do Sul	161127
+Teixeira de Freitas	160487
+Camaragibe	157828
+Abaetetuba	157698
+Lages	157544
+Jequié	155966
+Barreiras	155439
+Paranaguá	154936
+Franco da Rocha	154489
+Parnaíba	153078
+Patos de Minas	152488
+Mogi Guaçu	151888
+Alagoinhas	151596
+Pouso Alegre	150737
+Rio das Ostras	150674
+Queimados	150319
+Jaú	150252
+Porto Seguro	148686
+Botucatu	146497
+Araucária	143843
+Sinop	142996
+Atibaia	142761
+Balneário Camboriú	142295
+Sapucaia do Sul	141075
+Toledo	140635
+Teófilo Otoni	140592
+Garanhuns	139788
+Santana de Parnaíba	139447
+Vitória de Santo Antão	138757
+Cametá	137890
+Barbacena	137313
+Santa Rita	136586
+Sabará	136344
+Varginha	135558
+Apucarana	134996
+Brusque	134723
+Simões Filho	134377
+Araras	134236
+Itaguaí	133019
+Araruama	132400
+Pinhais	132157
+Crato	132123
+Campo Largo	132002
+Marituba	131521
+Resende	131341
+Cubatão	130705
+São Mateus	130611
+Santa Cruz do Sul	130416
+Cachoeirinha	130293
+Itapipoca	129358
+Valinhos	129193
+Maranguape	128978
+Ji-Paraná	128969
+Conselheiro Lafaiete	128589
+São Félix do Xingu	128481
+Bragança	127686
+Vespasiano	127601
+Trindade	127599
+Uruguaiana	126970
+Sertãozinho	125815
+Jandira	124937
+Guarapari	124859
+Barcarena	124680
+Birigui	123638
+Ribeirão Pires	123393
+Arapongas	123027
+Codó	122859
+Colatina	122499
+Votorantim	122480
+Paço do Lumiar	122197
+Barretos	122098
+Catanduva	121862
+Várzea Paulista	121838
+Guaratinguetá	121798
+Tatuí	121766
+Formosa	121617
+Caraguatatuba	121532
+Três Lagoas	121388
+Santana	121364
+Bagé	121143
+Itatiba	120858
+Bento Gonçalves	120454
+Itabira	120060
+Salto	118663
+Almirante Tamandaré	118623
+Paulo Afonso	117782
+Poá	117452
+Araguari	117267
+Igarassu	117019
+Novo Gama	115711
+Ubá	115552
+Senador Canedo	115371
+Passos	114679
+Altamira	114594
+Parintins	114273
+Tucuruí	113659
+Ourinhos	113542
+Eunápolis	113380
+São Lourenço da Mata	113230
+Paragominas	113145
+Piraquara	113036
+Açailândia	112445
+Umuarama	111557
+Corumbá	111435
+Coronel Fabriciano	109855
+Paulínia	109424
+Catalão	108823
+Muriaé	108763
+Santa Cruz do Capibaribe	107937
+Ariquemes	107863
+Patos⿿	107605
+Cambé	106533
+Tailândia	106339
+Araxá	106229
+Erechim	105862
+Tubarão	105686
+Bacabal	104949
+Japeri	104768
+Itumbiara	104742
+Ituiutaba	104671
+São Pedro da Aldeia	104476
+Lagarto	104408
+Assis	104386
+Lavras	103773
+Tangará da Serra	103750
+Leme	103391
+Itaperuna	103224
+Breves	102701
+Nova Serrana	102693
+Iguatu	102498
+São Gonçalo do Amarante	102400
+Itanhaém	101816
+Santo Antônio de Jesus	101512
+Caieiras	101470
+Itacoatiara	101337
+Itaituba	101247
+Aracruz	101220
+Jataí	100882
+Barra do Piraí	100374
+Fazenda Rio Grande	100209
+Mairiporã	100179
+Abreu e Lima	99990
+Vilhena	99854
+Guaíba	98143
+Manacapuru	97377
+Bayeux	96880
+Itajubá	96869
+Sarandi	96688
+Valença	96562
+Ipojuca	96204
+Itabaiana	95427
+Nova Lima	94889
+Balsas	94887
+Campo Mourão	94859
+Votuporanga	94547
+Cáceres	94376
+Itapeva	94354
+Caçapava	94263
+Pará de Minas	93969
+Itaúna	93214
+Mogi Mirim	93189
+Paracatu	93158
+Ponta Porã	92526
+Caratinga	92062
+São João da Boa Vista	91211
+Caldas Novas	91162
+Francisco Beltrão	91093
+São Roque	91016
+Ubatuba	90799
+Patrocínio	90757
+Avaré	90655
+Sorriso	90313
+Manhuaçu	90229
+São João del-Rei	90082
+São Cristóvão	90072
+Planaltina	89918
+Timóteo	89842
+Arujá	89824
+Saquarema	89170
+Santa Inês	89044
+São Sebastião	88980
+Lorena	88706
+Cruzeiro do Sul	88376
+Paranavaí	88374
+Barra do Corda	88212
+Quixadá	87728
+Luís Eduardo Magalhães	87519
+Candeias	87076
+Gurupi	86647
+Serra Talhada	86350
+Cacoal	85359
+Coari	85097
+Redenção	84787
+Campo Limpo Paulista	84650
+São Bento do Sul	84507
+Guanambi	84481
+Araripina	84418
+Unaí	84378
+Gravatá	84074
+Lajeado	84014
+Carpina	83641
+Ijuí	83475
+Pacatuba	83432
+Pinheiro	83387
+Esteio	83202
+Matão	83170
+Camboriú	82989
+Pato Branco	82881
+Cianorte	82620
+Seropédica	82312
+Cruzeiro	82238
+Cachoeira do Sul	82201
+Moju	82094
+Três Rios	81804
+Sapiranga	81734
+Navegantes	81475
+Dias d'ÿvila	81089
+Quixeramobim	81082
+Serrinha	80861
+Macaíba	80792
+Jacobina	80518
+Aquiraz	80271
+Curvelo	80129
+Alfenas	79996
+João Monlevade	79910
+Goiana	79758
+Chapadinha	79675
+Três Corações	79482
+Senhor do Bonfim	79015
+Telêmaco Borba	78974
+Ibiúna	78878
+Viçosa	78846
+Vinhedo	78728
+Caçador	78595
+Viana	78239
+Picos	78222
+Russas	78194
+Lins	78013
+Santo ÿngelo	77593
+Bebedouro	77496
+Jaboticabal	77263
+Santana do Livramento	77027
+Canindé	76997
+Cajamar	76801
+Valença	76523
+Belo Jardim	76439
+Pirassununga	76409
+Itapetinga	76147
+Tianguá	75946
+Novo Repartimento	75919
+Cataguases	75123
+Rio Largo	75120
+Crateús	75074
+Itapira	74773
+Santo Antônio do Descoberto	74744
+Concórdia	74641
+Aracati	74547
+Arcoverde	74338
+Ouro Preto	74281
+Alegrete	73589
+Ceará-Mirim	73497
+Santa Rosa	73254
+Palmeira dos ÿndios	73218
+Oriximiná	73096
+Irecê	72967
+Santana do Araguaia	72817
+Santa Luzia	72667
+Buriticupu	72358
+Farroupilha	72331
+Cosmópolis	72252
+Pacajus	72203
+Amparo	72195
+Casa Nova	71969
+Cascavel	71743
+Janaúba	71648
+Venâncio Aires	71554
+Castro	71484
+Cidade Ocidental	71376
+Campo Formoso	71206
+Rio do Sul	71061
+São Sebastião do Paraíso	70956
+Santa Izabel do Pará	70801
+Esmeraldas	70552
+Goianésia	70084
+Gaspar	69639
+Grajaú	69527
+Ouricuri	69459
+Sousa	69444
+Indaial	69425
+Embu-Guaçu	69385
+Estância	69184
+Bom Jesus da Lapa	69148
+Fernandópolis	69116
+Capanema	69027
+Mococa	68885
+Escada	68875
+Biguaçu	68481
+Lençóis Paulista	68432
+Peruíbe	68284
+Araranguá	68228
+Itapecuru-Mirim	68203
+Icó	68018
+Caicó	67952
+Januária	67742
+Cabedelo	67736
+Formiga	67683
+Pesqueira	67395
+Horizonte	67337
+Brumado	67195
+Mineiros	66801
+Campo Bom	66712
+Conceição do Coité	66612
+Rolândia	66580
+Camaquã	66261
+Vacaria	66218
+Breu Branco	66046
+Tabatinga	65844
+União dos Palmares	65611
+Lucas do Rio Verde	65534
+Tupã	65524
+Itapema	65312
+Coroatá	65296
+Montenegro	65264
+Surubim	65089
+Lagoa Santa	64527
+Itaberaba	64489
+Itamaraju	64486
+Pedro Leopoldo	64258
+Ipixuna do Pará	64053
+Maués	63905
+Piripiri	63742
+Penedo	63683
+Camocim	63661
+Tomé-Açu	63447
+Penápolis	63407
+Palmares	63250
+Bertioga	63249
+Cruz das Almas	63239
+Moreno	62784
+Benevides	62737
+Igarapé-Miri	62698
+Acaraú	62641
+Barreirinhas	62528
+Batatais	62508
+Carazinho	62110
+São Gabriel	62105
+Portel	62043
+Primavera do Leste	62019
+Cajazeiras	61993
+Morada Nova	61890
+Viseu	61403
+Itupeva	61252
+São Miguel dos Campos	61251
+Barra do Garças	61012
+Boituva	60997
+Salgueiro	60930
+Viçosa do Ceará	60889
+Bezerros	60798
+Irati	60727
+Mariana	60724
+Euclides da Cunha	60585
+Guapimirim	60517
+Cruz Alta	60299
+São Borja	60282
+Rio Bonito	60201
+Nova Odessa	60174
+Santo Amaro	60069
+Ibitinga	60033
+Floriano	59935
+Tefé	59849
+Mirassol	59824
+Monte Mor	59772
+Ponte Nova	59742
+Barbalha	59732
+Dom Eliseu	59719
+Ipirá	59595
+Limoeiro do Norte	59540
+São Bento do Una	59504
+Frutal	59496
+Ulianópolis	59210
+Jacundá	59155
+Cristalina	58997
+São Miguel do Guamá	58986
+Cachoeiras de Macacu	58937
+Tutóia	58860
+Tauá	58859
+Guarabira	58833
+Buíque	58378
+Parobé	58272
+Monte Alegre	58032
+Assu	58017
+Juruti	57943
+Sidrolândia	57665
+União da Vitória	57517
+Jaguariúna	57488
+Taquara	57466
+Santa Isabel	57386
+Taquaritinga	57177
+Andradina	57157
+Campo Alegre	57063
+Coruripe	56933
+Alenquer	56789
+Três Pontas	56746
+Mongaguá	56702
+Vargem Grande	56510
+Paudalho	56506
+Pirapora	56428
+Içara	56421
+São Francisco	56323
+Registro	56322
+Mafra	56292
+Limoeiro	56250
+Porto Ferreira	56150
+Canguçu	56045
+Trairi	55918
+Capivari	55768
+Manicoré	55751
+Acará	55591
+Piedade	55348
+Humaitá	55080
+Rolim de Moura	55058
+São José do Rio Pardo	54946
+Naviraí	54878
+Olímpia	54772
+Congonhas	54762
+Granja	54748
+Catu	54704
+Ibiporã	54558
+Boa Viagem	54470
+Jaguaquara	54423
+Artur Nogueira	54408
+Canoinhas	54401
+Araci	54379
+Nova Andradina	54374
+Capitão Poço	54303
+Acopiara	54270
+Campo Belo	54029
+Ribeira do Pombal	53807
+Vigia	53686
+Eusébio	53618
+Barra	53578
+Beberibe	53573
+Itupiranga	53269
+Porto Feliz	53098
+Videira	53065
+Capão da Canoa	53049
+Timbaúba	53022
+Porto Nacional	53010
+Marechal Cândido Rondon	52944
+Inhumas	52866
+Santo Estêvão	52850
+São Francisco do Sul	52721
+Itapajé	52675
+Sapé	52625
+Vargem Grande Paulista	52597
+Leopoldina	52587
+Viana	52441
+Rondon do Pará	52357
+Paracambi	52257
+Prudentópolis	52241
+Tobias Barreto	52191
+Lagoa da Prata	52165
+ÿbidos	52137
+Campos do Jordão	52088
+Delmiro Gouveia	52016
+Guaxupé	51917
+Marechal Deodoro	51901
+São Joaquim da Barra	51888
+Itabirito	51875
+Alta Floresta	51782
+Jaru	51775
+Tramandaí	51715
+Zé Doca	51714
+Paraíso do Tocantins	51252
+Palmas	50986
+Xanxerê	50982
+Caetité	50975
+Rio Grande da Serra	50846
+Brejo da Madre de Deus	50742
+Tucano	50687
+Bom Despacho	50605
+Jaraguá	50511
+Rurópolis	50510
+Itararé	50503
+Monte Alto	50498
+Laranjal do Jari	50410
+Lago da Pedra	50266
+Nova Venécia	50110
+Quirinópolis	50065
+Estância Velha	50022
+Bocaiuva	49979
+Pontal	49961
+Macaúbas	49826
+Cabreúva	49707
+Brejo Santo	49477
+Coelho Neto	49435
+Santiago	49425
+Monte Santo	49418
+Jales	49107
+Cerquilho	48949
+Louveira	48885
+Bom Conselho	48554
+São Gonçalo do Amarante	48422
+Iranduba	48296
+Lapa	48163
+Mauriti	47962
+Pedreira	47919
+São Benedito	47903
+Aquidauana	47871
+Conceição do Araguaia	47864
+Cornélio Procópio	47845
+Monte Carmelo	47809
+Presidente Dutra	47804
+Diamantina⿿	47723
+Pacajá	47706
+Santa Cruz do Rio Pardo	47673
+Santana do Ipanema	47654
+João Pinheiro	47452
+Baião	47446
+Ribeirão	47415
+Atalaia	47185
+Tremembé	47185
+Mairinque	47150
+Capão Bonito	47138
+Maracaju	47083
+Barras	47066
+Poções	46871
+Campo Maior	46833
+Dracena	46793
+Pederneiras	46687
+Mata de São João	46583
+Santos Dumont	46487
+Xique-Xique	46483
+Araioses	46440
+Niquelândia	46388
+São Mateus do Sul	46261
+Medianeira	46198
+Guajará-Mirim	46174
+Morrinhos	46136
+Lábrea	46069
+Augusto Corrêa	45998
+Osório	45994
+Santo Antônio da Platina	45993
+Ipiaú	45873
+Sirinhaém	45865
+São Lourenço	45851
+Sena Madureira	45848
+Laguna	45814
+Livramento de Nossa Senhora	45732
+Paraguaçu Paulista	45703
+São Gabriel da Cachoeira	45564
+Uruará	45476
+Pontes e Lacerda	45436
+Salto de Pirapora	45422
+Porangatu	45394
+Nova Mutum	45378
+Toritama	45219
+São Bento	45211
+Serrana	45107
+Canela	44998
+Mamanguape	44882
+Imbituba	44853
+Guaramirim	44819
+Currais Novos	44786
+Xinguara	44751
+Caeté	44718
+Maragogipe	44677
+Barra de São Francisco	44650
+União	44485
+Mangaratiba	44468
+Garça	44390
+Jardinópolis	44380
+Espírito Santo do Pinhal	44330
+São Sebastião do Passé	44300
+Goianira	44289
+Paraíba do Sul	44285
+Timbó	44238
+Presidente Epitácio	44200
+Casimiro de Abreu	44184
+Teotônio Vilela	44169
+Marau	44161
+Seabra	44091
+Campo Verde	44041
+Orlândia	44028
+Queimadas	43967
+São José de Mipibu	43899
+Mombaça	43797
+Santa Quitéria	43703
+Panambi	43667
+São Lourenço do Sul	43582
+Amontada	43452
+ÿguas Belas	43443
+Nova Viçosa	43376
+Campina Grande do Sul	43288
+Santa Rita do Sapucaí	43260
+Pedra Branca	43258
+Vera Cruz	43223
+Paraty	43165
+Itápolis	43120
+Igarapé	43045
+Benjamin Constant	42984
+Itaberaí	42900
+Santo Antônio da Patrulha	42894
+Catende	42892
+Vargem Grande do Sul	42845
+Rosário	42740
+Barreiros	42659
+Tarauacá	42567
+Visconde do Rio Branco	42564
+Santo Antônio de Pádua	42479
+Rio Negrinho	42302
+São Francisco de Itabapoana	42205
+Paranaíba	42148
+Machado	42133
+Santa Helena	42130
+Tietê	42076
+Ipu	41964
+Estreito	41946
+Santa Maria da Boa Vista	41931
+Itabaianinha	41928
+Almenara	41896
+Tuntum	41832
+Itarema	41826
+Ituverava	41824
+Entre Rios	41780
+Mucuri	41748
+Oliveira	41687
+Bom Jardim	41630
+São Mateus do Maranhão	41529
+Salinas	41527
+Amarante do Maranhão	41435
+Eldorado do Sul	41285
+Paiçandu	41281
+Colinas	41178
+Borba	41161
+Porto de Moz	41135
+Andradas	41077
+Novo Horizonte	41052
+Remanso	41008
+Socorro	41005
+Juína	40997
+São Manuel	40954
+Girau do Ponciano	40917
+Guaíra	40790
+Charqueadas	40789
+Nanuque	40750
+Rio Real	40732
+Várzea Alegre	40721
+Sento Sé	40684
+Salinópolis	40675
+Guaraciaba do Norte	40642
+Dois Vizinhos	40641
+Armação dos Búzios	40532
+Uruaçu	40532
+Altos	40524
+Américo Brasiliense	40504
+Simão Dias	40484
+São Miguel do Oeste	40482
+Goianésia do Pará	40475
+Jeremoabo	40463
+Promissão	40432
+Santa Maria de Jetibá	40431
+Muaná	40349
+Lajedo	40288
+Boa Esperança	40127
+Guariba	40105
+Brumadinho	40103
+Arcos	40092
+Curuçá	40066
+Machadinho d'Oeste	39991
+Inhambupe	39926
+Santa Maria da Vitória	39845
+São Francisco do Conde	39802
+Curitibanos	39745
+Esperantina	39737
+Pitangueiras	39719
+Santa Cruz	39674
+Buritis	39654
+Tucumã	39602
+Autazes	39565
+Pojuca	39519
+Presidente Venceslau	39516
+Ouro Branco	39500
+Várzea da Palma	39493
+Rosário do Sul	39422
+Amambai	39396
+Jacarezinho	39378
+São Paulo de Olivença	39299
+Iturama	39263
+Pedreiras	39229
+Afuá	39218
+José de Freitas	39208
+Bom Jardim	39184
+Jaíba	38909
+Igarapé-Açu	38807
+Pedro II	38742
+Massapê	38737
+Torres	38732
+São Fidélis	38669
+Santa Helena de Goiás	38648
+Colniza	38582
+Marataízes	38499
+Penalva	38470
+Dom Pedrito	38461
+Tijucas	38407
+Aliança	38386
+Rio Pardo	38275
+Ipueiras	38166
+Bodocó	38146
+Bonito	38134
+Araquari	38129
+Itaitinga	37980
+São Gabriel da Palha	37947
+Porteirinha	37906
+Careiro	37869
+Santa Rita	37855
+Matozinhos	37820
+Capelinha	37784
+Pentecoste	37751
+Itaqui	37620
+São Gonçalo dos Campos	37550
+Castelo	37534
+Rio Brilhante	37514
+São João Batista	37424
+Nova Olinda do Norte	37378
+Santaluz	37348
+Nova Cruz	37343
+Afogados da Ingazeira	37259
+São Caetano	37245
+Amargosa	37241
+Esplanada	37237
+Agudos	37214
+Iperó	37133
+Custódia	37111
+Bom Jesus do Itabapoana	37096
+Canaã dos Carajás	37085
+Portão	37079
+Guaratuba	37067
+Oeiras	37029
+José Bonifácio	37015
+Nossa Senhora da Glória	36924
+Posse	36900
+Igrejinha	36899
+Vassouras	36896
+ÿgua Preta	36771
+Araçuaí	36708
+Pimenta Bueno	36660
+Petrolândia	36548
+Itambé	36447
+Fraiburgo	36443
+Missão Velha	36442
+Brejo	36397
+Aguaí	36305
+Presidente Figueiredo	36279
+Campos Novos	36244
+Gramado	36232
+Extrema	36225
+Aparecida	36157
+Barra Bonita	36126
+São João da Barra	36102
+Itiúba	36089
+Ouro Preto do Oeste	36035
+Sertânia	35907
+Apodi	35845
+Guarantã do Norte	35816
+Araguatins	35761
+Baturité	35750
+São Pedro	35653
+Turiaçu	35604
+Itapicuru	35576
+Marialva	35496
+São Gotardo	35469
+Colinas do Tocantins	35424
+Riacho de Santana	35421
+Morro do Chapéu	35413
+Porto União	35398
+Além Paraíba	35362
+Campo Novo do Parecis	35360
+Camamu	35316
+Cravinhos	35292
+Eirunepé	35273
+Bariri	35264
+Rio das Pedras	35228
+Pilar	35111
+Ibaté	35104
+Paracuru	35076
+Garibaldi	35070
+Adamantina	35068
+Pilão Arcado	35048
+Peixoto de Azevedo	34976
+Juara	34974
+Ilhabela	34970
+Barra do Bugres	34966
+João Câmara	34955
+Parnarama	34907
+Jaguariaíva	34857
+Cansanção	34834
+Ubajara	34792
+Feijó	34780
+Poço Redondo	34775
+Itamarandiba	34735
+Matinhos	34720
+São Raimundo Nonato	34710
+Curaçá	34700
+Piumhi	34691
+Jaguaribe	34682
+Santana do Paraíso	34663
+São Luís do Quitunde	34555
+Curralinho	34448
+Mandaguari	34400
+São Domingos do Maranhão	34376
+Santa Cruz das Palmeiras	34361
+Itaporanga d'Ajuda	34356
+Itapemirim	34348
+Guanhães	34319
+Tanguá	34309
+Boca do Acre	34308
+Canguaretama	34276
+Cabrobó	34221
+Capela	34213
+Rio Negro	34170
+São Sebastião	34152
+Araçoiaba da Serra	34146
+Taiobeiras	34132
+Estrela	34116
+Almeirim	34109
+Quedas do Iguaçu	34103
+Goiatuba	34095
+São Bento	34031
+Bom Jesus das Selvas	34028
+São José do Belmonte	33959
+São José do Egito	33951
+Cachoeira do Piriá	33900
+Palmeira	33877
+Domingos Martins	33850
+Padre Bernardo	33835
+João Alfredo	33822
+São Luís de Montes Belos	33817
+Eldorado dos Carajás	33808
+Matões	33782
+Miguel Alves	33760
+São Desidério	33742
+Descalvado	33718
+Jaguaruana	33705
+Ouro Fino	33639
+Caçapava do Sul	33624
+Jaguarari	33570
+Coxim	33543
+Cachoeira	33470
+São Luiz Gonzaga	33468
+Braço do Norte	33450
+Pomerode	33447
+Colíder	33438
+Riachão do Jacuípe	33436
+Monção	33434
+Gurupá	33376
+Assis Chateaubriand	33362
+Rio Preto da Eva	33347
+Cachoeira Paulista	33327
+Concórdia do Pará	33318
+Palmeira das Missões	33303
+Touros	33287
+Teutônia	33232
+Monteiro	33222
+Conceição do Jacuípe	33153
+Urbano Santos	33122
+Guaíra	33119
+Esperança	33007
+Carangola	33000
+Morro Agudo	32968
+Pindaré-Mirim	32941
+Guararapes	32939
+São Miguel Arcanjo	32931
+Osvaldo Cruz	32879
+Floresta	32873
+Poconé	32843
+Ourilândia do Norte	32832
+Barrinha	32812
+Pombal	32801
+Vitória do Mearim	32764
+Sarzedo	32752
+Paraipaba	32744
+Maragogi	32704
+Arame	32701
+Cururupu	32695
+Dois Irmãos	32671
+Vicência	32643
+Biritiba Mirim	32598
+Bela Cruz	32591
+Imbituva	32564
+Irituia	32550
+Penha	32531
+Cícero Dantas	32515
+Oeiras do Pará	32512
+Barão de Cocais	32485
+Nazaré da Mata	32471
+Santana do Acaraú	32452
+Gandu	32403
+Rio Branco do Sul	32397
+Pinhão	32391
+Espigão d'Oeste	32374
+Três Marias	32356
+Brasília de Minas	32347
+Nova Russas	32328
+Santa Fé do Sul	32322
+São José da Tapera	32260
+Correntina	32137
+Manaquiri	32105
+Laranjeiras do Sul	32073
+Barreirinha	32041
+Paratinga	32000
+São Domingos do Capim	31989
+Camacan	31988
+Ivaiporã	31984
+Alto Alegre do Pindaré	31919
+Palotina	31846
+Exu	31825
+Macau	31814
+Pompéu	31812
+Itatiaia	31805
+Espinosa	31617
+Barra do Choça	31603
+Medicilândia	31597
+São Joaquim de Bicas	31578
+Iporá	31531
+Vitorino Freire	31523
+Parambu	31521
+Lavras da Mangabeira	31508
+Minas Novas	31484
+Santo Antônio do Tauá	31482
+Serra do Ramalho	31472
+Pires do Rio	31458
+Juquitiba	31444
+Bandeirantes	31367
+Candelária	31365
+Ibaiti	31364
+Aurora do Pará	31338
+Novo Cruzeiro	31331
+Santa Bárbara	31324
+Frederico Westphalen	31313
+Cândido Mota	31280
+Mocajuba	31136
+Canavieiras	31099
+Mateus Leme	31086
+Ponta de Pedras	31082
+Conceição da Barra	31063
+Gameleira	31052
+Soledade	31002
+Baixo Guandu	30998
+Placas	30982
+Tracuateua	30959
+Confresa	30933
+Rio Pardo de Minas	30914
+Guaçuí	30867
+Iguape	30857
+Ipubi	30854
+Ruy Barbosa	30814
+Raposa	30761
+Flores da Cunha	30745
+Tabuleiro do Norte	30697
+Bagre	30673
+Capim Grosso	30662
+Glória do Goitá	30604
+Afonso Cláudio	30586
+Itabela	30584
+Nova Mamoré	30583
+Catolé do Rocha	30546
+Trindade	30521
+Jaguaré	30477
+Igarapava	30432
+Barra dos Coqueiros	30407
+Pau dos Ferros	30394
+Casa Branca	30380
+Sombrio	30374
+Arraial do Cabo	30349
+Carmo do Paranaíba	30329
+Luís Correia	30311
+Pitanga	30310
+Careiro da Várzea	30225
+Caarapó	30174
+Rorainópolis	30163
+Joaçaba	30118
+Alegre	30084
+Mãe do Rio	30077
+Sooretama	30070
+Jarinu	30044
+Bela Vista de Goiás	29975
+Canindé de São Francisco	29900
+Prainha	29866
+Nerópolis	29850
+Arari	29848
+Carlos Barbosa	29833
+Laranjeiras	29826
+Piraju	29806
+Guararema	29798
+Rancharia	29707
+Ipixuna	29689
+Santa Vitória do Palmar	29676
+Propriá	29626
+Mirandópolis	29564
+Cambuí	29551
+Triunfo	29538
+Maracanã	29473
+Muritiba	29399
+Campo Magro	29318
+Nova Santa Rita	29300
+Anajás	29277
+Piraí	29277
+Anchieta	29263
+Ibimirim	29235
+Serra Negra	29229
+Pilar do Sul	29185
+Barra Velha	29168
+Iúna	29161
+Bujaru	29132
+Timbiras	29124
+Minaçu	29070
+Redenção	29053
+Irará	29034
+Carinhanha	29018
+Paripiranga	28989
+Limoeiro do Ajuru	28935
+Passira	28933
+Goioerê	28884
+Palmeiras de Goiás	28858
+Campo Alegre de Lourdes	28798
+Piracuruca	28791
+Taquaritinga do Norte	28775
+Campos Gerais	28774
+Caetés	28739
+Humberto de Campos	28717
+Xaxim	28706
+Buriti	28678
+Codajás	28637
+Limoeiro de Anadia	28635
+Itaperuçu	28634
+Cláudio	28617
+Novo Oriente	28607
+Ituberá	28602
+Porto da Folha	28596
+Extremoz	28583
+Cajati	28549
+Tabira	28534
+Nazaré	28525
+Laranjal Paulista	28516
+São Bernardo	28507
+Alagoa Grande	28496
+Valente	28473
+Pedras de Fogo	28458
+Miranda do Norte	28381
+Baraúna	28374
+Santa Rita de Cássia	28338
+Marapanim	28336
+Iguaba Grande	28310
+Itacaré	28296
+Carauari	28294
+Santo Antônio do Monte	28243
+Murici	28236
+Olindina	28229
+Três Coroas	28220
+Prado	28174
+Arapoti	28115
+Elói Mendes	28076
+Buritizeiro	28056
+Conchal	28050
+Miranda	28013
+Pitangui	27989
+Coromandel	27974
+Nova Esperança	27904
+Conceição das Alagoas	27893
+Anapu	27890
+Prata	27856
+Lagoa Vermelha	27807
+Cocal	27787
+Santa Cruz Cabrália	27778
+Jaciara	27776
+Areia Branca	27774
+Paty do Alferes	27769
+Mirassol d'Oeste	27739
+Presidente Tancredo Neves	27719
+Traipu	27715
+Melgaço	27654
+Alexânia	27653
+Mantena	27644
+Nísia Floresta	27602
+Quijingue	27580
+São José do Norte	27568
+Santa Rita do Passa Quatro	27557
+Pirapozinho	27527
+Milagres	27512
+Lagoa Seca	27503
+Barcelos	27502
+São Miguel do Iguaçu	27452
+Bom Jardim	27446
+ÿgua Azul do Norte	27430
+Campos Sales	27426
+Marco	27361
+Dois Córregos	27315
+Tupanatinga	27304
+Piracaia	27303
+Pontal do Paraná	27284
+Boca da Mata	27281
+Oiapoque	27270
+Nova Prata	27257
+Lapão	27223
+Jardim	27174
+Miracema	27174
+Porto Calvo	27165
+Itaí	27125
+Icatu	27113
+Pombos	27091
+Alto Alegre do Maranhão	27053
+Pinheiros	27047
+Ubatã	27035
+Ipameri	26985
+Mutum	26979
+Caririaçu	26965
+São Joaquim	26952
+Nova Soure	26947
+Juatuba	26946
+Ibotirama	26927
+Iguaí	26916
+Santa Gertrudes	26898
+Mandirituba	26869
+Vera Cruz	26863
+Taquari	26862
+Batalha	26857
+Boquim	26816
+Anajatuba	26803
+Forquilhinha	26793
+Mundo Novo	26776
+São Gabriel do Oeste	26771
+Nepomuceno	26769
+Reserva	26715
+Belo Oriente	26700
+Candeias do Jamari	26693
+Ilha Solteira	26686
+Jaguarão	26680
+Itapissuma	26651
+Corrente	26644
+São Sebastião da Boa Vista	26640
+Nossa Senhora das Dores	26629
+Santana	26614
+Coração de Jesus	26602
+Santa Rosa de Viterbo	26540
+Aldeias Altas	26532
+Santa Helena	26490
+Valparaíso	26480
+Panelas	26474
+Aracoiaba	26469
+Sanharó	26462
+Martinópolis	26461
+Condado	26421
+Solânea	26407
+São João Nepomuceno	26361
+Itaíba	26349
+Goianinha	26328
+Brasiléia	26278
+Francisco Sá	26277
+Planalto	26265
+Castro Alves	26264
+Ilha de Itamaracá	26258
+Tamboril	26251
+Veranópolis	26241
+Sacramento	26185
+Pedro Canário	26184
+Independência	26178
+Canarana	26176
+Cajuru	26167
+Mimoso do Sul	26153
+Astorga	26111
+Jardim	26097
+Ibatiba	26082
+Garrafão do Norte	26066
+Guaiúba	26064
+Quipapá	26037
+Vila Rica	26037
+Miguel Calmon	26023
+Itinga do Maranhão	26000
+Jacutinga	25979
+Tanabi	25967
+São João dos Patos	25929
+Guaraí	25923
+Sapezal	25881
+Encruzilhada do Sul	25877
+Conde	25837
+Itapuranga	25768
+Tacaratu	25765
+Novo Progresso	25762
+Maravilha	25762
+Aparecida do Taboado	25745
+Viçosa	25733
+Guaporé	25727
+ÿgua Boa	25721
+Ocara	25703
+São Sebastião do Caí	25685
+Pereira Barreto	25669
+Novo Aripuanã	25644
+Santa Quitéria do Maranhão	25642
+Igaci	25631
+Turilândia	25619
+Lagoa Grande	25601
+Formosa do Rio Preto	25591
+Governador Nunes Freire	25577
+São Domingos do Araguaia	25557
+Cedro	25557
+Miguel Pereira	25538
+Carandaí	25501
+Senador Pompeu	25496
+Pirajuí	25492
+Luzilândia	25486
+Piraí do Sul	25463
+São Gonçalo do Sapucaí	25449
+Bom Jesus dos Perdões	25448
+Queimadas	25439
+Jequitinhonha	25391
+Macaparana	25376
+Soure	25374
+Cambará	25360
+Capão do Leão	25354
+Tupaciguara	25327
+Umbaúba	25294
+Venda Nova do Imigrante	25277
+Santa Luzia do Paruá	25254
+Angatuba	25228
+Chapadão do Sul	25218
+Mata Grande	25216
+Iraquara	25216
+Bom Jesus de Goiás	25216
+Cujubim	25215
+Ibiá	25199
+Cândido Sales	25189
+João Dourado	25188
+Bom Jesus	25179
+Aimorés	25167
+São João da Ponte	25165
+Santa Isabel do Rio Negro	25156
+Pinheiral	25156
+Pedro do Rosário	25144
+Anastácio	25135
+Amélia Rodrigues	25102
+Monte Aprazível	25087
+Ituporanga	25086
+Piranhas	25039
+Ibiapina	24997
+Espera Feliz	24951
+Brodowski	24939
+ÿlvares Machado	24915
+Pirenópolis	24908
+Agrestina	24885
+Capivari de Baixo	24871
+Santa Maria do Pará	24861
+São Geraldo do Araguaia	24847
+Buritis	24841
+Itaporã	24839
+Jucás	24833
+Cruz	24827
+Canhotinho	24804
+Piritiba	24755
+Junqueiro	24727
+Quissamã	24700
+Itaporanga	24692
+Igaraçu do Tietê	24674
+Conde	24670
+Aurora	24654
+Potim	24643
+Matriz de Camaragibe	24642
+Bela Vista	24629
+Ribas do Rio Pardo	24615
+Paraopeba	24540
+Cordeirópolis	24528
+Piracanjuba	24524
+Igreja Nova	24499
+Sarandi	24489
+Itabaiana	24477
+Brotas	24403
+Pão de Açúcar	24399
+Apiaí	24374
+Pedra Azul	24324
+Carolina	24322
+Iaçu	24305
+Ivoti	24293
+São Jerônimo	24248
+Uauá	24240
+Iracemápolis	24235
+Craíbas	24219
+Forquilha	24218
+Rio Tinto	24176
+Irauçuba	24156
+Inhapim	24140
+Santo Antônio	24136
+Tapejara	24111
+Cupira	24107
+São Lourenço do Oeste	24076
+Colorado	24012
+Joaquim Gomes	23993
+Tupanciretã	23948
+São José da Laje	23927
+Três de Maio	23906
+Três Passos	23906
+Porto Franco	23885
+Buriti Bravo	23884
+Orobó	23884
+Laje	23840
+Guabiruba	23832
+Bambuí	23829
+Carutapera	23807
+Monte Sião	23803
+Cachoeira do Arari	23767
+São José da Lapa	23766
+Raul Soares	23762
+Salvaterra	23752
+Corinto	23731
+Poço Verde	23728
+Chaves	23717
+Caraí	23685
+João Lisboa	23632
+São Sepé	23621
+São João do Paraíso	23618
+Santa Teresa	23590
+Quatro Barras	23559
+Rio Formoso	23535
+São Miguel	23519
+Santa Terezinha de Itaipu	23465
+Assaré	23417
+Carambeí	23415
+Tamandaré	23388
+Ibirapitanga	23375
+Matinha	23370
+Dom Pedro	23350
+Princesa Isabel	23345
+Ladário	23331
+Belmonte	23328
+Santo Antônio de Posse	23310
+Inajá	23247
+Santo Amaro da Imperatriz	23245
+Abaeté	23237
+Itaocara	23234
+Conceição de Macabu	23228
+Taquarituba	23218
+Itambacuri	23211
+Tambaú	23207
+Peritoró	23196
+Sobradinho	23191
+Ivinhema	23187
+Pancas	23184
+Caculé	23170
+Teodoro Sampaio	23148
+Balneário Piçarras	23147
+Coreaú	23136
+Loanda	23086
+Garopaba	23078
+Urucurituba	23065
+Itambé	23049
+São João de Pirabas	23045
+Senador Guiomard	23024
+Bataguassu	23024
+São Miguel do Guaporé	23005
+Itapaci	22981
+Altinho	22972
+Alta Floresta d'Oeste	22945
+Ecoporanga	22923
+Conselheiro Pena	22921
+Orleans	22912
+Tocantinópolis	22870
+Capinzal	22848
+Amaraji	22829
+Areia	22819
+Mandaguaçu	22819
+Imbé	22800
+São João	22793
+Manhumirim	22707
+Encantado	22706
+Medeiros Neto	22688
+Quaraí	22687
+Barro	22680
+Goiás	22645
+Flores	22624
+Rafael Jambeiro	22621
+Pedra	22617
+Herval d'Oeste	22606
+Coração de Maria	22605
+Conceição da Feira	22581
+Paranatinga	22563
+Caridade	22547
+Morrinhos	22534
+Teofilândia	22518
+Carmo do Cajuru	22478
+Alcobaça	22470
+Monte Alegre	22451
+Barreira	22425
+Acreúna	22366
+Araçariguama	22364
+Aripuanã	22354
+Riachão das Neves	22339
+São Vicente Ferrer	22247
+Itaparica	22228
+Miguelópolis	22226
+Mutuípe	22221
+Palmital	22221
+Ceres	22191
+Feira Grande	22166
+Quixeré	22149
+Ortigueira	22141
+Dianópolis	22139
+Feira Nova	22131
+Alcântara	22097
+Carira	22082
+Altônia	22056
+Diamantino	22041
+Caravelas	22016
+Pompeia	22014
+Parnamirim	22010
+Trizidela do Vale	21998
+Cantanhede	21995
+São Miguel do Araguaia	21993
+Bonito	21976
+Apuí	21973
+Porto Grande	21971
+Cassilândia	21939
+Caracaraí	21926
+Cordeiro	21926
+Nova Alvorada do Sul	21882
+Uruburetama	21850
+Anicuns	21850
+Mari	21837
+Caaporã	21828
+Oliveira dos Brejinhos	21825
+Terenos	21806
+São José do Vale do Rio Preto	21795
+Silva Jardim	21774
+Camanducaia	21770
+Itapecerica	21762
+Palmas de Monte Alto	21750
+Lucélia	21747
+Piúma	21711
+São Francisco de Paula	21710
+Hidrolândia	21706
+Chã Grande	21698
+Colônia Leopoldina	21698
+Ibicaraí	21689
+Olho d'ÿgua das Flores	21688
+Itaiópolis	21669
+Caxambu	21656
+Itatira	21647
+Mazagão	21632
+Centro Novo do Maranhão	21622
+Nova Hartz	21615
+Paramirim	21607
+Santo Antônio do Içá	21602
+Araripe	21600
+Canarana	21579
+Aquidabã	21563
+Uruçuí	21558
+São Marcos	21556
+Cunha	21547
+Monte Santo de Minas	21524
+Paraguaçu	21513
+Fundão	21509
+Boquira	21508
+Nova Granada	21500
+Pradópolis	21496
+Pio XII	21485
+Parelhas	21477
+Guapiaçu	21454
+Santa Maria das Barreiras	21449
+Manari	21434
+Lagoa de Itaenga	21429
+Alto Paraíso	21428
+Orós	21427
+Vargem Alta	21402
+Maracaçumé	21395
+Perdões	21390
+Porto Belo	21388
+Paraibano	21386
+Nova Xavantina	21374
+Nova Esperança do Piriá	21368
+Schroeder	21365
+São Joaquim do Monte	21356
+Nova Petrópolis	21353
+Rolante	21349
+Bananeiras	21318
+São José da Coroa Grande	21298
+Bequimão	21280
+Urussanga	21268
+Cajueiro	21264
+Carmo do Rio Claro	21225
+Guará	21220
+Canto do Buriti	21187
+Jandaia do Sul	21176
+Buritirama	21174
+Nhamundá	21173
+Itaquiraí	21142
+Monte Alegre de Minas	21120
+Crisópolis	21103
+Wenceslau Guimarães	21101
+Madre de Deus	21093
+Quiterianópolis	21084
+Paraisópolis	21083
+Santa Bárbara do Pará	21079
+São Felipe	21074
+Taperoá	21074
+Itaobim	21062
+Campestre	21055
+Paulo Ramos	21040
+Siqueira Campos	21016
+Mirador	21015
+Ubiratã	21013
+Anori	21010
+Castilho	21006
+Serro	20966
+Bastos	20953
+Butiá	20941
+Cruzeiro do Oeste	20932
+Nova Olinda do Maranhão	20928
+Valença do Piauí	20918
+Santo Anastácio	20878
+Monte Azul	20854
+Alagoa Nova	20849
+Guaratinga	20843
+Maracás	20834
+Costa Rica	20823
+Medina	20820
+Lambari	20814
+Barroso	20810
+Arroio do Meio	20805
+Santa Bárbara	20791
+Engenheiro Coelho	20773
+Comodoro	20763
+Coronel Vivida	20734
+Vertentes	20731
+Belém do São Francisco	20729
+Governador Mangabeira	20722
+Capela do Alto	20706
+Catarina	20698
+Itatinga	20697
+Silvânia	20695
+Junqueirópolis	20679
+São João Batista	20665
+São José do Rio Claro	20664
+Piratini	20663
+São Simão	20645
+São João do Piauí	20601
+Barra da Estiva	20598
+Vazante	20590
+Itapoá	20576
+Maraú	20570
+Muzambinho	20569
+Pindoretama	20567
+Riacho das Almas	20546
+Araçoiaba	20524
+Paulistana	20523
+Tibagi	20522
+Uruçuca	20519
+Caraúbas	20493
+Itajuípe	20491
+Nova Brasilândia d'Oeste	20474
+Baixa Grande	20468
+Tanhaçu	20403
+Itapiúna	20382
+Itororó	20382
+Cachoeirinha	20380
+Ibirubá	20350
+Cuité	20338
+Pinhalzinho	20313
+Araruna	20312
+Floresta do Araguaia	20304
+Nova Olímpia	20301
+São Francisco do Guaporé	20266
+Chorozinho	20264
+Regente Feijó	20261
+São José de Piranhas	20251
+Cocalzinho de Goiás	20240
+Paranapanema	20197
+ÿgua Branca	20196
+Riachão	20195
+Cândido Mendes	20178
+Cantagalo	20172
+Santo Antônio do Sudoeste	20166
+Padre Paraíso	20154
+Pindobaçu	20150
+Jaboticatubas	20143
+Aragarças	20118
+Abaré	20086
+Porto Real do Colégio	20066
+Capoeiras	20048
+Abadiânia	20042
+Envira	20033
+Andirá	20031
+Jaguaruna	20024
+Salgado	19998
+Cerqueira César	19985
+Taquarana	19980
+Hidrolândia	19978
+Turmalina	19964
+Icapuí	19934
+Divino	19931
+Lajinha	19923
+Atalaia do Norte	19921
+Ubaíra	19895
+Campos Belos	19887
+Rubiataba	19882
+Buri	19878
+Ipanema	19861
+Alpinópolis	19853
+Santa Luzia do Pará	19848
+Magalhães de Almeida	19826
+Umirim	19825
+Jijoca de Jericoacoara	19816
+Riachão do Dantas	19805
+Major Izidoro	19804
+Buriti dos Lopes	19781
+Miracatu	19779
+Bombinhas	19769
+Plácido de Castro	19761
+Chapada dos Guimarães	19752
+Cotriguaçu	19750
+Itarantim	19747
+Rio Verde de Mato Grosso	19746
+Campina Verde	19745
+Santa Vitória	19742
+Palmeirândia	19722
+Castelo do Piauí	19716
+Brasnorte	19695
+Madalena	19691
+Porto Real	19683
+Beruri	19679
+Pariquera-Açu	19648
+Afrânio	19635
+Simonésia	19633
+Remígio	19621
+Alhandra	19588
+Presidente Olegário	19573
+Ibicoara	19571
+Carnaíba	19551
+Olho d'ÿgua das Cunhãs	19505
+Pastos Bons	19472
+Novo Airão	19454
+Farias Brito	19450
+Morros	19433
+Pauini	19426
+Wenceslau Braz	19414
+Borda da Mata	19412
+Itanhém	19405
+Cajari	19379
+Carmópolis de Minas	19355
+Horizontina	19329
+Sengés	19327
+Xapuri	19323
+Varzelândia	19320
+Papanduva	19320
+Júlio de Castilhos	19293
+Antas	19291
+Três Barras	19275
+Sonora	19274
+Chopinzinho	19254
+Umburanas	19222
+Boa Vista do Ramos	19207
+ÿguas Formosas	19207
+Iati	19197
+Fátima do Sul	19189
+Tejuçuoca	19187
+Utinga	19178
+Serrita	19165
+Aroeiras	19153
+Ampére	19152
+Baependi	19148
+Rio Bananal	19141
+Capanema	19124
+Jaicós	19104
+Formosa da Serra Negra	19089
+Pitimbu	19065
+Ubaitaba	19056
+Quitandinha	19049
+Alto Araguaia	19044
+Guaranésia	19021
+Passagem Franca	19019
+Monte Azul Paulista	19008
+Una	19002
+Trairão	18989
+Presidente Médici	18986
+Caconde	18985
+Conceição	18982
+Antonina	18980
+Mâncio Lima	18977
+Ituaçu	18962
+Ibirama	18950
+Rodrigues Alves	18930
+Presidente Sarney	18918
+Caiapônia	18913
+Dormentes	18908
+Matipó	18908
+São José dos Quatro Marcos	18906
+Viradouro	18898
+Ervália	18895
+Carmo	18895
+Pirapora do Bom Jesus	18895
+São Raimundo das Mangabeiras	18868
+Marechal Thaumaturgo	18867
+São Luís Gonzaga do Maranhão	18856
+Porciúncula	18847
+Carlos Chagas	18837
+Montanha	18833
+Barão de Grajaú	18820
+Juquiá	18812
+Cabaceiras do Paraguaçu	18807
+São Gabriel	18793
+Jaguaripe	18788
+Cocos	18777
+Terra Santa	18769
+Camocim de São Félix	18765
+Tonantins	18755
+Macarani	18755
+Otacílio Costa	18744
+Japaratuba	18743
+Neópolis	18719
+Cruz Machado	18708
+ÿguas de Lindóia	18705
+Picuí	18703
+Cariús	18699
+Mairi	18676
+Itapororoca	18664
+São Benedito do Rio Preto	18663
+Ribeirópolis	18652
+Malacacheta	18650
+Alumínio	18628
+Pirapemas	18625
+Mendes	18614
+Ipaba	18607
+Contenda	18584
+Bacuri	18582
+Boa Vista do Tupim	18576
+Pocinhos	18564
+São João do Soter	18543
+Areia Branca	18542
+Rio Claro	18529
+Santo Antônio do Amparo	18525
+Nazaré Paulista	18524
+Guareí	18520
+Porto Acre	18504
+Reriutaba	18491
+Venturosa	18482
+Jussara	18478
+Colina	18468
+Cariré	18448
+Formoso do Araguaia	18440
+Cafarnaum	18437
+Pio IX	18425
+Varjota	18420
+Augustinópolis	18412
+Epitaciolândia	18411
+Manga	18407
+Taió	18395
+Inhapi	18385
+Mundo Novo	18366
+Buerarema	18349
+Mirangaba	18338
+Cantá	18335
+São Francisco de Assis	18335
+Costa Marques	18331
+Solonópole	18324
+Governador Edison Lobão	18296
+Jucurutu	18295
+Arroio Grande	18293
+Mirante do Paranapanema	18259
+Miracema do Tocantins	18248
+Batalha	18232
+Sapucaia	18228
+Maraã	18224
+Paraibuna	18222
+Luz	18215
+Ibipeba	18211
+Correntes	18207
+Estrela de Alagoas	18205
+Banabuiú	18197
+Rio Maria	18193
+Cairu	18176
+Juazeirinho	18171
+Jaguaretama	18162
+Itirapina	18157
+Itacarambi	18153
+Cesário Lange	18148
+Garuva	18145
+Cafelândia	18120
+Ladainha	18111
+Campo do Brito	18109
+Ingá	18103
+Fronteira	18103
+Sítio Novo	18081
+Lagoa do Carro	18071
+Croatá	18063
+Lagoa Formosa	18052
+São Caetano de Odivelas	18050
+São João do Rio do Peixe	18034
+São Vicente Férrer	18018
+Regeneração	17978
+Indiaroba	17957
+Matelândia	17943
+Gonçalves Dias	17934
+Curionópolis	17929
+Rio Pomba	17910
+Abelardo Luz	17904
+Conchas	17896
+Fátima	17890
+Arinos	17875
+Cristinápolis	17874
+Poção de Pedras	17873
+Jacupiranga	17866
+Anagé	17857
+Messias	17856
+Mucajaí	17853
+Lagoa da Canoa	17852
+Ourém	17842
+Conceição do Mato Dentro	17842
+Piaçabuçu	17827
+Pontalina	17819
+Boqueirão	17804
+Morro da Fumaça	17796
+Cerro Azul	17779
+Elias Fausto	17772
+Cafelândia	17767
+Cássia	17740
+Capistrano	17738
+Belterra	17732
+Aporá	17731
+Canapi	17722
+Santana do Cariri	17700
+Belém	17676
+São Miguel do Tapuio	17662
+Piranga	17626
+Pedra Preta	17626
+Não-Me-Toque	17624
+Fonte Boa	17609
+Carnaubal	17606
+Bom Sucesso	17603
+Amarante	17598
+São Paulo do Potengi	17579
+Nova Era	17578
+Itaberá	17556
+Anadia	17545
+Peçanha	17541
+Seara	17541
+Bady Bassitt	17502
+Serafina Corrêa	17502
+Severínia	17496
+Terra Roxa	17481
+Querência	17479
+Presidente Getúlio	17471
+Muniz Freire	17465
+Pouso Redondo	17453
+Ourolândia	17451
+Itariri	17436
+ÿgua Branca	17411
+Pacaraima	17401
+Aiuaba	17399
+Sapeaçu	17398
+Resplendor	17397
+Serra Dourada	17386
+Tanque Novo	17366
+Potirendaba	17361
+São Domingos do Prata	17359
+Cruz do Espírito Santo	17319
+Tartarugalzinho	17315
+Cipó	17300
+Tapes	17300
+Sátiro Dias	17273
+Central	17266
+Faxinal	17251
+Conceição do Almeida	17247
+Condeúba	17247
+Esperantinópolis	17241
+Apicum-Açu	17239
+Monsenhor Tabosa	17234
+Maruim	17213
+Belo Campo	17211
+Charqueada	17190
+Cacimba de Dentro	17187
+Macatuba	17163
+Guapiara	17157
+Tapauá	17156
+Rosário Oeste	17151
+Jataúba	17150
+Alto Santo	17146
+Buritama	17144
+Salesópolis	17139
+Porto Murtinho	17131
+Piatã	17123
+Ibititá	17113
+Terra Boa	17094
+Corbélia	17071
+Bacabeira	17055
+Capela	17053
+Pindorama	17049
+Adustina	17040
+Tapiramutá	17010
+Encruzilhada	17006
+Coaraci	16993
+Araçagi	16987
+Bom Jesus do Tocantins	16981
+Souto Soares	16979
+ÿgua Fria	16970
+Sumé	16966
+Piquet Carneiro	16959
+Itaquitinga	16955
+Crixás	16949
+Realeza	16922
+Massaranduba	16916
+Itapiranga	16872
+Tijucas do Sul	16868
+Urucuia	16865
+Malhada	16845
+Santa Cecília	16830
+Mata Roma	16829
+Governador Eugênio Barros	16828
+Araputanga	16822
+Poço Fundo	16791
+Terra Rica	16789
+Bonito	16764
+Matões do Norte	16745
+Pedregulho	16744
+Nova Resende	16723
+Mangueirinha	16714
+Lima Duarte	16698
+Marechal Floriano	16694
+Cocal do Sul	16684
+Taguatinga	16683
+Guajará	16678
+Nova Ipixuna	16678
+Canudos	16668
+João Neiva	16668
+Pedro Alexandre	16667
+Campanha	16665
+Tocantins	16659
+Urandi	16658
+Rosana	16643
+Carmópolis	16634
+Santo Antônio de Leverger	16628
+Matupá	16566
+Clevelândia	16559
+Flores de Goiás	16557
+Poté	16555
+Salitre	16554
+Brasilândia de Minas	16538
+Jenipapo dos Vieiras	16515
+Pedra Branca do Amapari	16502
+Tabatinga	16496
+Fortim	16480
+Nova Canaã	16462
+Agudo	16461
+Ribeirão Branco	16444
+Ipuã	16409
+Xangri-lá	16408
+Morretes	16406
+Tremedal	16394
+Bituruna	16389
+Aveiro	16388
+Filadélfia	16377
+Sertanópolis	16369
+Raposos	16354
+Passa Quatro	16344
+Ibitiara	16339
+Cerejeiras	16323
+Pereiro	16307
+Carapebus	16301
+Bom Lugar	16294
+Lagoa dos Gatos	16290
+Bonito	16286
+Tururu	16271
+Sananduva	16270
+Maranhãozinho	16265
+Pindaí	16260
+Lago Verde	16257
+Urucará	16256
+Cidreira	16254
+Conceição do Lago Açu	16237
+Poxoréu	16219
+Getúlio Vargas	16212
+Santa Margarida	16208
+Tapejara	16205
+Ibicuí	16198
+São Pedro do Sul	16198
+Altinópolis	16184
+Quixelô	16178
+Capinópolis	16173
+Palmitos	16169
+Joselândia	16168
+Perdizes	16168
+Vila Bela da Santíssima Trindade	16128
+Itaú de Minas	16108
+América Dourada	16094
+Machados	16088
+Mojuí dos Campos	16084
+Iguatemi	16078
+Piancó	16075
+Itaipava do Grajaú	16057
+Itaetê	16056
+Borborema	16046
+Alvarães	16041
+Fartura	16036
+Paulino Neves	16035
+Joaquim Nabuco	16023
+Caçu	16009
+Giruá	16004
+Campinápolis	15980
+Biritinga	15979
+Candói	15979
+Barrocas	15978
+Barra de Santo Antônio	15932
+Vitória do Jari	15931
+Corupá	15909
+São Benedito do Sul	15895
+Coronel João Sá	15895
+Colorado do Oeste	15882
+São Francisco do Pará	15882
+Juruena	15865
+Monte Negro	15852
+Santo Amaro do Maranhão	15846
+Saloá	15843
+Grão Mogol	15836
+São Lourenço da Serra	15825
+Saboeiro	15819
+São João do Caru	15808
+Restinga Sêca	15789
+Capitão Leônidas Marques	15780
+Panorama	15777
+São João Evangelista	15774
+Anapurus	15732
+Tangará	15727
+Papagaios	15674
+Salinas da Margarida	15667
+Lagoa Real	15665
+Guamaré	15659
+Mozarlândia	15659
+Igaporã	15640
+Canutama	15629
+Sumidouro	15623
+Ibateguara	15616
+Orizona	15615
+Lagoa Nova	15614
+Indiara	15611
+Espumoso	15588
+Itamonte	15579
+Caetanos	15573
+Nova Olinda	15565
+Fortuna	15552
+Nova Ponte	15545
+ÿgua Clara	15522
+Alto Alegre	15510
+Cambuci	15505
+Dionísio Cerqueira	15498
+Tupi Paulista	15495
+Eldorado	15494
+Ipanguaçu	15491
+Santa Adélia	15480
+Sabinópolis	15470
+Campos Altos	15461
+Frei Miguelinho	15457
+Muqui	15449
+Coremas	15445
+Novo Triunfo	15440
+Joaíma	15432
+Buritirana	15430
+Araguanã	15426
+Frei Paulo	15421
+Cruzília	15417
+Mário Campos	15416
+Dom Feliciano	15414
+Poço Branco	15413
+Santa Cruz	15398
+Bela Vista do Paraíso	15397
+São Félix do Coribe	15391
+Mirandiba	15390
+Barra de Santa Rosa	15384
+Santa Luzia	15382
+Jurema	15378
+Taperoá	15376
+Rio do Antônio	15371
+Nova Timboteua	15363
+Chapada do Norte	15356
+Mantenópolis	15350
+Felixlândia	15336
+Nobres	15336
+Itanhandu	15331
+São Simão	15322
+Natividade	15317
+Primeira Cruz	15315
+Ibirataia	15312
+Inhuma	15308
+Entre Rios de Minas	15298
+Nova Bandeirantes	15288
+Jussara	15284
+Itajobi	15262
+Acrelândia	15256
+Triunfo	15254
+Coronel Sapucaia	15253
+Passo de Camaragibe	15245
+Lauro Müller	15244
+Itapagipe	15243
+Uiraúna	15242
+Rio Azul	15236
+Capitão Enéas	15234
+Glória	15221
+Italva	15207
+Pinhalzinho	15207
+Alvinópolis	15203
+Auriflama	15189
+Ipiranga	15172
+Nova Veneza	15166
+Teixeira	15161
+Acajutiba	15159
+Itaporanga	15149
+Presidente Dutra	15142
+Guiratinga	15141
+Vitória do Xingu	15134
+Pendências	15129
+São João do Triunfo	15120
+Assaí	15119
+Curiúva	15101
+Brasil Novo	15086
+Areado	15070
+Meruoca	15057
+Boa Esperança	15037
+Monte Alegre de Sergipe	15031
+Cândido de Abreu	15018
+Barroquinha	15017
+Miraí	15014
+Tarumã	15000
+Porteiras	14996
+Orocó	14991
+Itinga	14990
+Soledade	14989
+Botelhos	14971
+Ipaussu	14971
+Sobradinho	14967
+Primavera	14966
+Mirinzal	14962
+Luiz Antônio	14947
+Teolândia	14943
+Bom Jesus do Galho	14935
+Barro Alto	14931
+Holambra	14930
+Acarape	14929
+Boa Esperança do Sul	14923
+Ponto Novo	14914
+Ibipitanga	14902
+Rebouças	14899
+Candeias	14886
+Serra Preta	14878
+Montalvânia	14877
+Carmo de Minas	14859
+Jacaraci	14842
+Jardim de Piranhas	14837
+Jupi	14836
+Pedro Velho	14806
+Tamarana	14797
+Jatobá	14796
+Santa Branca	14788
+Salto do Lontra	14785
+Alto Paraná	14770
+São Félix	14740
+Tavares	14726
+Xexéu	14725
+Juruá	14712
+Olinda Nova do Maranhão	14701
+Cidelândia	14697
+Patrocínio Paulista	14670
+Serra Azul	14662
+Upanema	14659
+Santa Izabel do Oeste	14659
+Flórida Paulista	14640
+Alagoinha	14636
+Simões	14633
+Santa Maria do Suaçuí	14615
+Elesbão Veloso	14602
+Alfredo Chaves	14601
+Apuiarés	14600
+Andorinha	14595
+Ribeira do Amparo	14592
+Itagibá	14579
+Nova Trento	14549
+Palmeirais	14539
+Mucambo	14537
+Jiquiriçá	14537
+Alto do Rodrigues	14529
+Santo Antônio dos Lopes	14528
+Bicas	14494
+Alagoinha	14489
+Ipecaetá	14487
+Itatim	14487
+Caldas	14480
+Santa Filomena	14477
+Governador Celso Ramos	14471
+Matias Barbosa	14468
+Alterosa	14466
+Brazópolis	14459
+Nina Rodrigues	14454
+Jacaraú	14431
+Itaguaçu da Bahia	14429
+Pacatuba	14428
+Alvorada d'Oeste	14411
+Graça	14399
+Retirolândia	14396
+Curuá	14393
+Poço das Trincheiras	14386
+Barra de Guabiraba	14385
+Campestre do Maranhão	14374
+Boninal	14368
+Marmeleiro	14367
+Joaquim Pires	14354
+Casinhas	14341
+Rio Piracicaba	14339
+Tarumirim	14326
+Carlópolis	14320
+Candiba	14319
+Peri Mirim	14318
+Jutaí	14317
+Arez	14306
+Alto Longá	14304
+Quatis	14302
+Iracema	14297
+Brejões	14295
+Senador La Rocque	14293
+São Pedro do Piauí	14291
+Santo Cristo	14257
+Guapé	14245
+Paranhos	14228
+Santa Brígida	14213
+Guapó	14209
+Campina da Lagoa	14202
+Pacaembu	14197
+Coribe	14194
+Feliz Natal	14192
+Ilhota	14184
+Tibau do Sul	14180
+Astolfo Dutra	14179
+Igarapé do Meio	14177
+Arroio dos Ratos	14151
+Campo Novo de Rondônia	14139
+Santa Maria do Cambucá	14137
+Cerro Largo	14133
+Gurinhém	14129
+Brejo do Cruz	14122
+Quatá	14109
+Várzea da Roça	14104
+Maria da Fé	14095
+Vila Valério	14080
+Maurilândia	14080
+Cabo Verde	14075
+Frecheirinha	14072
+Balneário Pinhal	14068
+Itaguaçu	14066
+Bom Princípio	14055
+Santa Luzia do Itanhi	14035
+São Sebastião do Uatumã	14020
+Siderópolis	14007
+Santa Juliana	14003
+Engenheiro Paulo de Frontin	14002
+Maracaí	14002
+Engenheiro Beltrão	14000
+Nilo Peçanha	13997
+São João do Araguaia	13996
+Peabiru	13996
+Itapuí	13992
+Angical	13977
+Araruna	13970
+Iaciara	13947
+Nioaque	13930
+Iporã	13926
+Massaranduba	13918
+Satubinha	13914
+Cristópolis	13910
+Uibaí	13887
+Santo Augusto	13885
+Ivaí	13879
+Baianópolis	13877
+Senador Rui Palmeira	13870
+Barra do Mendes	13865
+Vianópolis	13863
+Iconha	13860
+Taguaí	13859
+Uruana	13843
+Uruoca	13840
+Paraíso do Norte	13830
+São José do Cedro	13829
+Satuba	13828
+Ibiraci	13828
+Mascote	13822
+Miraíma	13818
+Demerval Lobão	13817
+Urupês	13809
+Cotegipe	13782
+Tracunhaém	13769
+Ielmo Marinho	13766
+Virgem da Lapa	13752
+São João d'Aliança	13740
+ÿgua Boa	13735
+Camapuã	13711
+General Carneiro	13710
+Tapurah	13705
+Serra Branca	13699
+Puxinanã	13680
+Chapada Gaúcha	13680
+Piquete	13657
+Avanhandava	13649
+Mansidão	13643
+Conceição do Rio Verde	13638
+Piratininga	13636
+Mallet	13630
+Morungaba	13622
+Jaguapitã	13620
+Itapetim	13616
+Anamã	13614
+Quatipuru	13608
+Mirabela	13589
+Pedro Afonso	13578
+Pé de Serra	13578
+Alexandria	13577
+Rio Casca	13564
+Feliz	13547
+Uarini	13540
+ÿguas Vermelhas	13539
+Tomar do Geru	13536
+Choró	13521
+Chã de Alegria	13518
+Manoel Ribas	13502
+Barra do Ribeiro	13491
+Tenente Portela	13485
+Dores do Indaiá	13483
+Planalto	13479
+Cumaru do Norte	13473
+Arara	13470
+Centro do Guilherme	13458
+Abre Campo	13454
+Crissiumal	13448
+Miranorte	13434
+Japoatã	13434
+Queluz	13420
+São Ludgero	13410
+Serrolândia	13397
+Montividiu	13396
+Vila Nova dos Martírios	13392
+Martinho Campos	13388
+Santana do Maranhão	13386
+Irupi	13377
+Arroio do Tigre	13373
+Itaguara	13358
+Lagoa da Confusão	13357
+Ibaretama	13353
+Itiquira	13345
+Caldeirão Grande	13327
+Valentim Gentil	13326
+Palmácia	13322
+Cantagalo	13317
+Firminópolis	13292
+Mogeiro	13284
+Passa-e-Fica	13277
+Palmares Paulista	13275
+Rio Bonito do Iguaçu	13269
+Maribondo	13264
+Alto Alegre dos Parecis	13241
+Manoel Vitorino	13240
+Banzaê	13229
+Igrapiúna	13226
+Joanópolis	13220
+Ribeirão Bonito	13219
+Nossa Senhora do Livramento	13216
+Turvo	13215
+Nova Londrina	13213
+Paripueira	13176
+Palmital	13172
+Monte Belo	13166
+Milhã	13155
+Buenos Aires	13155
+Lagoa do Ouro	13145
+Andaraí	13143
+Aracatu	13135
+Mamborê	13132
+Nordestina	13130
+Imbaú	13111
+Presidente Bernardes	13106
+Caapiranga	13081
+Lucena	13080
+Balneário Arroio do Silva	13071
+Chaval	13069
+Antônio Prado	13050
+Governador Dix-Sept Rosado	13037
+Terra Nova	13033
+Heliópolis	13031
+Ribeirão do Pinhal	13029
+Goiatins	13019
+São João das Missões	13014
+Sítio do Mato	13012
+Lagoa Dourada	13009
+São Luís do Curu	13000
+Rio de Contas	12989
+Piçarra	12981
+Tapiratiba	12960
+Palestina	12957
+São Domingos	12949
+Bocaiuva do Sul	12944
+Balsa Nova	12941
+Carnaubeira da Penha	12932
+Deodápolis	12924
+Porecatu	12914
+Saúde	12913
+Davinópolis	12908
+Mineiros do Tietê	12908
+Turvo	12899
+Tacaimbó	12874
+Nova Crixás	12869
+Ataléia	12868
+Luiz Alves	12859
+São José do Campestre	12856
+Rio Vermelho	12846
+Marilândia	12833
+Sete Barras	12832
+Cardoso Moreira	12823
+Cambuquira	12814
+Mar de Espanha	12814
+Mostardas	12804
+Cristais	12798
+Amajari	12796
+Correia Pinto	12795
+Santana do Matos	12791
+Flexeiras	12790
+Nova Canaã do Norte	12787
+Itaipé	12760
+Balneário Rincão	12760
+Patu	12755
+Piên	12746
+Presidente Juscelino	12734
+Conceição do Castelo	12723
+Betânia	12719
+Simplício Mendes	12711
+Governador Lindenberg	12709
+Brejinho	12699
+Várzea Nova	12697
+São Pedro da ÿgua Branca	12690
+Novo Lino	12690
+Sangão	12678
+Cidade Gaúcha	12652
+Boa Nova	12633
+Fortaleza dos Nogueiras	12631
+Campinorte	12626
+Malhador	12618
+Santa Luzia	12597
+Santa Cruz da Baixa Verde	12592
+Jataizinho	12588
+Cortês	12578
+Itiruçu	12576
+Areal	12572
+ÿgua Doce do Maranhão	12571
+Porto	12568
+Cacequi	12561
+Cananéia	12540
+Ubaí	12533
+Ibicuitinga	12525
+Tabocas do Brejo Velho	12518
+Riolândia	12518
+Porto Alegre do Norte	12517
+Cachoeira Alta	12484
+Vera Cruz	12481
+Ibiraçu	12479
+Guaraniaçu	12472
+Ubaporanga	12471
+Ipaumirim	12463
+Mato Verde	12459
+Salto do Jacuí	12449
+Duartina	12445
+Chavantes	12418
+São Roque do Canaã	12415
+São Gonçalo do Pará	12411
+Bonfim	12409
+Tabapuã	12407
+Brejetuba	12404
+Jardim do Seridó	12396
+Ibirá	12393
+Licínio de Almeida	12388
+Jequeri	12386
+Novo Horizonte	12385
+Ilicínea	12375
+Edéia	12372
+Maxaranguape	12371
+Teixeira Soares	12367
+São Geraldo	12366
+Eldorado	12353
+Itagi	12351
+Cruzeiro do Sul	12348
+Paulista	12347
+Presidente Jânio Quadros	12338
+São Romão	12337
+Poranga	12336
+Bocaina	12329
+Bom Retiro do Sul	12328
+Jacinto	12326
+Cardoso	12326
+Rio Paranaíba	12313
+Taipu	12279
+Pinheiro Machado	12271
+Pacoti	12261
+Setubinha	12258
+Canelinha	12240
+Cerro Grande do Sul	12239
+Wanderley	12238
+Iguaracy	12228
+Itanhomi	12228
+Paramoti	12226
+Andrelândia	12224
+Santa Leopoldina	12224
+São Francisco do Maranhão	12210
+Querência do Norte	12206
+Matina	12201
+Dom Basílio	12199
+Jerônimo Monteiro	12192
+São Sebastião da Grama	12182
+Araçás	12177
+Carmo da Cachoeira	12170
+Guaiçara	12168
+Loreto	12157
+Canápolis	12150
+Aral Moreira	12149
+Cláudia	12149
+Salgado de São Félix	12140
+São Miguel do Tocantins	12139
+Planura	12133
+Axixá	12130
+Lontras	12130
+Pimenteiras	12127
+Ferreiros	12123
+Ponto dos Volantes	12121
+Moreira Sales	12121
+Pedras de Maria da Cruz	12107
+Lebon Régis	12107
+Santo Amaro das Brotas	12102
+Colares	12085
+Belém de Maria	12073
+Saubara	12043
+Mortugaba	12042
+Três Barras do Paraná	12040
+Santa Fé	12037
+Guimarães	12030
+Alto Garças	12030
+Porto Esperidião	12017
+Icaraí de Minas	11990
+Porto Walter	11982
+Nova Ubiratã	11982
+Lavínia	11980
+Campo Alegre	11978
+Itapejara d'Oeste	11964
+Iracema	11950
+Congonhal	11950
+Capela de Santana	11940
+Serra do Mel	11938
+Atílio Vivácqua	11936
+Berilo	11932
+Bonito de Santa Fé	11917
+Pilar	11917
+Joaquim Távora	11908
+Lima Campos	11893
+Ventania	11892
+Sales Oliveira	11890
+Brasilândia	11872
+Seringueiras	11856
+Aratuba	11847
+Gouveia	11825
+Nova Olinda	11819
+Godofredo Viana	11819
+Imaculada	11819
+Santa Terezinha	11815
+Cedro	11807
+São Francisco do Brejão	11798
+Antônio Gonçalves	11798
+Vale do Sol	11781
+Céu Azul	11765
+Aperibé	11759
+Peixe	11749
+Mondaí	11742
+Abaiara	11737
+Capixaba	11733
+Bofete	11730
+Santa Mariana	11724
+Terra Alta	11720
+Alcântaras	11714
+Angicos	11714
+Inhangapi	11711
+Iacanga	11710
+São Félix do Araguaia	11708
+Nonoai	11695
+Wanderlândia	11683
+Antônio Cardoso	11683
+Rio dos Cedros	11676
+São Miguel das Matas	11675
+São Sebastião de Lagoa de Roça	11661
+Teixeiras	11661
+Senador José Porfírio	11658
+Jaqueira	11656
+Rio do Pires	11655
+Campo do Meio	11655
+Benedito Novo	11652
+Santo Antônio do Jacinto	11640
+Conceição dos Ouros	11638
+Capela do Alto Alegre	11637
+Fronteiras	11625
+Olivença	11624
+Caetanópolis	11624
+Rio Novo do Sul	11622
+Gararu	11604
+Ipaporanga	11593
+Ponte Serrada	11593
+Baixa Grande do Ribeiro	11586
+Serra do Salitre	11582
+Jequiá da Praia	11580
+Presidente Kennedy	11574
+Barbosa Ferraz	11568
+São João do Manhuaçu	11559
+Nova Laranjeiras	11554
+Tacuru	11552
+Rodeio	11551
+Redentora	11549
+Cachoeira de Minas	11547
+Xambioá	11540
+Amaturá	11536
+Aurelino Leal	11531
+Itainópolis	11530
+Paranatama	11523
+Itabirinha	11512
+Perdigão	11506
+Gravatal	11501
+Resende Costa	11500
+Ouro Branco	11496
+Duas Barras	11492
+Nhandeara	11478
+Carmo da Mata	11476
+Paranacity	11472
+Urupá	11467
+Antônio Carlos	11445
+Sebastião Laranjeiras	11434
+Jucati	11424
+Capitão de Campos	11417
+Pirangi	11417
+Lençóis	11409
+Getulina	11409
+Alvorada do Sul	11406
+Jaguaribara	11401
+Aramari	11397
+Lagoa Grande do Maranhão	11394
+Roca Sales	11393
+Curimatá	11388
+Dois Irmãos do Buriti	11385
+Alto Paraguai	11356
+Estiva	11354
+Duque Bacelar	11349
+Bom Jesus	11349
+Buriti do Tocantins	11348
+Macajuba	11348
+Muquém de São Francisco	11348
+Maraial	11345
+Moita Bonita	11335
+Pedro de Toledo	11331
+Batayporã	11329
+Jardim Alegre	11328
+Igarapé Grande	11320
+Palmares do Sul	11318
+Uraí	11314
+Vera	11309
+Estiva Gerbi	11304
+Poção	11302
+Quebrangulo	11294
+Normandia	11290
+Avelino Lopes	11289
+São Carlos	11281
+Porto Firme	11279
+Lajes	11277
+Eugenópolis	11275
+Moreilândia	11270
+Fagundes	11253
+Montanhas	11251
+Lagoa do Mato	11250
+Urubici	11235
+Pérola	11234
+Martinópole	11233
+Gentio do Ouro	11233
+Goianápolis	11231
+Bonito de Minas	11230
+Paranaíta	11225
+Irineópolis	11222
+Anguera	11221
+Juscimeira	11221
+Campo Redondo	11217
+Bela Vista do Maranhão	11209
+Vale do Anari	11204
+Terra de Areia	11204
+Barros Cassal	11199
+Pedralva	11195
+Presidente Vargas	11193
+Alto Parnaíba	11190
+Guaraci	11188
+Nova Europa	11186
+Chupinguaia	11182
+Cerro Corá	11179
+Cajapió	11177
+São João do Paraíso	11177
+Chorrochó	11177
+Itaipulândia	11176
+São Jerônimo da Serra	11170
+Barro Alto	11167
+Jitaúna	11166
+Ilha Comprida	11166
+Matias Cardoso	11157
+Angelim	11150
+Bernardino de Campos	11148
+Itatiaiuçu	11146
+Divinolândia	11146
+Senador Alexandre Costa	11141
+São Domingos	11137
+Acari	11136
+Engenheiro Caldas	11134
+Areiópolis	11129
+Inácio Martins	11125
+Primeiro de Maio	11123
+Calçoene	11117
+Corumbá de Goiás	11110
+Cunha Porã	11086
+Dois Riachos	11075
+Groaíras	11068
+São Tomé	11055
+Calçado	11053
+Três Cachoeiras	11053
+Potengi	11045
+Afonso Bezerra	11035
+Itaueira	11019
+Arataca	11019
+Divisópolis	11019
+ÿgua Doce do Norte	11019
+Fervedouro	11006
+Iapu	11004
+Bueno Brandão	11001
+Alto Rio Doce	11000
+Varre-Sai	11000
+Esperantina	10996
+Iuiú	10994
+Paraúna	10988
+São Pedro do Ivaí	10981
+Balneário Gaivota	10979
+Parapuã	10964
+Itatuba	10962
+Manaíra	10955
+Pires Ferreira	10951
+Milagres	10950
+Mirante da Serra	10947
+Laranja da Terra	10947
+Bananal	10945
+São Tiago	10941
+Matias Olímpio	10936
+Ararendá	10935
+Capinzal do Norte	10934
+São Gonçalo do Rio Abaixo	10920
+Salgadinho	10919
+Rialma	10918
+Caracol	10916
+Tacima	10911
+Cumaru	10906
+Mulungu do Morro	10889
+São Bento do Sapucaí	10878
+General Salgado	10869
+Agrolândia	10864
+Catanduvas	10861
+Igaratinga	10860
+Cacimbinhas	10858
+Rosário do Catete	10855
+Rio do Fogo	10848
+Jaguari	10848
+Santa Maria de Itabira	10847
+Alto Taquari	10847
+Vera Cruz	10843
+Governador Archer	10840
+Lago do Junco	10840
+Centenário do Sul	10827
+Primavera	10825
+Mulungu	10823
+Jordânia	10812
+Rincão	10799
+Balneário Barra do Sul	10795
+Parnaguá	10791
+Sete Quedas	10791
+Piraúba	10787
+Tenente Ananias	10786
+Angélica	10780
+São Vicente do Seridó	10775
+Arceburgo	10772
+Carnaubais	10759
+Juripiranga	10756
+Novo Oriente de Minas	10755
+Miradouro	10754
+Pirapetinga	10752
+Seberi	10750
+Apiúna	10743
+Santana do Mundaú	10740
+Mercês	10739
+Prudente de Morais	10733
+Roseira	10712
+Dário Meira	10710
+Jandaíra	10709
+Piripá	10707
+Missal	10702
+Coité do Noia	10693
+Gilbués	10690
+São Luiz do Paraitinga	10687
+Cedral	10675
+Ribeirão Claro	10668
+Faxinal dos Guedes	10667
+Babaçulândia	10664
+Nova Floresta	10638
+Sucupira do Norte	10636
+Santa Inês	10631
+Floresta Azul	10629
+Trajano de Moraes	10626
+Monte Alegre do Piauí	10613
+ÿrico Cardoso	10610
+Mauá da Serra	10601
+Ronda Alta	10601
+Cabeceiras do Piauí	10586
+Tapera	10584
+Pirpirituba	10579
+Arraias	10567
+Monsenhor Gil	10564
+Juruaia	10563
+Uiramutã	10559
+Brejolândia	10557
+São José do Calçado	10556
+Umarizal	10555
+Itarana	10555
+Florestópolis	10548
+Nova Prata do Iguaçu	10548
+Bom Repouso	10547
+Cajobi	10542
+Vargem	10537
+Pariconha	10533
+Delta	10533
+Recreio	10517
+Virginópolis	10510
+Espírito Santo	10505
+Guadalupe	10499
+Marcelândia	10499
+Branquinha	10494
+Nova Aurora	10472
+Beneditinos	10467
+São José do Jacuípe	10462
+Senhora dos Remédios	10459
+Itapuã do Oeste	10458
+Natuba	10454
+Dona Inês	10453
+Paranã	10449
+Theobroma	10444
+Pintadas	10437
+Arvorezinha	10424
+Cristino Castro	10423
+Irani	10419
+Jacinto Machado	10416
+Marcionílio Souza	10406
+Santa Teresinha	10405
+Santa Maria Madalena	10404
+Serra Caiada	10395
+Piranhas	10385
+Grossos	10383
+Buenópolis	10365
+Ouroeste	10361
+Fernando Falcão	10360
+Urucânia	10358
+Centralina	10350
+Mariluz	10345
+Catunda	10342
+Francisco Badaró	10332
+Guaraciaba	10324
+Itapitanga	10313
+Rio Acima	10312
+Aragoiânia	10308
+Carlinda	10305
+Fontoura Xavier	10304
+Ninheira	10295
+Conceição da Aparecida	10292
+Sarapuí	10285
+São Miguel do Gostoso	10282
+Petrolina de Goiás	10281
+Barracão	10275
+Bujari	10266
+Itapebi	10259
+Bela Vista de Minas	10255
+Serrano do Maranhão	10253
+Porto Xavier	10246
+Cachoeira dos ÿndios	10244
+Cristina	10242
+Rubim	10241
+São João	10241
+ÿgua Branca	10234
+Brotas de Macaúbas	10231
+São João do Ivaí	10219
+Riachuelo	10213
+Botuporã	10211
+Bom Jesus	10210
+Ribeirão Cascalheira	10206
+Itamogi	10192
+Catanduvas	10189
+Boa Saúde	10181
+Governador Newton Bello	10180
+Santo Antônio das Missões	10175
+Sinimbu	10172
+Caroebe	10169
+Iretama	10169
+Chapadão do Céu	10167
+Jatobá	10153
+Dores de Campos	10153
+Santa Tereza do Oeste	10139
+Imaruí	10135
+Apiacás	10133
+Santa Cruz do Arari	10128
+Campos Lindos	10116
+Luís Gomes	10116
+Maiquinique	10112
+Uchoa	10110
+Terra Nova	10096
+Pescaria Brava	10091
+Guaraciaba	10090
+Planalto	10084
+Carmo do Rio Verde	10082
+Ipuiuna	10079
+Arroio do Sal	10065
+Paranaiguara	10057
+Arauá	10056
+São Sebastião do Maranhão	10044
+Sigefredo Pacheco	10041
+Alfredo Wagner	10036
+Carneirinho	10027
+Piraí do Norte	10023
+Torrinha	10010
+Coroaci	9991
+Sítio do Quinto	9986
+Rinópolis	9981
+Coronel Freitas	9981
+Bom Retiro	9966
+Glória de Dourados	9965
+Bom Jesus do Norte	9936
+Sairé	9932
+Porangaba	9925
+Nova Bassano	9916
+Constantina	9911
+Umbuzeiro	9907
+Mulungu	9902
+Guia Lopes da Laguna	9895
+Quilombo	9887
+Anísio de Abreu	9880
+Bom Jesus da Serra	9880
+Aruanã	9875
+Dumont	9868
+Juru	9867
+Monte Carlo	9866
+Ipupiara	9865
+Nova Veneza	9853
+Roncador	9849
+Manduri	9846
+Alto Piquiri	9836
+Pau Brasil	9831
+Ferros	9820
+Ipiranga do Piauí	9811
+Itapeva	9783
+Axixá do Tocantins	9756
+Nova Campina	9755
+Capim Branco	9754
+Saudades	9745
+Corumbaíba	9723
+Canápolis	9711
+Cavalcante	9709
+Bonfinópolis	9706
+Ariranha	9668
+Terra Nova do Norte	9667
+Ministro Andreazza	9660
+Campo Grande	9655
+ÿguia Branca	9642
+Deputado Irapuan Pinheiro	9625
+Pureza	9621
+Reginópolis	9621
+Santa Maria do Oeste	9615
+Frei Inocêncio	9611
+Arenápolis	9607
+Pedrinhas	9602
+Candiota	9584
+Rondon	9579
+Paula Cândido	9571
+Formoso	9562
+Campo Grande	9558
+Dom Inocêncio	9556
+Ananás	9549
+Verdejante	9534
+Igaratá	9534
+Lagoa Grande	9532
+Herculândia	9526
+Mara Rosa	9503
+Lontra	9496
+Tabaporã	9489
+Riacho dos Machados	9481
+Açucena	9470
+Denise	9462
+Manoel Urbano	9459
+Buriti Alegre	9459
+Triunfo	9455
+São Domingos	9445
+Cachoeira Grande	9431
+Ilha Grande	9426
+Japurá	9425
+Cachoeira de Pajeú	9412
+Carbonita	9405
+Palhano	9386
+Olho d'ÿgua do Casado	9373
+Euclides da Cunha Paulista	9371
+Agudos do Sul	9371
+Terra Roxa	9370
+São Sebastião do Alto	9357
+Verdelândia	9355
+Wagner	9345
+Rodelas	9331
+Salto Grande	9331
+Caturama	9329
+Planaltino	9322
+Francisco Santos	9319
+Antônio Dias	9318
+Caputira	9298
+Cardeal da Silva	9295
+Boa Vista do Gurupi	9287
+Rio das Flores	9284
+Palmeira d'Oeste	9283
+Pirambu	9280
+Araújos	9273
+Baía Formosa	9271
+Chapada	9269
+Natividade	9244
+Iaras	9240
+Cedral	9237
+Ibiassucê	9224
+Coronel Murta	9222
+Caém	9213
+Vila Pavão	9208
+Brejo de Areia	9188
+Novo Mundo	9178
+Nova Monte Verde	9178
+Pantano Grande	9174
+Silves	9171
+Várzea do Poço	9170
+Maravilha	9163
+Montes Altos	9160
+Murici dos Portelas	9159
+Coqueiral	9159
+Itapiranga	9148
+Nazário	9142
+Jaçanã	9133
+Jucuruçu	9126
+Nova Redenção	9118
+Florânia	9116
+Urânia	9114
+Japorã	9110
+Amapá	9109
+Carneiros	9081
+Penaforte	9077
+Rafard	9076
+Bálsamo	9068
+Mucugê	9062
+São Domingos	9058
+São Jorge d'Oeste	9050
+Anaurilândia	9035
+Prados	9031
+Casca	9031
+Sítio Novo do Tocantins	9029
+Palmeiras	9019
+Iporã do Oeste	8996
+Baía da Traição	8993
+Brejão	8993
+Queimada Nova	8992
+Quixabeira	8972
+Antônio João	8956
+Caraíbas	8951
+Rio Novo	8949
+Santa Rita de Caldas	8949
+Paulo de Faria	8945
+Santanópolis	8943
+Itauçu	8938
+Neves Paulista	8930
+Dobrada	8929
+São José da Bela Vista	8928
+Guarani	8911
+Siriri	8893
+Cordisburgo	8890
+Ibitirama	8889
+Mambaí	8882
+Lago dos Rodrigues	8873
+Coluna	8873
+Dourado	8873
+Morada Nova de Minas	8863
+Filadélfia	8856
+São Sebastião da Amoreira	8853
+Bom Jardim de Goiás	8841
+Varzedo	8838
+Marilândia do Sul	8836
+Aratuípe	8825
+Passo de Torres	8823
+Congonhinhas	8818
+Santa Lúcia	8817
+Vista Alegre do Alto	8810
+Nossa Senhora Aparecida	8796
+Jauru	8793
+Santa Terezinha	8787
+Redenção do Gurgueia	8778
+Catuípe	8774
+Abadia de Goiás	8773
+Tunas do Paraná	8769
+Itapé	8761
+Santa Rita do Araguaia	8756
+Douradina	8747
+Santa Terezinha de Goiás	8744
+Vicentinópolis	8743
+Abaíra	8739
+Guamiranga	8739
+Castanheira	8729
+Martins	8725
+Moraújo	8724
+São Vicente do Sul	8721
+Serra dos Aimorés	8699
+Nossa Senhora dos Remédios	8692
+Monsenhor Paulo	8688
+Tangará	8676
+Santana do Manhuaçu	8674
+Virgínia	8674
+Armazém	8674
+Central do Maranhão	8673
+Pereiras	8668
+Pimenta	8660
+Alvorada do Norte	8660
+Mirante	8641
+Nova Maringá	8641
+São Domingos do Norte	8638
+Ibirapuã	8637
+Capitólio	8632
+Cristais Paulista	8631
+Clementina	8617
+Cordeiros	8614
+Nazareno	8608
+Cezarina	8606
+Monte Alegre de Goiás	8606
+Santa Cruz de Minas	8604
+Pratápolis	8603
+Piranguinho	8596
+Tarrafas	8592
+Mata Verde	8586
+Nazária	8570
+Califórnia	8570
+Piedade de Caratinga	8566
+Tuneiras do Oeste	8566
+Ouriçangas	8564
+Barão de Melgaço	8564
+Lagedo do Tabocal	8562
+Ouro Verde	8562
+Santa Isabel do Ivaí	8562
+Comendador Levy Gasparian	8561
+Arealva	8560
+Jóia	8560
+Marcação	8558
+Camutanga	8551
+Isaías Coelho	8549
+Magalhães Barata	8548
+Serranópolis	8544
+Lagoa Alegre	8542
+Novo Horizonte do Oeste	8538
+Iramaia	8537
+Riacho dos Cavalos	8526
+Campo Erê	8526
+Tasso Fragoso	8521
+Vera Cruz do Oeste	8521
+Ilha das Flores	8520
+Angelândia	8520
+Morpará	8519
+Araguaçu	8517
+Antônio Carlos	8513
+Feira Nova do Maranhão	8504
+Marcolândia	8492
+Paverama	8487
+Entre-Ijuís	8475
+Milagres do Maranhão	8464
+Pavão	8450
+Araponga	8439
+Mataraca	8434
+Praia Norte	8432
+Pocrane	8432
+Santo Antônio do Aracanguá	8420
+Estrela d'Oeste	8419
+Martins Soares	8417
+Alvorada	8412
+Jesuítas	8412
+Jangada	8409
+Ibiaí	8395
+Malhada de Pedras	8393
+Guiricema	8392
+São Gonçalo do Abaeté	8389
+Jaborandi	8385
+General Câmara	8385
+Santa Terezinha	8371
+Japaratinga	8361
+Barra de Santana	8359
+Santa Rosa do Sul	8358
+Marcelino Vieira	8347
+Aparecida	8347
+Brasileira	8329
+Guaraçaí	8323
+Barra de São Miguel	8322
+Itaquara	8319
+Jordão	8317
+Alto Jequitibá	8317
+Gado Bravo	8316
+Madeiro	8310
+Brejo Grande	8309
+Lamarão	8307
+Desterro	8297
+São José do Cerrito	8295
+Cristalândia do Piauí	8294
+Irapuru	8294
+Saltinho	8286
+Pains	8283
+Monte Castelo	8275
+Caraá	8270
+Candeal	8258
+Descanso	8250
+Montezuma	8249
+Lagoa Salgada	8245
+Buriti dos Montes	8244
+Icém	8243
+Jacareacanga	8239
+Nova Itarana	8226
+Nova Santa Rosa	8219
+Colméia	8205
+São Rafael	8202
+Tuparetama	8202
+São João da Baliza	8201
+Ivaté	8185
+Carnaúba dos Dantas	8180
+ÿguas da Prata	8180
+Dom Aquino	8178
+Nova Glória	8164
+Iepê	8159
+Nova Fátima	8153
+Campo Florido	8151
+Santa Bárbara do Leste	8147
+Riachinho	8136
+Japonvar	8134
+Altamira do Maranhão	8128
+Riachuelo	8128
+Tupãssi	8124
+Elísio Medrado	8122
+Macaubal	8120
+Jati	8111
+Rodeiro	8109
+Major Vieira	8103
+Glorinha	8098
+Santana da Boa Vista	8098
+Passa Tempo	8084
+Serra Negra do Norte	8078
+Peixe-Boi	8077
+Minas do Leão	8075
+Cachoeira Dourada	8067
+Montes Claros de Goiás	8055
+Terezópolis de Goiás	8043
+Ponte Alta do Tocantins	8039
+Guimarânia	8039
+Monte Alegre do Sul	8038
+Itamari	8035
+Bilac	8034
+Delfim Moreira	8025
+Tombos	8022
+Orizânia	8018
+Reserva do Iguaçu	8010
+Cristal	8009
+Cruzeta	7998
+Santa Bárbara do Sul	7994
+Irapuã	7993
+Cabeceiras	7993
+São João do Arraial	7989
+São Luís	7986
+Tiradentes	7981
+Lindoia	7980
+Estrela do Sul	7978
+Maravilhas	7976
+Campo do Tenente	7971
+São Miguel dos Milagres	7951
+Monte do Carmo	7947
+Iguatama	7947
+Juarez Távora	7936
+Ascurra	7934
+Tanquinho	7918
+Tomazina	7918
+Icaraíma	7904
+Tuparendi	7893
+Timbó Grande	7877
+Bodoquena	7875
+Portalegre	7867
+Cambira	7865
+Ponto Belo	7863
+Itamarati	7851
+Santa Rita do Pardo	7851
+Assunção do Piauí	7846
+Pedra Lavrada	7843
+Durandé	7841
+Itobi	7841
+Arneiroz	7840
+Treze Tílias	7840
+Alto Rio Novo	7836
+Itaiçaba	7827
+Baldim	7826
+Macururé	7824
+Nova Fátima	7812
+Senador Firmino	7812
+Governador Luiz Rocha	7807
+Tapiraí	7807
+Catiguá	7804
+Santa Cruz de Monte Castelo	7800
+Salvador do Sul	7799
+Cubati	7797
+Marajá do Sena	7792
+Ribamar Fiquene	7791
+Campo Limpo de Goiás	7789
+Porto de Pedras	7786
+Sobrado	7783
+São Pedro dos Ferros	7781
+Ferreira Gomes	7780
+Santana do São Francisco	7780
+Santa Filomena do Maranhão	7773
+Figueira	7770
+Araguapaz	7770
+Governador Jorge Teixeira	7767
+Ibirajuba	7762
+São Vicente de Minas	7753
+Ibirarema	7753
+Monsenhor Hipólito	7749
+Jericó	7739
+Umari	7733
+Pedro Osório	7730
+Curral de Dentro	7729
+Dionísio	7729
+São Mamede	7724
+Lagoa de Dentro	7719
+Sud Mennucci	7718
+Belo Vale	7715
+Boqueirão do Leão	7714
+Palmeirina	7693
+Jenipapo de Minas	7692
+Jacuí	7686
+Pedro Gomes	7674
+Ribeirão Grande	7673
+São Miguel das Missões	7673
+Serrania	7669
+Ipiranga do Norte	7667
+São Pedro do Turvo	7666
+Palmeirópolis	7659
+Barra do Turvo	7659
+Paraí	7657
+Colônia do Piauí	7656
+Guatapará	7656
+Pium	7654
+Alagoinha do Piauí	7651
+Gaúcha do Norte	7648
+Leopoldo de Bulhões	7647
+São João do Jaguaribe	7645
+Cajueiro da Praia	7642
+Cônego Marinho	7642
+Santana de Pirapama	7642
+Salete	7642
+São José dos Basílios	7641
+Sanclerlândia	7637
+Guaraqueçaba	7636
+São José da Lagoa Tapada	7630
+Muribeca	7625
+Alto Paraíso de Goiás	7624
+Senador Sá	7623
+General Sampaio	7618
+Vertente do Lério	7618
+Lagamar	7613
+Paraíso do Sul	7611
+Inocência	7610
+Restinga	7593
+Ipumirim	7593
+Boa Vista da Aparecida	7591
+Palestina do Pará	7589
+Campo Alegre de Goiás	7589
+Altaneira	7586
+Divinolândia de Minas	7571
+Apiacá	7567
+Paulo Jacinto	7564
+Coimbra	7556
+Claro dos Poções	7551
+Lajeado Novo	7550
+Itajá	7548
+Ipeúna	7546
+Tocantínia	7545
+Lagoa de Pedras	7544
+Guarani das Missões	7537
+Limeira do Oeste	7536
+Jequitaí	7531
+Moema	7517
+Inimutaba	7515
+Ipuaçu	7514
+Santa Fé do Araguaia	7512
+Pintópolis	7507
+Nova Porteirinha	7500
+São João do Oriente	7498
+Coronel Domingos Soares	7497
+Paulo Lopes	7494
+Rio do Oeste	7489
+Brejinho	7487
+Barão do Triunfo	7487
+Granito	7486
+Lavras do Sul	7480
+Belágua	7469
+Casserengue	7468
+Tarabai	7468
+Florestal	7461
+Felisburgo	7457
+Abatiá	7457
+São João Batista do Glória	7453
+Quatiguá	7449
+Abel Figueiredo	7434
+Antônio Olinto	7434
+Itacajá	7433
+Nuporanga	7432
+São José da Barra	7426
+Teodoro Sampaio	7425
+Alpercata	7424
+Palma Sola	7423
+Muniz Ferreira	7422
+Segredo	7421
+Assis Brasil	7417
+Ametista do Sul	7409
+Barbosa	7402
+São Domingos do Azeitão	7392
+Corumbiara	7391
+Joviânia	7387
+Brejo Grande do Araguaia	7380
+São Miguel de Taipu	7368
+Paulicéia	7366
+Trombudo Central	7360
+Laje do Muriaé	7355
+Paulo Frontin	7354
+Antonina do Norte	7353
+Indaiabira	7351
+Pedrão	7347
+Belém do Brejo do Cruz	7342
+Ribeiro Gonçalves	7341
+Laguna Carapã	7341
+Juranda	7340
+Nazaré do Piauí	7339
+Apuarema	7330
+Inconfidentes	7328
+Sericita	7326
+Coronel Bicaco	7325
+Doverlândia	7322
+Praia Grande	7319
+Chã Preta	7311
+Cosmorama	7307
+Nazarezinho	7301
+Manoel Viana	7299
+São João do Sul	7297
+Santa Luzia do Norte	7296
+Ouro	7295
+Maracajá	7293
+Cristalândia	7289
+Campo Largo do Piauí	7279
+Santo Antônio do Retiro	7277
+Luiziana	7262
+Ibiraiaras	7262
+Irajuba	7260
+Lavrinhas	7260
+Verê	7257
+Livramento	7256
+Desterro de Entre Rios	7243
+Engenheiro Navarro	7242
+Iraí	7241
+Potiraguá	7224
+Santa Rita de Minas	7212
+Caiçara	7201
+Dois Irmãos do Tocantins	7198
+Ereré	7198
+Faro	7194
+Jaraguari	7187
+Itarumã	7178
+Cacimbas	7173
+São José de Ubá	7171
+Terezinha	7169
+Monteirópolis	7159
+Reduto	7154
+Junco do Seridó	7150
+Antônio Martins	7145
+ÿgua Doce	7145
+Anita Garibaldi	7133
+Gongogi	7128
+Delfinópolis	7114
+Machacalis	7111
+Goioxim	7111
+Santana da Vargem	7100
+Pedra Bonita	7097
+São Tomé das Letras	7089
+Araguacema	7086
+Acauã	7084
+Treze de Maio	7081
+Guidoval	7078
+Doutor Severiano	7076
+Marilena	7076
+Jaci	7067
+Orindiúva	7066
+Palmitinho	7057
+Almas	7055
+Boa Vista	7051
+São Roque de Minas	7051
+Serra Redonda	7041
+Varjão de Minas	7036
+Barro Duro	7032
+Central de Minas	7032
+Bom Sucesso	7032
+Santana dos Garrotes	7031
+Amaral Ferrador	7031
+Ajuricaba	7024
+Jacuípe	7021
+São Tomás de Aquino	7021
+Campo Belo do Sul	7016
+Presidente Médici	7015
+Meleiro	7015
+Jussara	7013
+Dirceu Arcoverde	7011
+Salto da Divisa	7009
+Areial	6998
+Naque	6996
+Abadia dos Dourados	6989
+Iraí de Minas	6987
+Nova Aliança	6973
+Nova União	6970
+Laurentino	6970
+Amapá do Maranhão	6962
+São Brás	6961
+Luís Domingues	6951
+Cabeceira Grande	6949
+Conquista	6939
+São Miguel do Anta	6938
+Guajeru	6937
+Campestre	6936
+São José do Ouro	6933
+Sapucaí-Mirim	6930
+Comercinho	6929
+Jaborandi	6929
+Santo Antônio da Alegria	6929
+Capetinga	6920
+Macambira	6919
+Erval Seco	6912
+Alfredo Vasconcelos	6907
+Dom Expedito Lopes	6904
+Imbé de Minas	6903
+Divinópolis do Tocantins	6900
+Tuiuti	6894
+Indianópolis	6891
+Campos de Júlio	6891
+Jandaíra	6878
+São Carlos do Ivaí	6878
+Itagimirim	6869
+Araporã	6869
+Padre Marcos	6868
+Bonfim	6868
+Simolândia	6856
+Roque Gonzales	6847
+Vitorino	6838
+Sabáudia	6827
+Vale do Paraíso	6825
+Alto Boa Vista	6822
+Herval	6821
+Galileia	6817
+Quixaba	6813
+Santo Antônio do Pinhal	6811
+Laranjal	6810
+Periquito	6810
+Cuitegi	6803
+Renascença	6802
+Morro do Chapéu do Piauí	6796
+Angical do Piauí	6788
+Bandeirantes	6788
+Cipotânea	6787
+Divisa Alegre	6786
+Boa Hora	6781
+Hulha Negra	6776
+São Sebastião do Oeste	6775
+Floresta	6774
+Lagoa d'Anta	6769
+Lagoa de São Francisco	6758
+Caatiba	6758
+Careaçu	6757
+Condor	6753
+Dores do Rio Preto	6749
+Itanhangá	6737
+Sapopema	6736
+Aguiarnópolis	6733
+Tumiritinga	6732
+Sussuapara	6730
+Confins	6730
+Anhembi	6724
+São Roberto	6719
+Pedro Avelino	6716
+Maquiné	6714
+Boa Vista do Buricá	6712
+Juti	6712
+Pontal do Araguaia	6711
+Santarém Novo	6709
+São José do Piauí	6705
+Belo Monte	6704
+Crisólita	6704
+Chuí	6704
+Luislândia	6699
+Itaju do Colônia	6682
+Faxinal do Soturno	6677
+Ouvidor	6667
+Roteiro	6664
+Guarantã	6664
+Formigueiro	6664
+Natividade da Serra	6661
+Augusto Pestana	6661
+Palmeiras do Tocantins	6658
+Condado	6654
+Arapoema	6643
+Ipê	6640
+Nova Lacerda	6640
+Quintana	6638
+Pilões	6635
+Faina	6627
+Barão de Cotegipe	6623
+Marizópolis	6617
+Palma	6616
+Milton Brandão	6613
+Mariópolis	6610
+Santa Clara do Sul	6603
+Jambeiro	6602
+Borrazópolis	6592
+Nova Ibiá	6591
+Santa Cruz	6583
+Itambaracá	6582
+Guairaçá	6581
+Guarda-Mor	6580
+Bom Jesus do Araguaia	6580
+Formosa do Oeste	6578
+Pinhão	6576
+Dona Eusébia	6572
+Matureia	6569
+Grão-Pará	6569
+Morro Redondo	6568
+Novo Oriente do Piauí	6565
+Santa Bárbara de Goiás	6560
+Santa Cecília	6558
+Heliodora	6558
+São Sebastião do Anta	6555
+Diamante	6552
+Ijaci	6550
+Caiçara do Norte	6549
+Gália	6548
+Mamonas	6543
+Santa Rosa do Purus	6540
+Passo do Sobrado	6535
+Pacujá	6533
+Selvíria	6529
+São Francisco de Paula	6527
+Olho d'ÿgua	6526
+Afonso Cunha	6524
+Capim	6523
+Oriente	6515
+Lassance	6512
+Nova Palma	6512
+Itirapuã	6499
+Santa Luzia d'Oeste	6495
+ÿguas de Chapecó	6486
+Sertão Santana	6486
+Colônia do Gurgueia	6484
+Nossa Senhora de Lourdes	6483
+Tiros	6480
+Vargem Alegre	6480
+Rio Sono	6478
+Bom Jardim de Minas	6474
+ÿguas Mornas	6469
+Paraíso	6454
+São José do Jacuri	6453
+Lagoão	6452
+Brejo dos Santos	6449
+Mendes Pimentel	6446
+Massapê do Piauí	6441
+Itanagra	6441
+Porto do Mangue	6437
+Pardinho	6435
+Rio Grande do Piauí	6432
+Cambará do Sul	6431
+São Vicente	6424
+São Francisco do Piauí	6423
+Potiretama	6419
+Santo Antônio de Lisboa	6415
+Alto Horizonte	6414
+Piracema	6409
+Boqueirão do Piauí	6407
+Morro Reuter	6407
+Patos do Piauí	6392
+Boa Ventura de São Roque	6387
+São João do Oeste	6381
+Padre Carvalho	6378
+Santa Helena de Minas	6366
+São Julião	6363
+São José de Caiana	6359
+Arandu	6357
+Cuité de Mamanguape	6353
+Ibema	6352
+Pérola d'Oeste	6347
+Vidal Ramos	6338
+Córrego Fundo	6337
+Bela Vista do Toldo	6337
+Sales	6331
+Santa Maria do Herval	6331
+Pinhalão	6326
+Iacri	6321
+Botumirim	6319
+Santa Cruz da Vitória	6315
+Catuji	6311
+Ubarana	6309
+Silveiras	6302
+Sardoá	6300
+Taiaçu	6295
+Baixio	6288
+Taciba	6285
+Santo Antônio de Goiás	6283
+Bossoroca	6279
+Inhaúma	6271
+Luisburgo	6266
+São Francisco de Goiás	6264
+Graça Aranha	6262
+Toledo	6258
+Alpestre	6258
+Amaporã	6257
+Santa Filomena	6253
+Progresso	6244
+Santa Cruz do Piauí	6240
+São Francisco de Sales	6238
+Silvianópolis	6238
+Aratiba	6235
+Cacaulândia	6230
+Serrinha	6229
+Colômbia	6210
+Ichu	6206
+São José da Boa Vista	6206
+Betânia do Piauí	6205
+Vereda	6205
+Rio das Antas	6205
+Pirajuba	6199
+Cândido Godói	6198
+Imbuia	6197
+Inaciolândia	6194
+São João do Sabugi	6193
+Jussiape	6186
+Santa Maria da Serra	6173
+Barão	6171
+Vila Boa	6171
+Itá	6169
+Independência	6167
+Tanque d'Arca	6162
+Gonzaga	6158
+Cocal dos Alves	6153
+Soledade de Minas	6151
+Caibi	6148
+São João da Ponta	6139
+São João da Serra	6139
+Perobal	6127
+Lambari d'Oeste	6121
+Igaracy	6117
+Caracol	6116
+Americano do Brasil	6111
+Itambé	6108
+Echaporã	6102
+Vicentina	6102
+Serraria	6099
+Darcinópolis	6097
+Olhos-d'ÿgua	6096
+Pedra Bela	6093
+Cerrito	6091
+Pedro Régis	6089
+Pai Pedro	6089
+Senador Elói de Souza	6086
+Bom Jesus do Amparo	6083
+ÿguas de Santa Bárbara	6075
+Parecis	6074
+Poloni	6059
+Coroados	6058
+Lindolfo Collor	6054
+Itueta	6051
+Jandaia	6048
+Francisco Alves	6046
+Equador	6045
+Bernardo do Mearim	6043
+São João da Fronteira	6042
+Barra de São Miguel	6036
+Munhoz	6029
+Palmeirante	6026
+Alambari	6025
+Campina do Monte Alegre	6024
+Itumirim	6023
+Caldas Brandão	6014
+Camalaú	6013
+Divisa Nova	6011
+Santa Albertina	6008
+Solidão	6007
+Aiuruoca	6003
+Ouro Verde do Oeste	5996
+Rubelita	5995
+Nortelândia	5989
+Felipe Guerra	5985
+Cutias	5983
+Anta Gorda	5981
+Piacatu	5980
+Doutor Camargo	5979
+Porto Rico do Maranhão	5975
+Patis	5972
+São Pedro	5971
+Cristália	5971
+Américo de Campos	5969
+Enéas Marques	5961
+Estação	5958
+São José dos Ramos	5957
+Santo Antônio do Jardim	5954
+Tenente Laurentino Cruz	5952
+José da Penha	5951
+Alecrim	5950
+Nova Olinda	5949
+Corguinho	5947
+Campo Grande do Piauí	5943
+Pouso Alto	5940
+Rio do Campo	5940
+Petrolândia	5937
+Ouro Verde de Minas	5934
+Sapucaia	5930
+Ibiara	5929
+Douradina	5924
+Adrianópolis	5919
+Vale Real	5913
+Gouvelândia	5898
+Cedro de São João	5897
+São Pedro do Iguaçu	5897
+Santa Helena	5889
+Frei Gaspar	5880
+Itaú	5878
+Caiuá	5874
+Paula Freitas	5873
+Caraúbas do Piauí	5868
+Rodeio Bonito	5867
+Itaguatins	5864
+Santa Luz	5860
+São João do Manteninha	5859
+São João do Caiuá	5855
+Marabá Paulista	5853
+Taquarivaí	5852
+Laranjal	5852
+Alto Caparaó	5847
+Coqueiro Seco	5845
+Tufilândia	5840
+Aroazes	5835
+Jussari	5833
+Rio Manso	5832
+Novais	5830
+São Pedro de Alcântara	5823
+Vila Propício	5821
+Graccho Cardoso	5818
+Ribeirão do Largo	5812
+Três Fronteiras	5807
+Nova Olímpia	5806
+Trindade do Sul	5802
+Luiziânia	5790
+São Paulo das Missões	5790
+Senhora de Oliveira	5786
+Fernando Prestes	5783
+Britânia	5779
+Caldeirão Grande do Piauí	5776
+Jaramataia	5770
+Guaimbê	5765
+Serra de São Bento	5762
+Malta	5759
+Aragominas	5758
+São Francisco de Assis do Piauí	5755
+Calumbi	5750
+Bandeira do Sul	5746
+Picada Café	5742
+Jacobina do Piauí	5741
+Balbinos	5735
+ÿgua Fria de Goiás	5735
+Araguanã	5729
+Nova União	5725
+Juvenília	5724
+Barra do Chapéu	5724
+São Tomé	5722
+Veredinha	5720
+Barra do Rocha	5714
+Chalé	5704
+Tiradentes do Sul	5704
+Passa-Sete	5702
+Cocalinho	5700
+Araricá	5698
+Braúna	5686
+Luzerna	5685
+Patrocínio do Muriaé	5684
+Xambrê	5679
+Aurora	5679
+Tucunduva	5678
+Maria Helena	5677
+Sambaíba	5671
+Bonfim do Piauí	5670
+Montadas	5669
+Feira da Mata	5665
+Sucupira do Riachão	5660
+São José da Vitória	5657
+Nova Tebas	5649
+Fernandes Pinheiro	5646
+Bacurituba	5644
+São Domingos das Dores	5644
+São Jorge do Patrocínio	5641
+Aguiar	5640
+Gurinhatã	5639
+Encanto	5638
+Anchieta	5638
+Fazenda Nova	5637
+Barrolândia	5632
+Benedito Leite	5632
+Bom Princípio do Piauí	5630
+Júlio Borges	5627
+Aramina	5620
+Grandes Rios	5618
+Firmino Alves	5617
+Campinas do Piauí	5613
+Cabaceiras	5611
+Pato Bragado	5610
+Mesquita	5605
+Cana Verde	5603
+Maripá	5603
+Goiandira	5600
+Macuco	5599
+Santa Ernestina	5599
+São José do Xingu	5595
+Barro Preto	5591
+Sabino	5590
+Couto de Magalhães	5588
+Feira Nova	5584
+Sentinela do Sul	5581
+Doutor Ulysses	5580
+Taiuva	5566
+Paraíso das ÿguas	5555
+Sobrália	5553
+Santa Maria	5551
+São Jorge do Ivaí	5551
+São Cristóvão do Sul	5549
+General Carneiro	5540
+Tapira	5539
+Mercedes	5536
+Gaurama	5534
+Mucurici	5524
+Riversul	5524
+Sítio Novo	5522
+Conceição do Pará	5507
+Palmópolis	5507
+Coronel Ezequiel	5506
+São Sebastião da Bela Vista	5504
+Itaubal	5503
+Guaraci	5502
+Bertolínia	5501
+Várzea	5500
+Saudade do Iguaçu	5500
+Itaara	5499
+Rochedo	5499
+Brejinho de Nazaré	5497
+Bento Fernandes	5497
+Caiana	5496
+Bonfinópolis de Minas	5493
+Alcantil	5492
+Mendonça	5490
+Santa Rita do Itueto	5489
+Pau-d'Arco	5483
+Tavares	5481
+Juazeiro do Piauí	5478
+Pequizeiro	5477
+Rio Preto	5476
+Rio Espera	5474
+Campina das Missões	5474
+Piranguçu	5472
+Capitão Andrade	5468
+Almadina	5464
+Santa Fé de Goiás	5459
+Campinas do Sul	5454
+Agronômica	5448
+Luminárias	5446
+Machadinho	5445
+Joca Marques	5443
+Geminiano	5442
+Chuvisca	5441
+Caparaó	5438
+Santo Inácio	5438
+Braganey	5427
+São Martinho	5426
+Caxingó	5424
+São José do Goiabal	5420
+Alvorada do Gurgueia	5419
+Itaverava	5419
+Sertão	5415
+Datas	5410
+Porto dos Gaúchos	5410
+Jampruca	5404
+Silvanópolis	5403
+Avaí	5403
+Ibiracatu	5400
+Acorizal	5399
+Serra do Navio	5397
+Barão de Monte Alto	5397
+Ipiguá	5392
+Franciscópolis	5391
+Aliança do Tocantins	5390
+Itacambira	5385
+Nova Colinas	5384
+Virgolândia	5380
+Catas Altas	5376
+Entre Folhas	5370
+Caseara	5369
+Fruta de Leite	5369
+Presidente Bernardes	5369
+Boa Ventura	5366
+Senador Amaral	5356
+Nova Esperança do Sul	5352
+Manoel Emídio	5349
+Cravolândia	5349
+Francinópolis	5348
+Vieirópolis	5348
+Timbé do Sul	5348
+São José do Divino	5346
+Curral Novo do Piauí	5343
+Alcinópolis	5343
+Damião	5330
+Minador do Negrão	5329
+São Bento do Tocantins	5324
+Cabixi	5312
+Fartura do Piauí	5307
+Presidente Castelo Branco	5306
+Nova Cantu	5302
+Salmourão	5300
+Novorizonte	5299
+Landri Sales	5295
+São Bento Abade	5286
+Sertaneja	5284
+Turvelândia	5281
+Barracão	5275
+Jaboti	5274
+Janduís	5268
+Guzolândia	5267
+São Nicolau	5265
+Figueirópolis	5263
+Borborema	5263
+Pratânia	5261
+Santa Rosa do Piauí	5257
+Jacaré dos Homens	5253
+Diamante d'Oeste	5253
+Volta Grande	5252
+São Pedro do Suaçuí	5246
+Botuverá	5246
+Janiópolis	5245
+São Raimundo do Doca Bezerra	5237
+Parazinho	5237
+Dom Silvério	5237
+Planalto	5237
+Itaguaru	5237
+Santa Maria do Salto	5232
+Aricanduva	5231
+Curral de Cima	5227
+ÿlvaro de Carvalho	5227
+Liberato Salzano	5219
+Curvelândia	5219
+Canitar	5216
+Francisco Dumont	5215
+Nipoã	5213
+Jequitibá	5211
+Honório Serpa	5211
+Guaramiranga	5193
+Lagoa do Sítio	5177
+Marianópolis do Tocantins	5175
+Santo Antônio do Leste	5174
+São Felipe d'Oeste	5172
+Dores de Guanhães	5169
+São Luiz do Norte	5167
+Santana de Mangueira	5162
+Guarujá do Sul	5160
+Pranchita	5157
+Rio Branco	5156
+Cristiano Otoni	5150
+Rio do Prado	5150
+Agricolândia	5139
+Divina Pastora	5138
+Canas	5138
+Baliza	5138
+Barra Longa	5131
+Rondinha	5130
+Goianorte	5123
+Olho d'ÿgua Grande	5123
+Pracuúba	5120
+Tamboara	5120
+Gameleiras	5109
+Selbach	5100
+Rafael Fernandes	5098
+Madre de Deus de Minas	5098
+Bocaina de Minas	5090
+Diamante do Norte	5087
+Brochier	5074
+Novo São Joaquim	5074
+Dom Cavati	5072
+Caturaí	5070
+Liberdade	5069
+Caridade do Piauí	5067
+Cacique Doble	5065
+Japi	5055
+Nova Esperança do Sudoeste	5046
+Campo Alegre do Fidalgo	5045
+Congonhas do Norte	5045
+Palmeira do Piauí	5043
+Turvolândia	5040
+Crucilândia	5034
+Sertãozinho	5024
+Ibertioga	5021
+Nova Erechim	5019
+São Gonçalo do Piauí	5015
+Descoberto	5013
+Palestina	5011
+Vargem Grande do Rio Pardo	5007
+São José da Varginha	5004
+José Boiteux	4997
+Itapirapuã	4997
+José Raydan	4995
+Analândia	4995
+Japira	4994
+Santana do Itararé	4992
+Catuti	4986
+Cuparaque	4982
+Piedade dos Gerais	4982
+Divino das Laranjeiras	4979
+Vitor Meireles	4979
+Pilõezinhos	4976
+Bom Sucesso	4975
+Guaraciama	4972
+Campos Novos Paulista	4965
+Currais	4954
+Muçum	4954
+Várzea Branca	4947
+Pingo-d'ÿgua	4941
+Salto do Itararé	4935
+Catingueira	4932
+Floraí	4929
+Miraguaí	4925
+Lupionópolis	4920
+Moeda	4919
+Itacuruba	4918
+Leme do Prado	4918
+Alegrete do Piauí	4915
+Eliseu Martins	4915
+São João da Lagoa	4915
+Coronel João Pessoa	4912
+Jeceaba	4912
+Nova Palmeira	4906
+Monte Formoso	4906
+Itapura	4906
+Itabi	4903
+Aceguá	4901
+Lagoinha	4896
+Bom Jesus do Tocantins	4894
+Baraúna	4892
+Cocal de Telha	4891
+Miravânia	4888
+Mundo Novo	4887
+Indiana	4885
+Santa Rita de Jacutinga	4884
+Mirassolândia	4871
+Pinheirinho do Vale	4871
+Nossa Senhora de Nazaré	4870
+Augusto de Lima	4869
+Josenópolis	4867
+Harmonia	4866
+Jatobá do Piauí	4865
+Erval Grande	4859
+Narandiba	4857
+Tupandi	4855
+Combinado	4852
+Caturité	4852
+Pau-d'Arco	4849
+Porto Amazonas	4848
+Caibaté	4846
+Granjeiro	4844
+São Francisco do Glória	4844
+Claraval	4843
+São João da Varjota	4840
+Vermelho Novo	4839
+Rio Negro	4831
+Paulistas	4830
+Santa Rosa do Tocantins	4829
+Espírito Santo do Turvo	4829
+Boraceia	4823
+Mata	4823
+Santana do Jacaré	4821
+Santo Antônio da Barra	4821
+Monte Horebe	4816
+Glicério	4815
+Ouro Branco	4812
+Ressaquinha	4808
+Gastão Vidigal	4808
+São Sebastião do Tocantins	4805
+São José do Hortêncio	4804
+Divinópolis de Goiás	4804
+Conceição do Canindé	4803
+Braúnas	4801
+Angelina	4801
+Rianápolis	4801
+Serrinha dos Pintos	4800
+Aparecida do Rio Negro	4795
+Bandeira	4795
+Lunardelli	4794
+Gavião Peixoto	4789
+Jesuânia	4787
+Lobato	4787
+Congo	4786
+Rosário do Ivaí	4786
+Romelândia	4786
+Serranópolis de Minas	4781
+Ubirajara	4780
+Santópolis do Aguapeí	4777
+Júlio Mesquita	4776
+Tapira	4773
+Jurema	4763
+Fênix	4762
+Humaitá	4762
+Lajes Pintadas	4759
+Nova Araçá	4759
+Santa Cruz do Escalvado	4758
+Motuca	4758
+Viadutos	4756
+Feliz Deserto	4754
+Felício dos Santos	4753
+Ciríaco	4747
+Bom Jardim da Serra	4743
+Caiçara	4743
+Canabrava do Norte	4743
+David Canabarro	4740
+Almino Afonso	4735
+Berizal	4735
+Natércia	4730
+Arraial	4727
+São Pedro da Cipa	4727
+Tabaí	4719
+Ribeirão Corrente	4718
+Salto Veloso	4718
+Amparo da Serra	4713
+Sampaio	4711
+Ibiaçá	4709
+Guatambu	4704
+Joaquim Felício	4695
+Espírito Santo do Dourado	4692
+Cerro Branco	4691
+Dueré	4686
+Nova Iorque	4683
+Coronel José Dias	4682
+São José de Espinharas	4682
+Ponte Alta	4682
+Coronel Macedo	4681
+Marumbi	4679
+Porto Lucena	4678
+Lindoeste	4676
+Itaguari	4676
+Vicente Dutra	4670
+São Pedro dos Crentes	4668
+Lagoa	4666
+Capivari do Sul	4660
+São Pedro da União	4659
+São João da Urtiga	4657
+Lagoa do Barro do Piauí	4655
+Oratórios	4655
+Capela Nova	4653
+Monteiro Lobato	4653
+Riozinho	4653
+Foz do Jordão	4650
+Riachinho	4645
+Santana do Piauí	4634
+São José do Seridó	4634
+Pontalinda	4628
+Flor da Serra do Sul	4624
+Rio Fortuna	4611
+São João da Canabrava	4608
+Bertópolis	4604
+Ritápolis	4604
+Messias Targino	4601
+Riqueza	4598
+Turvânia	4598
+Ponte Alta do Bom Jesus	4596
+Rosário da Limeira	4594
+Barra do Ouro	4591
+Maçambará	4587
+São Félix de Balsas	4585
+Lupércio	4584
+Fronteira dos Vales	4581
+Conceição de Ipanema	4574
+São Lourenço do Piauí	4573
+Santa Teresinha	4573
+Joanésia	4573
+Quinta do Sol	4573
+Socorro do Piauí	4569
+Tunas	4569
+Canaã	4563
+Lindóia do Sul	4563
+Guaribas	4562
+Marcos Parente	4549
+Doutor Maurício Cardoso	4549
+Ingazeira	4548
+Tunápolis	4543
+Ribeirão do Sul	4541
+Entre Rios do Oeste	4539
+Itajá	4539
+Fazenda Vilanova	4533
+Morro Cabeça no Tempo	4532
+Tejupá	4532
+São Bentinho	4529
+Cantagalo	4525
+Santa Carmem	4525
+João Ramalho	4523
+Riachão do Bacamarte	4521
+Nova Guarita	4519
+Mato Leitão	4515
+Quarto Centenário	4512
+Riachão do Poço	4509
+Jardim do Mulato	4504
+Santa Cruz da Conceição	4503
+José Gonçalves de Minas	4501
+Bocaina	4500
+Matinhas	4500
+Piedade do Rio Grande	4497
+Serranópolis do Iguaçu	4495
+Novo Planalto	4495
+Rio Quente	4493
+Vargem Bonita	4492
+Aguanil	4486
+Paineiras	4486
+Murutinga do Sul	4486
+Campo Novo	4484
+Buritizal	4481
+Montividiu do Norte	4479
+Carvalhos	4478
+Ribeira do Piauí	4477
+Cruzeiro do Sul	4469
+Rodolfo Fernandes	4467
+Itaguajé	4466
+Flores do Piauí	4463
+Gavião	4463
+Wall Ferraz	4462
+Bernardo Sayão	4459
+Materlândia	4459
+Indianópolis	4457
+Cordilheira Alta	4453
+Jerumenha	4452
+Ramilândia	4451
+São Bento do Trairi	4449
+São Braz do Piauí	4448
+Pindorama do Tocantins	4447
+Aiquara	4446
+Ipira	4446
+Curralinhos	4443
+Senador Georgino Avelino	4440
+Santa Bárbara do Tugúrio	4430
+São João do Tigre	4422
+São João do Pacuí	4419
+Fortaleza de Minas	4412
+Erval Velho	4412
+Couto de Magalhães de Minas	4410
+Santa Efigênia de Minas	4409
+Pequi	4406
+Ibarama	4406
+Marquinho	4405
+Bonópolis	4405
+Iguaraçu	4404
+Marcelino Ramos	4402
+Várzea Grande	4391
+Cariri do Tocantins	4382
+Onda Verde	4381
+Maximiliano de Almeida	4377
+Nova Santa Rita	4374
+Vila Maria	4358
+Domingos Mourão	4355
+Itamarati de Minas	4355
+Matrinchã	4351
+Gonçalves	4350
+Japaraíba	4350
+Pinhal Grande	4350
+Funilândia	4349
+Francisco Ayres	4348
+Belém	4344
+Novo Acordo	4342
+Brás Pires	4333
+Logradouro	4332
+Juramento	4331
+Nova Itaberaba	4331
+Gramado Xavier	4325
+Fortaleza dos Valos	4320
+Lagoa do Tocantins	4316
+Passagem Franca do Piauí	4313
+Riacho Frio	4312
+Teixeirópolis	4308
+Poço de José de Moura	4307
+União de Minas	4304
+Divino de São Lourenço	4304
+Sandovalina	4302
+Santana do Riacho	4295
+Sebastião Leal	4294
+Recursolândia	4293
+Serra Azul de Minas	4293
+Mossâmedes	4290
+Ocauçu	4289
+Vila Nova do Sul	4280
+Três Palmeiras	4271
+São José da Safira	4268
+Arabutã	4267
+Cabrália Paulista	4264
+Planaltina do Paraná	4263
+Ponto Chique	4261
+Nova Rosalândia	4260
+Dores do Turvo	4259
+Olho-d'ÿgua do Borges	4258
+Paraná	4254
+Pescador	4252
+Cruzeiro do Iguaçu	4252
+Nova Santa Bárbara	4249
+Formoso	4248
+Itapirapuã Paulista	4241
+São Francisco do Oeste	4228
+Ipiaçu	4221
+Iporanga	4218
+Bom Jesus da Penha	4217
+Barra do Quaraí	4215
+Prata	4209
+Modelo	4209
+Riacho de Santana	4204
+São João do Cariri	4199
+Aporé	4198
+São José do Alegre	4196
+Aparecida d'Oeste	4196
+Novo Cabrais	4196
+Dom Joaquim	4195
+Caiabu	4191
+Venha-Ver	4177
+Populina	4169
+Alfredo Marcondes	4166
+Monte Castelo	4166
+Novo Barreiro	4164
+Caraúbas	4162
+Altair	4160
+Senador Modestino Gonçalves	4156
+Jundiá	4155
+São José do Barreiro	4147
+Passos Maia	4147
+Dona Emma	4146
+Santa Cruz de Salinas	4142
+São José do Sabugi	4141
+Piedade de Ponte Nova	4140
+Paes Landim	4129
+Espigão Alto do Iguaçu	4117
+Marilac	4115
+Anhumas	4115
+Tibau	4106
+Conceição do Tocantins	4105
+Boa Esperança	4105
+Lagoa dos Patos	4102
+Tocos do Moji	4101
+Nova Luzitânia	4101
+Capitão Gervásio Oliveira	4100
+Kaloré	4100
+Alto Alegre	4099
+Rio Branco do Ivaí	4096
+Carrasco Bonito	4095
+Presidente Alves	4094
+Pracinha	4093
+Mariápolis	4084
+Paranapuã	4078
+Ilópolis	4078
+Taquaraçu de Minas	4077
+Frutuoso Gomes	4068
+Contendas do Sincorá	4066
+Porto Vitória	4065
+Lagoa do Piauí	4064
+Doutor Pedrinho	4064
+São José do Povo	4063
+Dom Macedo Costa	4058
+São Miguel do Passa-Quatro	4057
+Corumbataí	4055
+Carrancas	4047
+Pau d'Arco do Piauí	4045
+Ibiquera	4044
+Cafezal do Sul	4044
+Marliéria	4039
+Conquista d'Oeste	4038
+Ribeirão Vermelho	4033
+Jateí	4027
+Virmond	4023
+Coivaras	4020
+Major Sales	4020
+Santa Cruz dos Milagres	4019
+Bela Vista do Piauí	4015
+Quatro Pontes	4015
+Ibirapuitã	4013
+São Geraldo do Baixio	4012
+Portelândia	4011
+Mãe d'ÿgua	4009
+Marques de Souza	4009
+Canhoba	4008
+Nossa Senhora das Graças	4008
+Novo Horizonte do Norte	4004
+São José de Princesa	4003
+Rondolândia	4001
+Veríssimo	3999
+Barcelona	3998
+Lucrécia	3996
+Acaiaca	3994
+Inúbia Paulista	3991
+Assunção	3990
+Cumbe	3987
+Cajuri	3987
+Munhoz de Mello	3984
+Bugre	3982
+Santa Mônica	3981
+Santana do Deserto	3976
+Iraceminha	3976
+Pedras Grandes	3976
+Pedra do Indaiá	3972
+Nova Independência	3969
+Goianá	3966
+Witmarsum	3965
+Suzanápolis	3963
+São Geraldo da Piedade	3962
+São Valério da Natividade	3960
+Lajedão	3955
+Conceição da Barra de Minas	3954
+Bom Sucesso de Itararé	3954
+Leópolis	3954
+Barra d'Alcântara	3951
+Canavieira	3950
+Paquetá	3945
+Jaborá	3936
+Xavantina	3933
+Olivedos	3932
+São Miguel do Aleixo	3930
+Treviso	3929
+Putinga	3919
+Santa Rosa de Lima	3913
+Ewbank da Câmara	3913
+Santo Antônio do Grama	3911
+Alvarenga	3907
+Pontão	3904
+Nazaré	3898
+Jundiá	3898
+Indiaporã	3897
+Minduri	3894
+Guarani de Goiás	3893
+Atalaia	3892
+Poço Dantas	3888
+Campina do Simão	3887
+Areias	3886
+Salgadinho	3885
+Mariana Pimentel	3885
+Porteirão	3881
+Hugo Napoleão	3877
+Brejo do Piauí	3875
+Pejuçara	3874
+Santana de Cataguases	3872
+São José do Divino	3860
+Conselheiro Mairinck	3860
+Piratuba	3854
+Cotiporã	3853
+Redenção da Serra	3851
+Jaú do Tocantins	3849
+Nova Nazaré	3849
+Santa Fé de Minas	3846
+Pilões	3838
+Santo Antônio do Itambé	3838
+Pareci Novo	3837
+Meridiano	3836
+Fátima	3835
+Itaju	3835
+Campo Bonito	3833
+Nova Brasilândia	3829
+Paim Filho	3828
+Varjão	3827
+Gameleira de Goiás	3818
+Campo Azul	3817
+Novo Horizonte do Sul	3814
+Santa Lúcia	3813
+Amaralina	3812
+Jaboticaba	3810
+Santa Isabel	3809
+Rancho Alegre	3808
+Tesouro	3805
+Quadra	3804
+Caldazinha	3804
+Diogo de Vasconcelos	3802
+Medeiros	3802
+Guapirama	3802
+Itaúba	3802
+Pedra Branca	3801
+São Pedro da Serra	3801
+Santo Inácio do Piauí	3798
+Vista Serrana	3798
+Guarará	3796
+Quinze de Novembro	3796
+Itutinga	3788
+Lajedinho	3783
+Saltinho	3781
+Mutunópolis	3778
+Itapiratins	3777
+Santana dos Montes	3777
+Paraú	3768
+Rio Crespo	3764
+Ouro Verde de Goiás	3759
+Aurora do Tocantins	3757
+Chiapetta	3756
+Prado Ferreira	3753
+Tabuleiro	3750
+Matutina	3749
+ÿgua Santa	3748
+São José do Peixe	3745
+Braço do Trombudo	3743
+Lizarda	3740
+São Brás do Suaçuí	3738
+São João do Itaperiú	3733
+São Francisco	3724
+Lafaiete Coutinho	3724
+Heitoraí	3724
+Campanário	3721
+Nova Santa Helena	3718
+Jaquirana	3716
+Córrego do Bom Jesus	3704
+Brazabrantes	3703
+Edealina	3699
+Macedônia	3698
+Piquerobi	3692
+Nova Roma do Sul	3689
+Presidente Kennedy	3684
+Caiçara do Rio do Vento	3684
+Cacimba de Areia	3682
+Malhada dos Bois	3682
+ÿlvares Florence	3679
+Pavussu	3677
+Dom Bosco	3677
+Severiano de Almeida	3657
+Estrela Velha	3655
+São José das Palmeiras	3654
+Elisiário	3651
+Capão do Cipó	3651
+Caxambu do Sul	3642
+Catas Altas da Noruega	3641
+Presidente Juscelino	3641
+Campinaçu	3640
+Sarutaiá	3638
+Pedrinópolis	3635
+Campestre de Goiás	3630
+Rifaina	3629
+São José dos Cordeiros	3628
+Cruzeiro da Fortaleza	3626
+Nova Alvorada	3625
+Torixoréu	3609
+Vieiras	3608
+Alvorada de Minas	3606
+Cachoeira da Prata	3603
+Pratinha	3603
+Santo Antônio do Aventureiro	3602
+Ruy Barbosa	3600
+Nova Módica	3600
+Duas Estradas	3596
+Santa Inês	3595
+Riachão	3588
+Taquarussu	3588
+Palminópolis	3585
+São Fernando	3584
+Arambaré	3581
+Salgado Filho	3580
+Riacho da Cruz	3579
+Carvalhópolis	3579
+Catolândia	3577
+Vargeão	3573
+Belém do Piauí	3566
+Hidrolina	3564
+Quartel Geral	3563
+Adolfo	3562
+Jacutinga	3561
+Cajazeiras do Piauí	3559
+São José do Bonfim	3557
+Sossêgo	3555
+Pinheiro Preto	3555
+ÿurea	3554
+Bandeirantes do Tocantins	3553
+Muricilândia	3551
+Platina	3550
+Arroio Trinta	3550
+Bom Jesus do Sul	3541
+Cordislândia	3538
+Romaria	3533
+Taquaral de Goiás	3529
+São José dos Ausentes	3527
+União do Sul	3525
+Senhora do Porto	3523
+Emas	3522
+Araçu	3522
+Mar Vermelho	3514
+Sebastianópolis do Sul	3513
+Bela Vista da Caroba	3511
+Jari	3503
+Bernardino Batista	3501
+Estrela do Indaiá	3500
+Trombas	3500
+Vale Verde	3497
+Figueirópolis d'Oeste	3494
+Mombuca	3493
+São Sebastião do Umbuzeiro	3489
+Ibitiúra de Minas	3488
+Cromínia	3486
+Frei Lagonegro	3478
+Bocaina do Sul	3474
+Sebastião Barros	3469
+Barão de Antonina	3469
+Itacurubi	3465
+Alegria	3464
+Palestina de Goiás	3464
+Teresina de Goiás	3458
+ÿguas de São Pedro	3451
+Nova América da Colina	3445
+Major Gercino	3442
+Diamante do Sul	3439
+Turuçu	3438
+Paraíso	3437
+Castelândia	3435
+Santa Maria do Tocantins	3434
+Coronel Xavier Chaves	3434
+Angico	3433
+Junco do Maranhão	3432
+Fernandes Tourinho	3431
+Belmiro Braga	3429
+Santa Rita do Trivelato	3429
+Gurjão	3428
+Ourizona	3428
+Maurilândia do Tocantins	3426
+Santa Rita de Ibitipoca	3425
+Divinésia	3417
+Pongaí	3416
+Ponte Alta do Norte	3414
+Queiroz	3406
+Dois Lajeados	3400
+São Francisco	3392
+Lamim	3391
+Pajeú do Piauí	3389
+Campestre da Serra	3388
+Vila Flores	3385
+Colinas do Sul	3382
+Bias Fortes	3379
+Sandolândia	3375
+São Félix de Minas	3369
+Jumirim	3367
+Salto do Céu	3365
+Zortéa	3363
+Santa Tereza de Goiás	3355
+Goiabeira	3353
+Braga	3353
+Santa Rosa da Serra	3350
+Barreiras do Piauí	3348
+General Maynard	3346
+Calmon	3346
+Santa Rita do Novo Destino	3343
+Ribeira	3340
+Santa Cecília do Pavão	3334
+Chapada da Natividade	3333
+Nova Bréscia	3330
+Itaoca	3328
+Santa Amélia	3324
+Itatiba do Sul	3324
+Novo Machado	3323
+Pequeri	3320
+Campos Borges	3320
+Natalândia	3311
+Damianópolis	3311
+Lidianópolis	3310
+São Valentim	3299
+Jundiaí do Sul	3292
+Buritinópolis	3292
+Bannach	3286
+Esmeralda	3282
+Charrua	3279
+Nova Marilândia	3278
+Estrela do Norte	3275
+Mato Rico	3272
+Uruana de Minas	3264
+Bom Sucesso do Sul	3264
+Nova Roma	3264
+Serra Alta	3263
+Pedra Mole	3261
+Ivatuba	3259
+ÿgua Nova	3252
+Barra do Guarita	3248
+Faria Lemos	3241
+Pedra Grande	3237
+Triunfo Potiguar	3237
+Porto Barreiro	3237
+São Martinho da Serra	3234
+Anitápolis	3232
+Leandro Ferreira	3229
+Telha	3227
+Monte Alegre dos Campos	3226
+Pitangueiras	3224
+Professor Jamil	3223
+Alvinlândia	3222
+Nacip Raydan	3220
+Corumbataí do Sul	3219
+Córrego Danta	3215
+Emilianópolis	3214
+Atalanta	3210
+Mathias Lobato	3203
+Paranapoema	3203
+Rio Bom	3203
+Entre Rios	3203
+Ibicaré	3202
+Caseiros	3202
+Rafael Godeiro	3201
+Cajazeirinhas	3193
+Nova Belém	3190
+Francisco Macedo	3184
+Caranaíba	3183
+Morro do Pilar	3182
+São Martinho	3180
+Colorado	3175
+Vila Flor	3170
+Ernestina	3168
+São Gonçalo do Rio Preto	3167
+Antônio Almeida	3164
+Muitos Capões	3162
+Maetinga	3161
+Jeriquara	3159
+Chácara	3154
+Prata do Piauí	3151
+Glaucilândia	3150
+Santa Bárbara do Monte Verde	3150
+Serra da Raiz	3148
+Onça de Pitangui	3148
+Rubineia	3148
+Santo Afonso	3146
+Nantes	3141
+Porto Alegre do Tocantins	3139
+Lajeado	3134
+Jaguaraçu	3133
+Vitória das Missões	3133
+Perolândia	3129
+Rubiácea	3128
+Vale de São Domingos	3127
+Amorinópolis	3126
+Cerro Negro	3124
+Imigrante	3120
+Aurilândia	3120
+Magda	3119
+Comendador Gomes	3111
+Santo Expedito	3111
+Taparuba	3110
+Inajá	3109
+Luzinópolis	3108
+Araguaiana	3100
+Pedrinhas Paulista	3093
+Passagem	3089
+Farol	3089
+Santo Hipólito	3087
+Coronel Pacheco	3086
+Mira Estrela	3086
+Mormaço	3085
+São Salvador do Tocantins	3082
+Vera Mendes	3077
+Cascalho Rico	3075
+São Domingos do Sul	3074
+São Domingos	3073
+Taquaruçu do Sul	3072
+Urutaí	3072
+Arapuã	3068
+Fernando de Noronha	3061
+Tenório	3058
+Fernando Pedroza	3054
+Castanheiras	3052
+Pedra do Anta	3052
+Figueirão	3051
+São Gonçalo do Gurgueia	3041
+Leoberto Leal	3041
+Dona Francisca	3041
+São Miguel do Fidalgo	3039
+Ouro Velho	3039
+Marapoama	3031
+Tio Hugo	3030
+Piraquê	3028
+Alto Feliz	3028
+Glória d'Oeste	3026
+Herveiras	3018
+Dilermando de Aguiar	3014
+Westfália	3014
+Bom Jesus	3010
+João Costa	3008
+Albertina	3007
+São Sebastião da Vargem Alegre	3007
+Pinto Bandeira	3003
+Presidente Kubitschek	3002
+Dom Viçoso	3001
+Novo Santo Antônio	2991
+Erebango	2991
+Frei Martinho	2989
+Ibituruna	2989
+Sítio d'Abadia	2989
+Chapadão do Lageado	2988
+Sulina	2981
+Mampituba	2981
+Bento de Abreu	2980
+Maripá de Minas	2973
+Vila Nova do Piauí	2971
+Cristianópolis	2966
+Porto Estrela	2963
+Cruzmaltina	2950
+Morrinhos do Sul	2949
+Fortuna de Minas	2947
+São Pedro do Butiá	2947
+Godoy Moreira	2946
+Iomerê	2945
+São Félix do Piauí	2942
+Santa Mercedes	2939
+Damolândia	2938
+Arroio do Padre	2937
+Cafeara	2934
+Nova Iguaçu de Goiás	2929
+ÿngulo	2928
+Esperança do Sul	2926
+Princesa	2924
+Garruchos	2924
+Tamboril do Piauí	2919
+Floreal	2917
+Novo Brasil	2913
+Serra Grande	2909
+Mato Grosso	2908
+Pindoba	2908
+Sede Nova	2907
+Centenário	2905
+Lagoa Bonita do Sul	2903
+Camacho	2901
+Desterro do Melo	2901
+Presidente Lucena	2901
+Morro Grande	2893
+Ipiranga de Goiás	2893
+Centenário	2891
+Victor Graeff	2882
+Jaupaci	2879
+Rancho Queimado	2878
+Galvão	2873
+Planalto Alegre	2870
+Santa Tereza do Tocantins	2866
+Brejo Alegre	2865
+Itaúna do Sul	2865
+Primavera de Rondônia	2856
+Santa Cruz de Goiás	2855
+Cumari	2854
+Uirapuru	2854
+Vista Gaúcha	2851
+Cristal do Sul	2847
+Lagoinha do Piauí	2845
+Novo Itacolomi	2844
+São Bonifácio	2838
+Rio dos Bois	2834
+Arapuá	2834
+Três Ranchos	2833
+Francisco Dantas	2824
+São Jorge	2824
+São Francisco	2821
+Conceição das Pedras	2812
+Taquaral	2811
+Várzea	2810
+Toropi	2806
+Derrubadas	2805
+Anahy	2801
+Israelândia	2800
+Arantina	2795
+Talismã	2793
+Cândido Rodrigues	2793
+Entre Rios do Sul	2792
+São José do Mantimento	2791
+Quevedos	2788
+Olímpio Noronha	2787
+Peritiba	2787
+Galinhos	2786
+Boa Vista do Sul	2783
+Barra do Jacaré	2781
+Senador Salgado Filho	2779
+Gabriel Monteiro	2776
+Córrego Novo	2771
+Ingaí	2767
+Estrela do Norte	2766
+Tanque do Piauí	2765
+Capitão	2757
+Coxilha	2756
+Japurá	2755
+Marmelópolis	2755
+Rio dos ÿndios	2752
+Vista Alegre	2752
+Indiavaí	2752
+São João da Mata	2749
+Piau	2748
+São Bento do Norte	2747
+Alto Paraíso	2741
+Lastro	2737
+Camargo	2733
+Salvador das Missões	2733
+Lagoa de Velhos	2732
+Reserva do Cabaçal	2732
+Pinhal de São Bento	2731
+Fagundes Varela	2731
+Celso Ramos	2728
+Argirita	2727
+São Valério do Sul	2727
+Novo Jardim	2722
+Zacarias	2718
+Porto Alegre do Piauí	2710
+Belmonte	2706
+Nova Candelária	2698
+Três Forquilhas	2697
+Cachoeira Dourada	2692
+Jacuizinho	2692
+Maratá	2691
+Flórida	2689
+Pugmil	2688
+Chiador	2687
+Mateiros	2684
+Santana do Seridó	2680
+Bandeirante	2678
+Florínea	2676
+Alagoa	2674
+Tupiratins	2671
+Três Arroios	2668
+Planalto da Serra	2662
+Carrapateira	2659
+Timburi	2658
+Rancho Alegre d'Oeste	2655
+João Dias	2654
+Borebi	2653
+Brasilândia do Sul	2651
+Saldanha Marinho	2650
+Lutécia	2649
+São Luís do Piauí	2644
+Santo Antônio do Caiuá	2641
+Novo Santo Antônio	2640
+Joca Claudino	2636
+Sem-Peixe	2633
+Carmésia	2632
+Palmeira	2627
+São Domingos do Cariri	2615
+Simão Pereira	2615
+Panamá	2615
+Jardim de Angicos	2612
+Arenópolis	2612
+Umburatiba	2611
+Rio Doce	2610
+Sagrada Família	2609
+Uniflor	2605
+Oscar Bressane	2603
+Boa Vista do Incra	2603
+Mimoso de Goiás	2597
+Fortaleza do Tabocão	2589
+Carmolândia	2580
+Abreulândia	2579
+Pinhal	2579
+Pontes Gestal	2577
+Manfrinópolis	2571
+São João das Duas Pontes	2568
+Algodão de Jandaíra	2567
+Taboleiro Grande	2566
+Lajeado do Bugre	2564
+Santa Cruz do Xingu	2564
+Abdon Batista	2563
+Santa Margarida do Sul	2562
+Bom Jesus	2561
+Porto Rico	2559
+Floresta do Piauí	2558
+Nova Pádua	2553
+Wenceslau Braz	2552
+São João do Polêsine	2552
+Aroeiras do Itaim	2551
+Coronel Martins	2549
+Monte Belo do Sul	2548
+Mato Castelhano	2540
+Barra Funda	2539
+São José das Missões	2537
+Pedro Laurentino	2536
+Dom Pedro de Alcântara	2534
+Santa Terezinha do Tocantins	2529
+Capão Alto	2525
+Cássia dos Coqueiros	2523
+Santo André	2521
+Matos Costa	2520
+Coronel Barros	2519
+Curral Velho	2516
+Adelândia	2516
+Biquinhas	2515
+Formosa do Sul	2510
+Pedra Dourada	2504
+Boa Esperança do Iguaçu	2503
+Santa Rita d'Oeste	2498
+ÿleo	2496
+Pedranópolis	2494
+Jesúpolis	2490
+Buriti de Goiás	2488
+Diorama	2484
+Rio Rufino	2483
+Vargem	2477
+Aparecida do Rio Doce	2474
+Boa Vista do Cadeado	2470
+Arapeí	2469
+Urupema	2465
+União do Oeste	2464
+Morro da Garça	2462
+Sul Brasil	2461
+Olho d'ÿgua do Piauí	2459
+Pedra Preta	2458
+Santana do Garambéu	2458
+São Miguel da Baixa Grande	2452
+Embaúba	2452
+Novo Horizonte	2442
+Severiano Melo	2440
+Colinas	2438
+Sagres	2432
+Santa Terezinha do Progresso	2428
+Itaporã do Tocantins	2427
+Dezesseis de Novembro	2427
+Brunópolis	2420
+Passagem	2419
+Itati	2419
+Avelinópolis	2417
+Timbaúba dos Batistas	2414
+Torre de Pedra	2412
+Forquetinha	2412
+São José do Sul	2408
+Ribeirãozinho	2405
+Eugênio de Castro	2396
+Lucianópolis	2394
+Silveira Martins	2384
+Palmelo	2381
+Fama	2377
+Amparo de São Francisco	2374
+Porto Mauá	2374
+Ivolândia	2370
+Mairipotaba	2368
+ÿguas Frias	2366
+Santa Rita do Tocantins	2365
+Painel	2359
+Nova América	2352
+Araçaí	2347
+Estrela Dalva	2343
+Unistalda	2338
+São Bernardino	2336
+Travesseiro	2336
+Novo Alegre	2332
+Córrego do Ouro	2327
+Santo Expedito do Sul	2324
+Rolador	2323
+Santa Rosa de Goiás	2319
+Nova Guataporanga	2316
+Faxinalzinho	2315
+São Pedro do Paraná	2313
+Cerro Grande	2311
+Mirim Doce	2309
+Coqueiros do Sul	2306
+Rochedo de Minas	2305
+Pirapó	2304
+Paulo Bento	2293
+Lourdes	2289
+Iracema do Oeste	2288
+Presidente Nereu	2287
+Monte Santo do Tocantins	2279
+Cachoeirinha	2275
+Silveirânia	2261
+Monções	2259
+Casa Grande	2257
+Iguatu	2256
+Pilar de Goiás	2253
+Morro Agudo de Goiás	2248
+Lacerdópolis	2246
+Guaporema	2243
+São Vendelino	2243
+Nova Ramada	2242
+São Valentim do Sul	2242
+Ipueira	2241
+São Sebastião do Rio Verde	2241
+Zabelê	2240
+Arvoredo	2240
+Amparo	2238
+Marzagão	2236
+Inhacorá	2226
+Ribeirão dos ÿndios	2225
+Bodó	2223
+Santa Helena	2223
+Monjolos	2220
+Ouro Verde	2217
+Mirador	2213
+Novo Tiradentes	2211
+Nova Aurora	2210
+Brasilândia do Tocantins	2201
+Juarina	2193
+Pimenteiras do Oeste	2169
+Santo Antônio dos Milagres	2161
+Parisi	2161
+São Manoel do Paraná	2160
+Vargem Bonita	2153
+Taipas do Tocantins	2148
+Bom Jesus do Oeste	2142
+Santa Rosa de Lima	2142
+Campos Verdes	2141
+Santa Cruz da Esperança	2139
+Oliveira Fortes	2133
+Rio da Conceição	2130
+Areia de Baraúnas	2128
+Santo Antônio do Palma	2128
+Bozano	2123
+Dolcinópolis	2115
+Santa Clara d'Oeste	2115
+Vanini	2113
+Marinópolis	2112
+Ariranha do Ivaí	2108
+Santo Antônio do Paraíso	2106
+Monte das Gameleiras	2105
+São João do Pau-d'Alho	2105
+Jupiá	2101
+Boa Vista das Missões	2098
+Poço das Antas	2098
+Itapuca	2094
+Davinópolis	2094
+Vila Lângaro	2091
+Relvado	2090
+Gramado dos Loureiros	2082
+Itambé do Mato Dentro	2081
+Luciara	2077
+Cruzália	2073
+São José do Inhacorá	2073
+Aracitaba	2063
+Ermo	2063
+Passa Vinte	2039
+São Patrício	2036
+Mariano Moro	2031
+Dois Irmãos das Missões	2026
+Frei Rogério	2023
+Santo Antônio do Planalto	2019
+Turiúba	2016
+Ipueiras	2015
+Ubiretama	2015
+São Pedro das Missões	2009
+Senador Cortes	2005
+Guarani d'Oeste	2000
+ÿgua Comprida	1999
+Guaraíta	1996
+Aloândia	1995
+Benjamin Constant do Sul	1994
+Doutor Ricardo	1983
+Pedras Altas	1982
+São José do Herval	1971
+Sete de Setembro	1970
+Sucupira	1966
+Almirante Tamandaré do Sul	1964
+Serranos	1963
+Cunhataí	1962
+Sério	1962
+Ibiam	1957
+Quixaba	1956
+Riacho de Santo Antônio	1948
+Protásio Alves	1947
+Altamira do Paraná	1942
+Bom Progresso	1942
+Pinhal da Serra	1941
+Queluzito	1939
+Alto Bela Vista	1937
+Irati	1930
+Lavandeira	1923
+São João de Iracema	1922
+Coxixola	1921
+Ivorá	1910
+Douradoquara	1908
+Mesópolis	1908
+Muliterno	1893
+Tupirama	1891
+Ipiranga do Sul	1889
+Nova Canaã Paulista	1881
+Tapiraí	1875
+Seritinga	1851
+ÿgua Limpa	1850
+Quatro Irmãos	1849
+União Paulista	1844
+Vitória Brasil	1840
+Paulistânia	1833
+Cruzaltense	1833
+Aspásia	1822
+São Miguel da Boa Vista	1820
+Vespasiano Corrêa	1815
+Pedro Teixeira	1807
+Miraselva	1806
+São José do Brejo do Cruz	1801
+Marema	1797
+Guarinos	1794
+Dirce Reis	1793
+Arco-ÿris	1791
+Consolação	1783
+Macieira	1775
+Nova Boa Vista	1775
+Parari	1771
+Floriano Peixoto	1766
+Santo Antônio do Rio Abaixo	1765
+Olaria	1747
+Santa Tereza	1729
+Turmalina	1727
+Trabiju	1724
+Crixás do Tocantins	1722
+Novo Xingu	1719
+Viçosa	1718
+Fernão	1716
+Canudos do Vale	1716
+Linha Nova	1714
+Esperança Nova	1698
+Barra do Rio Azul	1690
+Nicolau Vergueiro	1682
+Barra Bonita	1677
+Capão Bonito do Sul	1654
+Serra Nova Dourada	1650
+Passabém	1649
+Mato Queimado	1648
+Pouso Novo	1639
+Santa Cecília do Sul	1639
+Alto Alegre	1638
+Gentil	1634
+Tigrinhos	1633
+Coronel Pilar	1628
+Lagoa dos Três Cantos	1609
+Antônio Prado de Minas	1598
+Santa Inês	1596
+Lagoa Santa	1588
+São Félix do Tocantins	1585
+Flor do Sertão	1582
+Ponte Branca	1576
+Jardinópolis	1570
+Presidente Castello Branco	1568
+Vista Alegre do Prata	1561
+Ponte Preta	1547
+Santa Salete	1545
+Nova Aliança do Ivaí	1543
+Paiva	1529
+Moiporá	1529
+Doresópolis	1527
+São Sebastião do Rio Preto	1506
+Paial	1505
+Guabiju	1503
+Senador José Bento	1502
+Coqueiro Baixo	1501
+Santana da Ponte Pensa	1487
+Tupanci do Sul	1472
+Flora Rica	1464
+Montauri	1453
+Lajeado Grande	1427
+Chapada de Areia	1406
+Grupiara	1388
+São João da Paraúna	1381
+Carlos Gomes	1377
+Porto Vera Cruz	1360
+Cachoeira de Goiás	1351
+André da Rocha	1333
+Jardim Olinda	1331
+Nova Castilho	1267
+Santiago do Sul	1260
+Miguel Leão	1246
+Uru	1165
+Cedro do Abaeté	1164
+União da Serra	1154
+Anhanguera	1149
+Oliveira de Fátima	1112
+Engenho Velho	1034
+Araguainha	935
+Borá	837
+Serra da Saudade	781
