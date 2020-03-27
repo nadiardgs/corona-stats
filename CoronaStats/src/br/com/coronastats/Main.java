@@ -138,20 +138,26 @@ public class Main {
 
 			List<String> list = Arrays.asList(cities);
 			String cityName;
+			String cityInfectedString;
 			Integer cityInfected;
 
 			Map<String, Integer> citiesXCases = new HashMap<String, Integer>();
 
 			for (int i = 0; i < list.size(); i++) {
 				if (list.get(i).contains(",")) {
-					cityName = list.get(i).substring(list.get(i).indexOf(">") + 1, list.get(i).indexOf(","));
+					
 
-					cityInfected = Integer.parseInt(
-							list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)));
+					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4));
+					if (!cityInfectedString.isEmpty())
+					{
+						cityName = list.get(i).substring(list.get(i).indexOf(">") + 1, list.get(i).indexOf(","));
+						cityInfected = Integer.parseInt(cityInfectedString);
+						bf.write(cityName + "\t" + cityInfected);
+						bf.write("\n");
+						citiesXCases.put(cityName, cityInfected);
+					}
 
-					bf.write(cityName + "\t" + cityInfected);
-					bf.write("\n");
-					citiesXCases.put(cityName, cityInfected);
+					
 				}
 			}
 
