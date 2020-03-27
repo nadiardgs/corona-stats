@@ -10,7 +10,7 @@ Keep in mind the following:
 1) The project needs permission to write on your user's folder;
 2) You'll need a FTP remote server to upload to. I configured mine at https://www.drivehq.com/secure/Account.aspx. If offers you 5GB free storage;
 3) Download the "cidadesXPopulacao.txt" file and upload it to the FTP Server. It has the cities' population data, which you'll need to calculate the percentage. Be aware of the remotePath variable and change it to represent your actual remote path;
-4) You'll have to configure a properties file named "file.properties" at your user's folder to access your FTP server. Example:
+4) You'll have to configure a properties file named "data.properties" at your user's folder to access your FTP server. Example:
 
 
 
