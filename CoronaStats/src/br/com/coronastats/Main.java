@@ -145,7 +145,6 @@ public class Main {
 
 			for (int i = 0; i < list.size(); i++) {
 				if (list.get(i).contains(",")) {
-					
 
 					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4));
 					if (!cityInfectedString.isEmpty())
@@ -175,7 +174,7 @@ public class Main {
 		return null;
 	}
 
-	public static Map<String, Integer> readTotalPopulationFromFTP(String remotePath, String server, String username, String password) {
+	public static Map<String, Integer> readTotalPopulationFromFTP(String remotePath) {
 		URL url;
 		Map<String, Integer> mapTotalPopulation = new HashMap<String, Integer>();
 		try {
@@ -204,12 +203,12 @@ public class Main {
 		return null;
 	}
 
-	public static void sendFileToFTP(File file, String server, String port, String username, String password)
+	public static void sendFileToFTP(File file, String server, Integer port, String username, String password)
 	{
 		FTPClient ftp = new FTPClient();
 		try {
 			;
-			ftp.connect(server.trim(), Integer.parseInt(port.trim()));
+			ftp.connect(server, port);
 			ftp.login(username, password);
 			ftp.enterLocalPassiveMode();
 			
@@ -219,9 +218,10 @@ public class Main {
 			boolean success = ftp.storeFile(file.getName(), is);
 			is.close();
 			if (success)
-			{
 				System.out.println("Upload de arquivo realizado com sucesso");
-			}
+			
+			else
+				System.out.println("Erro no upload do arquivo. Verifique as informacoes de conexao e tente novamente");
 			
 		} catch (SocketException e) {
 			// TODO Auto-generated catch block
@@ -238,16 +238,16 @@ public class Main {
 		Properties prop = new Properties();
 		prop.load(new FileInputStream(System.getProperty("user.home") + System.getProperty("file.separator") + "data.properties"));
 		
-		String server = prop.getProperty("server");
-		String port = prop.getProperty("port");
-		String username = prop.getProperty("username");
-		String password = prop.getProperty("password");
+		String server = prop.getProperty("server").trim();
+		Integer port = Integer.parseInt(prop.getProperty("port"));
+		String username = prop.getProperty("username").trim();
+		String password = prop.getProperty("password").trim();
 		
 		String remotePath = "ftp://" + username + ":" + password + "@" + server + "/My Documents/cidadesXPopulacao.txt";
 		
 		File file = getWebPageData(url);
 		Map<String, Integer> infectedToday = listInfectedToday(file);
-		Map<String, Integer> totalPopulation = readTotalPopulationFromFTP(remotePath, server, username, password);
+		Map<String, Integer> totalPopulation = readTotalPopulationFromFTP(remotePath);
 		
 		File finalFile = generateAnalytics(infectedToday, totalPopulation);
 		sendFileToFTP(finalFile, server, port, username, password);
