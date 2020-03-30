@@ -59,7 +59,7 @@ public class Main {
 
 	
 	
-	public static File generateAnalytics(Map<String, Integer> listInfected, Map<String, Integer> totalPopulation, String remotePath)
+	public static File generateAnalytics(Map<String, Integer> listInfected, Map<String, Integer> totalPopulation)
 			throws IOException {
 		String todayDate = getTodayDate();
 		File file = new File(System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "Analysis.txt");
@@ -156,6 +156,17 @@ public class Main {
 						citiesXCases.put(cityName, cityInfected);
 					}
 				}
+				else
+				{
+					if (list.get(i).contains("Alta Floresta D'Oeste"))
+					{
+						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)));
+						cityName = "Não informado";
+						bf.write(cityName + "\t" + cityInfected);
+						bf.write("\n");
+						citiesXCases.put(cityName, cityInfected);
+					}
+				}
 			}
 
 			br.close();
@@ -172,24 +183,36 @@ public class Main {
 		return null;
 	}
 	
-	public static BufferedReader generateReaderFromConnection(String remotePath) throws IOException
+	public static BufferedReader generateReaderFromConnection(String server, String username, String password, String remotePath) throws IOException
 	{
-		URL url = new URL(remotePath);
-		URLConnection con = url.openConnection();
-		BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		FTPClient ftp = new FTPClient();
+		ftp.connect(server);
+		ftp.login(username, password);
+		
+		InputStream is = ftp.retrieveFileStream(remotePath);
+		InputStreamReader isr = new InputStreamReader(is);
+		BufferedReader br = new BufferedReader(isr);
+		
+		if (ftp.isConnected())
+		{
+			ftp.logout();
+			ftp.disconnect();
+		}
 		return br;
 	}
 	
-	public static Map<String, Integer> readTotalPopulationFromFTP(String citiesPopulationRemotePath, String stateAcronymRemotePath) {
+	
+	public static Map<String, Integer> readTotalPopulationFromFTP(String server, String username, String password, 
+																		String citiesPopulationRemotePath, String stateAcronymRemotePath) {
 		Map<String, Integer> mapTotalPopulation = new HashMap<String, Integer>();
 		try {
 			
 			String line, cityName, state, acronym;
 			Integer cityPopulation;
 			
-			BufferedReader populationReader = generateReaderFromConnection(citiesPopulationRemotePath);
+			BufferedReader populationReader = generateReaderFromConnection(server, username, password, citiesPopulationRemotePath);
 			
-			BufferedReader stateReader = generateReaderFromConnection(stateAcronymRemotePath);
+			BufferedReader stateReader = generateReaderFromConnection(server, username, password, stateAcronymRemotePath);
 			
 			List<String> lstStateReader = stateReader.lines().collect(Collectors.toList());
 
@@ -199,6 +222,7 @@ public class Main {
 					cityName = line.substring(0, line.indexOf("\t")).trim();
 					state = line.substring(line.indexOf("\t"), indexOf(line, "\t", 2)).trim();
 					cityPopulation = Integer.parseInt(line.substring(indexOf(line, "\t", 2)).trim());
+					
 					for (String sr : lstStateReader)
 					{
 						if (sr.contains(state))
@@ -210,14 +234,15 @@ public class Main {
 					
 				}
 			}
-
 			if (!mapTotalPopulation.isEmpty())
 				return mapTotalPopulation;
+			
 		}
 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
+		
 		return null;
 	}
 	
@@ -232,20 +257,13 @@ public class Main {
 			InputStream is = new FileInputStream(file);
 			
 			ftp.setFileType(FTP.BINARY_FILE_TYPE);
-			 OutputStream outputStream = ftp.storeFileStream(file.toString());
-	            byte[] bytesIn = new byte[4096];
-	            int read = 0;
-	 
-	            while ((read = is.read(bytesIn)) != -1) {
-	                outputStream.write(bytesIn, 0, read);
-	            }
-	            is.close();
-	            outputStream.close();
-	 
-	            boolean completed = ftp.completePendingCommand();
-	            if (completed) {
-	                System.out.println("Upload de arquivo realizado com sucesso");
-	            }
+			
+			ftp.storeFile(file.getName(), is);
+	        boolean completed = ftp.completePendingCommand();
+	        if (completed) {
+	            System.out.println("Upload de arquivo realizado com sucesso");
+	            return;
+	        }
 			is.close();
 			
 		} catch (SocketException e) {
@@ -298,17 +316,22 @@ public class Main {
 		String password = prop.getProperty("password").trim();
 		
 		
-		String citiesPopulationRemotePath = "ftp://" + username + ":" + password + "@" + server + "/My Documents/cidadesXPopulacao.txt"; 
-		String stateAcronymRemotePath = "ftp://" + username + ":" + password + "@" + server + "/My Documents/EstadosxSigla.txt";
+		String citiesPopulationRemotePath = "/My Documents/cidadesXPopulacao.txt"; 
+		String stateAcronymRemotePath = "/My Documents/EstadosxSigla.txt";
 		  
+		System.out.println("Iniciando carga de arquivos");
 		  
 		File file = getWebPageData(url); 
 		Map<String, Integer> infectedToday = listInfectedToday(file);
 		  
 		Map<String, Integer> totalPopulation =
-		readTotalPopulationFromFTP(citiesPopulationRemotePath,stateAcronymRemotePath);
-		  
-		File finalFile = generateAnalytics(infectedToday, totalPopulation, stateAcronymRemotePath); 
+		readTotalPopulationFromFTP(server, username, password, citiesPopulationRemotePath, stateAcronymRemotePath);
+		
+		if (!infectedToday.isEmpty() || !totalPopulation.isEmpty())
+			System.out.println("Arquivos gerados com sucesso");
+		
+		System.out.println("Gerando analise dos dados...");
+		File finalFile = generateAnalytics(infectedToday, totalPopulation); 
 		sendFileToFTP(finalFile, server, port, username, password);
 		 
 	}
