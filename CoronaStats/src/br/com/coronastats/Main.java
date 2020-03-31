@@ -146,7 +146,7 @@ public class Main {
 			for (int i = 0; i < list.size(); i++) {
 				if (list.get(i).contains(",")) {
 
-					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4));
+					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)).replace(".", "");
 					if (!cityInfectedString.isEmpty())
 					{
 						cityName = list.get(i).substring(list.get(i).indexOf(">") + 1, list.get(i).indexOf(",")+4);
