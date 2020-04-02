@@ -101,6 +101,14 @@ public class Main {
 						bf.write("\n");
 						
 					}
+					else
+					{
+						 if (l.equalsIgnoreCase("Não informado"))
+						 {
+							 bf.write(l + ": " + listInfected.get(tp) + " habitantes infectados.");
+							 bf.write("\n");
+						 }
+					}
 				}
 			}
 			
@@ -161,7 +169,7 @@ public class Main {
 				}
 				else
 				{
-					if (list.get(i).contains("Alta Floresta D'Oeste"))
+					if (list.get(i).contains("Não informado"))
 					{
 						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)));
 						cityName = "Não informado";
