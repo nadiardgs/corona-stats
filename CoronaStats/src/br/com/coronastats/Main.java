@@ -11,7 +11,6 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -70,18 +69,22 @@ public class Main {
 		
 		try {
 			Double percentage;
-
 			List<String> lInfected = new ArrayList<String>(listInfected.keySet());
+			List<String> lTotalPopulation = new ArrayList<String>(totalPopulation.keySet());
+
+			
 			Integer totalInfected = listInfected.values().stream().mapToInt(Integer::intValue).sum();
 			
 			Collections.sort(lInfected);
-			List<String> lTotalPopulation = new ArrayList<String>(totalPopulation.keySet());
+			
 			Integer totalPop = totalPopulation.values().stream().mapToInt(Integer::intValue).sum();
+			
+			System.out.println("Total de infectados: " + totalInfected + "; Total da populacao: " + totalPop);
 			
 			Double finalPercentage = (double) totalInfected * 100 / (double) totalPop;
 			finalPercentage = BigDecimal.valueOf(finalPercentage).setScale(3, RoundingMode.HALF_UP).doubleValue();
 			
-			bf.write("Brasil: " + totalInfected + " de " + totalPop + " habitantes infectados. Percentagem de contágio: "
+			bf.write("Brasil: " + totalInfected + " de " + totalPop + " habitantes infectados. Percentagem de contagio: "
 					+ finalPercentage + "\n");
 			
 			for (String l : lInfected) {
@@ -94,7 +97,7 @@ public class Main {
 								.doubleValue();
 						
 						bf.write(tp + ": " + listInfected.get(tp) + " de " + totalPopulation.get(tp) + 
-								" habitantes infectados. Percentagem de contágio: " + truncatedDouble);
+								" habitantes infectados. Percentagem de contagio: " + truncatedDouble);
 						bf.write("\n");
 						
 					}
@@ -183,40 +186,95 @@ public class Main {
 		return null;
 	}
 	
-	public static BufferedReader generateReaderFromConnection(String server, String username, String password, String remotePath) throws IOException
+	//this method was adapted from the generateReaderFromConnection to return a List<String> instead of a BufferedReader
+	//to make the code cleaner and less likely to errors. Besides, I was turning the lines from the BufferedReader into Lists anyway
+	public static List<String> generateListFromConnection(String remotePath) throws IOException
 	{
-		FTPClient ftp = new FTPClient();
-		ftp.connect(server);
-		ftp.login(username, password);
-		
-		InputStream is = ftp.retrieveFileStream(remotePath);
-		InputStreamReader isr = new InputStreamReader(is);
-		BufferedReader br = new BufferedReader(isr);
-		
-		if (ftp.isConnected())
-		{
-			ftp.logout();
-			ftp.disconnect();
+		BufferedReader br = null;
+		List<String> lst = new ArrayList<String>();
+		URL url = null;
+		URLConnection con = null;
+
+		try {
+			url = new URL(remotePath);
+			con = url.openConnection();
+			br = new BufferedReader(new InputStreamReader(con.getInputStream()));
+		    
+		    lst = br.lines().collect(Collectors.toList());
+		    lst.removeAll(Arrays.asList("", null));
+		    lst.forEach(System.out::println);
+		    System.out.println("Arquivo " + remotePath + " recuperado com sucesso");
+		    return lst;
 		}
-		return br;
+
+		catch (IOException e) {
+			System.out.println("Erro ao recuperar o arquivo " + remotePath + ": " + e.getMessage());
+		}
+		
+		finally
+		{
+			br.close();
+		}
+		
+		return lst;
 	}
 	
-	
-	public static Map<String, Integer> readTotalPopulationFromFTP(String server, String username, String password, 
-																		String citiesPopulationRemotePath, String stateAcronymRemotePath) {
+	//this method returns a map with the name of the city + state acronym as key, and the population as value
+	public static Map<String, Integer> readTotalPopulationFromFTP(String citiesPopulationRemotePath, String stateAcronymRemotePath) {
 		Map<String, Integer> mapTotalPopulation = new HashMap<String, Integer>();
 		try {
 			
-			String line, cityName, state, acronym;
+			String cityName, acronym, state;
 			Integer cityPopulation;
 			
-			BufferedReader populationReader = generateReaderFromConnection(server, username, password, citiesPopulationRemotePath);
+			/* formatted like: city "\t" state "\t" population
+			 * for example: Campinas "\t" Sao Paulo "\t" 4459347 */
+			List<String> lstCitiesPopulation = generateListFromConnection(citiesPopulationRemotePath);
+			lstCitiesPopulation.removeAll(Arrays.asList("", null));
 			
-			BufferedReader stateReader = generateReaderFromConnection(server, username, password, stateAcronymRemotePath);
+			/* formatted like: state "\t" acronym
+			 * for example: Sao Paulo "\t" SP */
+			List<String> lstStateAcronym = generateListFromConnection(stateAcronymRemotePath);
+			lstStateAcronym.removeAll(Arrays.asList("", null));
 			
-			List<String> lstStateReader = stateReader.lines().collect(Collectors.toList());
+			for (String line : lstCitiesPopulation)
+			{
+				if (!line.isEmpty())
+				{
+					cityName = line.substring(0, line.indexOf("\t")).trim();
+					state = line.substring(line.indexOf("\t"), indexOf(line, "\t", 2)).trim();
+					cityPopulation = Integer.parseInt(line.substring(indexOf(line, "\t", 2)).trim());
+					
+					//return the line from the lstStateAcronym that contains the state of the lstCitiesPopulation (to test yet)
+					/*List<String> lstGetStateAcronym = lstStateAcronym
+			                .stream()
+			                .filter(x -> x.contains(line.substring(line.indexOf("\t"), indexOf(line, "\t", 2)).trim())) //state
+			                .collect(Collectors.toList());*/
 
-			while ((line = populationReader.readLine()) != null) {
+					for (String stateItem : lstStateAcronym)
+					{
+						if (stateItem.contains(state))
+						{
+							acronym = stateItem.substring(stateItem.indexOf("\t")).trim();
+							mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
+							System.out.println(cityName + ", " + acronym + ": " + cityPopulation);
+						}
+					}
+				}
+				
+				/*if (!lstGetStateAcronym.isEmpty()) {
+					String stringmatchingStateAcronym = lstGetStateAcronym.get(0);
+				
+					System.out.println(stringmatchingStateAcronym);
+				
+					acronym = stringmatchingStateAcronym.substring(stringmatchingStateAcronym.indexOf("\t")).trim();
+					mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
+					System.out.println(cityName + ", " + acronym + ": " + cityPopulation);
+				}*/
+			}
+			
+
+			/*while ((line = populationReader.readLine()) != null) {
 
 				if (!line.isEmpty()) {
 					cityName = line.substring(0, line.indexOf("\t")).trim();
@@ -233,17 +291,14 @@ public class Main {
 					}
 					
 				}
-			}
-			if (!mapTotalPopulation.isEmpty())
-				return mapTotalPopulation;
-			
+			}*/
 		}
 
 		catch (Exception e) {
 			e.printStackTrace();
 		}
 		
-		return null;
+		return mapTotalPopulation;
 	}
 	
 	public static void sendFileToFTP(File file, String server, Integer port, String username, String password)
@@ -314,21 +369,23 @@ public class Main {
 		Integer port = Integer.parseInt(prop.getProperty("port"));
 		String username = prop.getProperty("username").trim();
 		String password = prop.getProperty("password").trim();
-		
-		
-		String citiesPopulationRemotePath = "/My Documents/cidadesXPopulacao.txt"; 
-		String stateAcronymRemotePath = "/My Documents/EstadosxSigla.txt";
+ 
+        //String citiesPopulationRemotePath = "https://gofile.io/?c=Sy9oA7";
+		//String stateAcronymRemotePath = 	"https://gofile.io/?c=WqDOpk";
+		//"https://filebin.net/zxvfuaht8lmiqrtc/cidadesXPopulacao.txt?t=0ezd4ti7", "https://filebin.net/zxvfuaht8lmiqrtc/EstadosxSigla.txt?t=w7m1lp1v"
 		  
+		String citiesPopulationRemotePath = "ftp://" + username + ":" + password + "@" + server + "/MyDocuments/cidadesXPopulacao.txt";
+		String stateAcronymRemotePath 	  = "ftp://" + username + "@" + server + "/MyDocuments/EstadosxSigla.txt";
+		
 		System.out.println("Iniciando carga de arquivos");
 		  
 		File file = getWebPageData(url); 
 		Map<String, Integer> infectedToday = listInfectedToday(file);
 		  
 		Map<String, Integer> totalPopulation =
-		readTotalPopulationFromFTP(server, username, password, citiesPopulationRemotePath, stateAcronymRemotePath);
-		
-		if (!infectedToday.isEmpty() || !totalPopulation.isEmpty())
-			System.out.println("Arquivos gerados com sucesso");
+		readTotalPopulationFromFTP("https://filebin.net/zxvfuaht8lmiqrtc/cidadesXPopulacao.txt?t=0r7f55jr", "https://filebin.net/zxvfuaht8lmiqrtc/EstadosxSigla.txt?t=zonmq72o");
+		System.out.println("Populacao:");
+		totalPopulation.entrySet().forEach(System.out::println);
 		
 		System.out.println("Gerando analise dos dados...");
 		File finalFile = generateAnalytics(infectedToday, totalPopulation); 
