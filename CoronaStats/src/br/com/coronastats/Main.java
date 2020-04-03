@@ -15,8 +15,6 @@ import java.io.OutputStreamWriter;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.net.SocketException;
-import java.net.URL;
-import java.net.URLConnection;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.time.LocalDateTime;
@@ -31,7 +29,8 @@ import java.util.Properties;
 import java.util.stream.Collectors;
 
 import org.apache.commons.net.ftp.FTP;
-import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTPConnectionClosedException;
+import org.apache.commons.net.ftp.FTPSClient;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.WebDriver;
 
@@ -55,8 +54,6 @@ public class Main {
 		LocalDateTime now = LocalDateTime.now();
 		return dtf.format(now);
 	}
-
-	
 	
 	public static File generateAnalytics(Map<String, Integer> listInfected, Map<String, Integer> totalPopulation)
 			throws IOException {
@@ -70,12 +67,10 @@ public class Main {
 		try {
 			Double percentage;
 			List<String> lInfected = new ArrayList<String>(listInfected.keySet());
-			List<String> lTotalPopulation = new ArrayList<String>(totalPopulation.keySet());
-
-			
-			Integer totalInfected = listInfected.values().stream().mapToInt(Integer::intValue).sum();
-			
 			Collections.sort(lInfected);
+			
+			List<String> lTotalPopulation = new ArrayList<String>(totalPopulation.keySet());
+			Integer totalInfected = listInfected.values().stream().mapToInt(Integer::intValue).sum();
 			
 			Integer totalPop = totalPopulation.values().stream().mapToInt(Integer::intValue).sum();
 			
@@ -100,14 +95,6 @@ public class Main {
 								" habitantes infectados. Percentagem de contagio: " + truncatedDouble);
 						bf.write("\n");
 						
-					}
-					else
-					{
-						 if (l.equalsIgnoreCase("Não informado"))
-						 {
-							 bf.write(l + ": " + listInfected.get(tp) + " habitantes infectados.");
-							 bf.write("\n");
-						 }
 					}
 				}
 			}
@@ -169,10 +156,10 @@ public class Main {
 				}
 				else
 				{
-					if (list.get(i).contains("Não informado"))
+					if (list.get(i).toLowerCase().contains("informado"))
 					{
 						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)));
-						cityName = "Não informado";
+						cityName = "Nao informado";
 						bf.write(cityName + "\t" + cityInfected);
 						bf.write("\n");
 						citiesXCases.put(cityName, cityInfected);
@@ -194,112 +181,81 @@ public class Main {
 		return null;
 	}
 	
-	//this method was adapted from the generateReaderFromConnection to return a List<String> instead of a BufferedReader
-	//to make the code cleaner and less likely to errors. Besides, I was turning the lines from the BufferedReader into Lists anyway
-	public static List<String> generateListFromConnection(String remotePath) throws IOException
+	//this method was adapted returns a List<String> with the data of the specified FTP file
+	public static List<String> generateListFromConnection(String server, String username, String password, String remotePath) throws IOException
 	{
-		BufferedReader br = null;
-		List<String> lst = new ArrayList<String>();
-		URL url = null;
-		URLConnection con = null;
-
-		try {
-			url = new URL(remotePath);
-			con = url.openConnection();
-			br = new BufferedReader(new InputStreamReader(con.getInputStream()));
-		    
-		    lst = br.lines().collect(Collectors.toList());
-		    lst.removeAll(Arrays.asList("", null));
-		    lst.forEach(System.out::println);
-		    System.out.println("Arquivo " + remotePath + " recuperado com sucesso");
-		    return lst;
-		}
-
-		catch (IOException e) {
-			System.out.println("Erro ao recuperar o arquivo " + remotePath + ": " + e.getMessage());
-		}
-		
-		finally
+		FTPSClient ftp = new FTPSClient();
+		List<String> lstFTP = null; 
+		try
 		{
+			ftp.connect(server, 21);
+			try
+			{
+				ftp.login(username, password);
+				System.out.println("Login realizado com sucesso");
+			}
+			
+			catch (Exception e)
+			{
+				System.out.println("Erro ao realizar login. " + e.getMessage() + ": " + e.getCause());
+			}
+			
+			ftp.enterLocalPassiveMode();
+			
+			InputStream is = ftp.retrieveFileStream(remotePath);
+			BufferedReader br = new BufferedReader(new InputStreamReader(is, ISO));
+			lstFTP = new ArrayList<String>();
+			lstFTP = br.lines().collect(Collectors.toList());
+			lstFTP.removeAll(Arrays.asList("", null));
+			
+			is.close();
 			br.close();
+			ftp.logout();
+			ftp.disconnect();
 		}
 		
-		return lst;
+		catch (Exception e)
+		{
+			System.out.println("Erro ao recuperar arquivo " + remotePath + ": " + e.getMessage());
+		}
+		
+		return lstFTP;
 	}
 	
 	//this method returns a map with the name of the city + state acronym as key, and the population as value
-	public static Map<String, Integer> readTotalPopulationFromFTP(String citiesPopulationRemotePath, String stateAcronymRemotePath) {
+	public static Map<String, Integer> readTotalPopulationFromFTP(String server, String username, String password,
+																  String citiesPopulationRemotePath, String stateAcronymRemotePath) {
 		Map<String, Integer> mapTotalPopulation = new HashMap<String, Integer>();
 		try {
 			
-			String cityName, acronym, state;
+			String cityName, acronym;
 			Integer cityPopulation;
-			
-			/* formatted like: city "\t" state "\t" population
-			 * for example: Campinas "\t" Sao Paulo "\t" 4459347 */
-			List<String> lstCitiesPopulation = generateListFromConnection(citiesPopulationRemotePath);
-			lstCitiesPopulation.removeAll(Arrays.asList("", null));
 			
 			/* formatted like: state "\t" acronym
 			 * for example: Sao Paulo "\t" SP */
-			List<String> lstStateAcronym = generateListFromConnection(stateAcronymRemotePath);
-			lstStateAcronym.removeAll(Arrays.asList("", null));
+			List<String> lstStateAcronym = generateListFromConnection(server, username, password, stateAcronymRemotePath);
 			
-			for (String line : lstCitiesPopulation)
+			/* formatted like: city "\t" state "\t" population
+			 * for example: Campinas "\t" Sao Paulo "\t" 4459347 */
+			List<String> lstCitiesPopulation = generateListFromConnection(server, username, password, citiesPopulationRemotePath);
+			
+			for (String cityPop : lstCitiesPopulation)
 			{
-				if (!line.isEmpty())
-				{
-					cityName = line.substring(0, line.indexOf("\t")).trim();
-					state = line.substring(line.indexOf("\t"), indexOf(line, "\t", 2)).trim();
-					cityPopulation = Integer.parseInt(line.substring(indexOf(line, "\t", 2)).trim());
+				cityName = cityPop.substring(0, cityPop.indexOf("\t")).trim();
+				cityPopulation = Integer.parseInt(cityPop.substring(indexOf(cityPop, "\t", 2)).trim());
 					
-					//return the line from the lstStateAcronym that contains the state of the lstCitiesPopulation (to test yet)
-					/*List<String> lstGetStateAcronym = lstStateAcronym
-			                .stream()
-			                .filter(x -> x.contains(line.substring(line.indexOf("\t"), indexOf(line, "\t", 2)).trim())) //state
-			                .collect(Collectors.toList());*/
-
-					for (String stateItem : lstStateAcronym)
-					{
-						if (stateItem.contains(state))
-						{
-							acronym = stateItem.substring(stateItem.indexOf("\t")).trim();
-							mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
-							System.out.println(cityName + ", " + acronym + ": " + cityPopulation);
-						}
-					}
-				}
+				//return the line from the lstStateAcronym that contains the state of the lstCitiesPopulation
+				List<String> lstGetStateAcronym = lstStateAcronym
+						.stream()
+			            .filter(x -> x.contains(cityPop.substring(cityPop.indexOf("\t"), indexOf(cityPop, "\t", 2)).trim())) //state
+			            .collect(Collectors.toList());	
 				
-				/*if (!lstGetStateAcronym.isEmpty()) {
-					String stringmatchingStateAcronym = lstGetStateAcronym.get(0);
-				
-					System.out.println(stringmatchingStateAcronym);
-				
-					acronym = stringmatchingStateAcronym.substring(stringmatchingStateAcronym.indexOf("\t")).trim();
+				if (!lstGetStateAcronym.isEmpty()) {
+					String stringMatchingStateAcronym = lstGetStateAcronym.get(0);
+					acronym = stringMatchingStateAcronym.substring(stringMatchingStateAcronym.indexOf("\t")).trim();
 					mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
-					System.out.println(cityName + ", " + acronym + ": " + cityPopulation);
-				}*/
-			}
-			
-
-			/*while ((line = populationReader.readLine()) != null) {
-
-				if (!line.isEmpty()) {
-					cityName = line.substring(0, line.indexOf("\t")).trim();
-					state = line.substring(line.indexOf("\t"), indexOf(line, "\t", 2)).trim();
-					cityPopulation = Integer.parseInt(line.substring(indexOf(line, "\t", 2)).trim());
-					
-					for (String sr : lstStateReader)
-					{
-						if (sr.contains(state))
-						{
-							acronym = sr.substring(sr.indexOf("\t")).trim();
-							mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
-						}
-					}
-					
 				}
-			}*/
+			}
 		}
 
 		catch (Exception e) {
@@ -311,44 +267,46 @@ public class Main {
 	
 	public static void sendFileToFTP(File file, String server, Integer port, String username, String password)
 	{
-		FTPClient ftp = new FTPClient();
+	
+		FTPSClient ftp = new FTPSClient();
 		try {
 			ftp.connect(server, port);
 			ftp.login(username, password);
 			ftp.enterLocalPassiveMode();
-			
+
 			InputStream is = new FileInputStream(file);
-			
+
 			ftp.setFileType(FTP.BINARY_FILE_TYPE);
-			
+
 			ftp.storeFile(file.getName(), is);
-	        boolean completed = ftp.completePendingCommand();
-	        if (completed) {
-	            System.out.println("Upload de arquivo realizado com sucesso");
-	            return;
-	        }
+			boolean completed = ftp.completePendingCommand();
+			if (completed) {
+				System.out.println("Upload de arquivo realizado com sucesso");
+				return;
+			}
 			is.close();
-			
 		} catch (SocketException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+
+		} catch (FTPConnectionClosedException ftpExc) {
+			ftpExc.printStackTrace();
+
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
-		finally
-		{
+
+		finally {
 			try {
-                if (ftp.isConnected()) {
-                    ftp.logout();
-                    ftp.disconnect();
-                }
-            } catch (IOException ex) {
-                ex.printStackTrace();
-            }
+				if (ftp.isConnected()) {
+					ftp.logout();
+					ftp.disconnect();
+				}
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
 		}
-		
 	}
 
 	public static File getWebPageData(String url) throws Exception {
@@ -377,13 +335,9 @@ public class Main {
 		Integer port = Integer.parseInt(prop.getProperty("port"));
 		String username = prop.getProperty("username").trim();
 		String password = prop.getProperty("password").trim();
- 
-        //String citiesPopulationRemotePath = "https://gofile.io/?c=Sy9oA7";
-		//String stateAcronymRemotePath = 	"https://gofile.io/?c=WqDOpk";
-		//"https://filebin.net/zxvfuaht8lmiqrtc/cidadesXPopulacao.txt?t=0ezd4ti7", "https://filebin.net/zxvfuaht8lmiqrtc/EstadosxSigla.txt?t=w7m1lp1v"
 		  
-		String citiesPopulationRemotePath = "ftp://" + username + ":" + password + "@" + server + "/MyDocuments/cidadesXPopulacao.txt";
-		String stateAcronymRemotePath 	  = "ftp://" + username + "@" + server + "/MyDocuments/EstadosxSigla.txt";
+		String citiesPopulationRemotePath = "/MyDocuments/cidadesXPopulacao.txt";
+		String stateAcronymRemotePath 	  = "/MyDocuments/EstadosxSigla.txt";
 		
 		System.out.println("Iniciando carga de arquivos");
 		  
@@ -391,9 +345,7 @@ public class Main {
 		Map<String, Integer> infectedToday = listInfectedToday(file);
 		  
 		Map<String, Integer> totalPopulation =
-		readTotalPopulationFromFTP("https://filebin.net/zxvfuaht8lmiqrtc/cidadesXPopulacao.txt?t=0r7f55jr", "https://filebin.net/zxvfuaht8lmiqrtc/EstadosxSigla.txt?t=zonmq72o");
-		System.out.println("Populacao:");
-		totalPopulation.entrySet().forEach(System.out::println);
+		readTotalPopulationFromFTP(server, username, password, citiesPopulationRemotePath, stateAcronymRemotePath);
 		
 		System.out.println("Gerando analise dos dados...");
 		File finalFile = generateAnalytics(infectedToday, totalPopulation); 
