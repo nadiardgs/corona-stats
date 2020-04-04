@@ -158,7 +158,7 @@ public class Main {
 				{
 					if (list.get(i).toLowerCase().contains("informado"))
 					{
-						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)));
+						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)).replace(".", ""));
 						cityName = "Nao informado";
 						bf.write(cityName + "\t" + cityInfected);
 						bf.write("\n");
@@ -181,7 +181,7 @@ public class Main {
 		return null;
 	}
 	
-	//this method was adapted returns a List<String> with the data of the specified FTP file
+	//this method returns a List<String> with the data of the specified FTP file
 	public static List<String> generateListFromConnection(String server, String username, String password, String remotePath) throws IOException
 	{
 		FTPSClient ftp = new FTPSClient();
