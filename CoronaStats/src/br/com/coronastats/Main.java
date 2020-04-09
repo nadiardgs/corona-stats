@@ -86,14 +86,17 @@ public class Main {
 				for (String tp : lTotalPopulation) {
 					
 					if (l.equalsIgnoreCase(tp)) {
-						percentage = ((double) listInfected.get(tp) * 100 / (double) totalPopulation.get(tp));
+						if (listInfected.get(tp) != null && totalPopulation.get(tp) != null) //got a NullPointerException in the next line, so I added this if
+						{
+							percentage = ((double) listInfected.get(tp) * 100 / (double) totalPopulation.get(tp));
 
-						Double truncatedDouble = BigDecimal.valueOf(percentage).setScale(3, RoundingMode.HALF_UP)
-								.doubleValue();
+							Double truncatedDouble = BigDecimal.valueOf(percentage).setScale(3, RoundingMode.HALF_UP)
+									.doubleValue();
 						
-						bf.write(tp + ": " + listInfected.get(tp) + " de " + totalPopulation.get(tp) + 
-								" habitantes infectados. Percentagem de contagio: " + truncatedDouble);
-						bf.write("\n");
+							bf.write(tp + ": " + listInfected.get(tp) + " de " + totalPopulation.get(tp) + 
+									" habitantes infectados. Percentagem de contagio: " + truncatedDouble);
+							bf.write("\n");
+						}
 						
 					}
 				}
@@ -311,7 +314,11 @@ public class Main {
 
 	public static File getWebPageData(String url) throws Exception {
 		
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver.exe");
+		if (System.getProperty("os.name").toLowerCase().contains("win"))
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver.exe");
+		else
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver");
+		
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		String todayDate = getTodayDate();
@@ -335,7 +342,7 @@ public class Main {
 		Integer port = Integer.parseInt(prop.getProperty("port"));
 		String username = prop.getProperty("username").trim();
 		String password = prop.getProperty("password").trim();
-		  
+		
 		String citiesPopulationRemotePath = "/MyDocuments/cidadesXPopulacao.txt";
 		String stateAcronymRemotePath 	  = "/MyDocuments/EstadosxSigla.txt";
 		
@@ -346,6 +353,11 @@ public class Main {
 		  
 		Map<String, Integer> totalPopulation =
 		readTotalPopulationFromFTP(server, username, password, citiesPopulationRemotePath, stateAcronymRemotePath);
+		if (totalPopulation == null || infectedToday == null)
+		{
+			System.out.print("It's dead, Jim");
+			return;
+		}
 		
 		System.out.println("Gerando analise dos dados...");
 		File finalFile = generateAnalytics(infectedToday, totalPopulation); 
