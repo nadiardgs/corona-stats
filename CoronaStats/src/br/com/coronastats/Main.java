@@ -36,7 +36,7 @@ import org.openqa.selenium.WebDriver;
 
 public class Main {
 
-	private final static String url = "https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/";
+	private final static String url = "https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/#/";
 
 	private static final Charset UTF_8 = Charset.forName("UTF-8");
 	private static final Charset ISO = Charset.forName("ISO-8859-1");
@@ -115,20 +115,13 @@ public class Main {
 		return file;
 	}
 
-	// edits the file (creates another file) created by the method getWebPageData, accepting the generated file as argument
+	// reads the File created by the method getWebPageData and returns a Map populated with the desired data
 	public static Map<String, Integer> listInfectedToday(File file) throws IOException {
 		
 		FileReader fr = new FileReader(file);
 		BufferedReader br = new BufferedReader(fr);
 		String line;
 		String[] cities = null;
-
-		String todayDate = getTodayDate();
-
-		OutputStreamWriter bf = new OutputStreamWriter(
-				new FileOutputStream(
-						System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "InfectedToday.txt"),
-				StandardCharsets.ISO_8859_1);
 
 		try {
 			while ((line = br.readLine()) != null) {
@@ -152,8 +145,6 @@ public class Main {
 					{
 						cityName = list.get(i).substring(list.get(i).indexOf(">") + 1, list.get(i).indexOf(",")+4);
 						cityInfected = Integer.parseInt(cityInfectedString);
-						bf.write(cityName + "\t" + cityInfected);
-						bf.write("\n");
 						citiesXCases.put(cityName, cityInfected);
 					}
 				}
@@ -163,15 +154,12 @@ public class Main {
 					{
 						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)).replace(".", ""));
 						cityName = "Nao informado";
-						bf.write(cityName + "\t" + cityInfected);
-						bf.write("\n");
 						citiesXCases.put(cityName, cityInfected);
 					}
 				}
 			}
 
 			br.close();
-			bf.close();
 
 			if (!citiesXCases.isEmpty())
 				return citiesXCases;
@@ -324,8 +312,9 @@ public class Main {
 		String todayDate = getTodayDate();
 
 		File file = new File(System.getProperty("user.home"), todayDate + "RawInfectedToday.txt");
+		
 		BufferedWriter bf = new BufferedWriter(new FileWriter(file));
-
+		
 		bf.write(new String(driver.getPageSource().getBytes(UTF_8), ISO));
 		bf.close();
 		driver.quit();
@@ -348,20 +337,22 @@ public class Main {
 		
 		System.out.println("Iniciando carga de arquivos");
 		  
-		File file = getWebPageData(url); 
-		Map<String, Integer> infectedToday = listInfectedToday(file);
-		  
-		Map<String, Integer> totalPopulation =
-		readTotalPopulationFromFTP(server, username, password, citiesPopulationRemotePath, stateAcronymRemotePath);
-		if (totalPopulation == null || infectedToday == null)
-		{
-			System.out.print("It's dead, Jim");
-			return;
-		}
+		File g1File = getWebPageData(url);
 		
-		System.out.println("Gerando analise dos dados...");
+		Map<String, Integer> infectedToday = listInfectedToday(g1File);
+		g1File.delete();
+		
+		Map<String, Integer> totalPopulation = readTotalPopulationFromFTP(server,
+												username, password, citiesPopulationRemotePath, stateAcronymRemotePath); 
+		
+		if (totalPopulation == null || infectedToday == null) {
+		System.out.print("It's dead, Jim"); return; }
+		  
+		System.out.println("Gerando analise dos dados..."); 
+		
 		File finalFile = generateAnalytics(infectedToday, totalPopulation); 
 		sendFileToFTP(finalFile, server, port, username, password);
+		 
 		 
 	}
 }
