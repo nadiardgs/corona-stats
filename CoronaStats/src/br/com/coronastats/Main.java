@@ -97,7 +97,6 @@ public class Main {
 									" habitantes infectados. Percentagem de contagio: " + truncatedDouble);
 							bf.write("\n");
 						}
-						
 					}
 				}
 			}
@@ -145,7 +144,8 @@ public class Main {
 					{
 						cityName = list.get(i).substring(list.get(i).indexOf(">") + 1, list.get(i).indexOf(",")+4);
 						cityInfected = Integer.parseInt(cityInfectedString);
-						citiesXCases.put(cityName, cityInfected);
+						if (cityInfected != 0) //the data brings some cities with 0 cases, I added this line to avoid them
+							citiesXCases.put(cityName, cityInfected);
 					}
 				}
 				else
