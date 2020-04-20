@@ -34,7 +34,6 @@ import org.apache.commons.net.ftp.FTPSClient;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 
 public class Main {
 
@@ -63,7 +62,15 @@ public class Main {
 		return BigDecimal.valueOf(finalInfectedPercentage).setScale(3, RoundingMode.HALF_UP).doubleValue();
 	}
 	
-	
+	public static String writeLine(String city, Integer numberInfected, Integer numberPopulation, Integer numberDeceased, 
+									Double percentageInfected, Double percentageDeceased)
+	{
+		String stringDeceased = numberDeceased == 1 ? " morto. " : " mortos. ";
+		
+		return city + ": " + numberInfected + " de " + numberPopulation + 
+				" habitantes infectados, com " + numberDeceased + stringDeceased + "Percentagem de infectados: " + percentageInfected
+				+ "%; Mortalidade: " + percentageDeceased + "%. \n";
+	}
 	
 	public static File generateAnalytics(Map<String, Integer> listInfected, Map<String, Integer> listDeceased, Map<String, Integer> totalPopulation)
 			throws IOException {
@@ -87,12 +94,11 @@ public class Main {
 			Double finalInfectedPercentage = calculatePercentage(totalInfected, totalPop);
 			Double finalDeceasedPercentage = calculatePercentage(totalDeceased, totalInfected);
 			
-			String deceased;
+			String line = writeLine("Brasil", totalInfected, totalPop, totalDeceased, 
+					finalInfectedPercentage, finalDeceasedPercentage);
+			bf.write(line);
+			System.out.println(line);
 			
-			bf.write("Brasil: " + totalInfected + " de " + totalPop + " habitantes infectados, com " + totalDeceased + " mortos. Percentagem de infectados: "
-					+ finalInfectedPercentage + "%; Mortalidade: " + finalDeceasedPercentage + "%. \n");
-			System.out.println("Brasil: " + totalInfected + " de " + totalPop + " habitantes infectados, com " + totalDeceased + " mortos. Percentagem de infectados: "
-					+ finalInfectedPercentage + "%; Mortalidade: " + finalDeceasedPercentage + "%. \n");
 			for (String l : lInfected) {
 				for (String tp : lTotalPopulation) {
 					
@@ -104,11 +110,9 @@ public class Main {
 							numberDeceased = (listDeceased.get(tp) == null) ? 0 : listDeceased.get(tp);  
 							percentageDeceased = calculatePercentage(numberDeceased, listInfected.get(tp));
 							
-							deceased = numberDeceased == 1 ? " morto." : " mortos.";
-						
-							bf.write(tp + ": " + listInfected.get(tp) + " de " + totalPopulation.get(tp) + 
-									" habitantes infectados, com " + numberDeceased + deceased + " Percentagem de infectados: " + percentageInfected
-									+ "%; Mortalidade: " + percentageDeceased + "%. \n");
+							line = writeLine(tp, listInfected.get(tp), totalPopulation.get(tp), numberDeceased, 
+									percentageInfected, percentageDeceased);
+							bf.write(line);
 						}
 					}
 				}
@@ -274,7 +278,6 @@ public class Main {
 	
 	public static void sendFileToFTP(File file, String server, Integer port, String username, String password) throws IOException
 	{
-	
 		FTPSClient ftp = new FTPSClient();
 		try {
 			ftp.connect(server, port);
@@ -285,9 +288,9 @@ public class Main {
 
 			ftp.setFileType(FTP.BINARY_FILE_TYPE);
 
-			boolean teste = ftp.storeFile(file.getName(), is);
+			ftp.storeFile(file.getName(), is);
 			boolean completed = ftp.completePendingCommand();
-			if (teste) {
+			if (completed) {
 				System.out.println("Upload de arquivo realizado com sucesso");
 				return;
 			}
@@ -326,7 +329,6 @@ public class Main {
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		String todayDate = getTodayDate();
-
 		
 		//now the page shows by default the number of deaths
 		File deaths = new File(System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "Deaths.txt");
@@ -335,9 +337,9 @@ public class Main {
 		bf.close();		
 		
 		//clicks the element that shows number of cases
-		WebElement web = driver.findElement(By.cssSelector(".cases-overview.cases-overview--cases"));
-		web.click();
+		driver.findElement(By.cssSelector(".cases-overview.cases-overview--cases")).click();
 		
+		//and saves the file with the web content that now shows number of cases
 		File cases = new File(System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "Cases.txt");
 		BufferedWriter bf2 = new BufferedWriter(new FileWriter(cases));
 		bf2.write(new String(driver.getPageSource().getBytes(UTF_8), ISO));
@@ -372,22 +374,28 @@ public class Main {
 		Map<String, Integer> deceasedToday = listInfectedToday(listFiles.get(0));
 		Map<String, Integer> infectedToday = listInfectedToday(listFiles.get(1));
 		
-		for (File f :listFiles)
+		//if data can't be read from web page, abort program
+		if (deceasedToday.isEmpty() || infectedToday.isEmpty())
 		{
-			f.deleteOnExit();
+			System.out.println("Nao foi possivel extrair dados da pagina da Web. Verifique se a mesma esta disponivel.");
+			return;
 		}
+		
+		for (File f :listFiles) {
+			f.deleteOnExit(); }
 		
 		Map<String, Integer> totalPopulation = readTotalPopulationFromFTP(server,
 												username, password, citiesPopulationRemotePath, stateAcronymRemotePath); 
 		
-		if (totalPopulation == null || infectedToday == null || deceasedToday == null) {
-		System.out.print("It's dead, Jim"); return; }
+		if (totalPopulation == null || infectedToday == null || deceasedToday == null) 
+		{
+			System.out.print("Nao foi possivel analisar os dados extraidos da pagina da Web. Verifique o log."); 
+			return;
+		}
 		  
 		System.out.println("Gerando analise dos dados..."); 
 		
 		File finalFile = generateAnalytics(infectedToday, deceasedToday, totalPopulation); 
 		sendFileToFTP(finalFile, server, port, username, password);
-		 
-		 
 	}
 }
