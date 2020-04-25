@@ -17,6 +17,7 @@ import java.math.RoundingMode;
 import java.net.SocketException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
+import java.text.Collator;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -24,6 +25,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Properties;
 import java.util.stream.Collectors;
@@ -41,6 +43,14 @@ public class Main {
 
 	private static final Charset UTF_8 = Charset.forName("UTF-8");
 	private static final Charset ISO = Charset.forName("ISO-8859-1");
+	
+	private static String citiesPopulationRemotePath 	= "/MyDocuments/cidadesXPopulacao.txt";
+	private static String stateAcronymRemotePath 	  	= "/MyDocuments/EstadosxSigla.txt";
+	
+	private static String server;
+	private static String username;
+	private static String password;
+	private static Integer port;
 
 	public static int indexOf(String str, String substr, int n) {
 		int p = str.indexOf(substr);
@@ -49,7 +59,7 @@ public class Main {
 		}
 		return p;
 	}
-
+	
 	public static String getTodayDate() {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		LocalDateTime now = LocalDateTime.now();
@@ -74,10 +84,13 @@ public class Main {
 	
 	public static File generateAnalytics(Map<String, Integer> listInfected, Map<String, Integer> listDeceased, Map<String, Integer> totalPopulation)
 			throws IOException {
-		String todayDate = getTodayDate();
-		File file = new File(System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "Analysis.txt");
+		File file = new File(returnFilename("Analysis.txt"));
 		
 		OutputStreamWriter bf = new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.ISO_8859_1);
+		
+		//comparing strings ignoring special characters from ISO_8859_1
+		Collator collator = Collator.getInstance (new Locale ("pt", "BR"));
+		collator.setStrength(Collator.PRIMARY);
 		
 		try {
 			Double percentageInfected, percentageDeceased;
@@ -98,21 +111,34 @@ public class Main {
 					finalInfectedPercentage, finalDeceasedPercentage);
 			bf.write(line);
 			System.out.println(line);
+			//it isn't a city, I only need non informed cases to sum the total of cases
+			lInfected.remove("Não informado");
+			
+			for (String s : lInfected)
+			{
+				if (!lTotalPopulation.contains(s))
+				{
+					System.out.println("Cidade " + s + " não encontrada na lista de cidades do Brasil. Favor verificar.");
+				}
+			}
 			
 			for (String l : lInfected) {
 				for (String tp : lTotalPopulation) {
 					
-					if (l.equalsIgnoreCase(tp)) {
-						if (listInfected.get(tp) != null && totalPopulation.get(tp) != null) //got a NullPointerException in the next line, so I added this if
-						{
-							percentageInfected = calculatePercentage(listInfected.get(tp), totalPopulation.get(tp));
+					if (tp != null && l != null) //got a NullPointerException in the line, so I added this if
+					{
+						if (collator.compare(l.trim(), tp.trim()) == 0) {
+							if (listInfected.get(tp) != null && totalPopulation.get(tp) != null)
+							{
+								percentageInfected = calculatePercentage(listInfected.get(tp), totalPopulation.get(tp));
 							
-							numberDeceased = (listDeceased.get(tp) == null) ? 0 : listDeceased.get(tp);  
-							percentageDeceased = calculatePercentage(numberDeceased, listInfected.get(tp));
+								numberDeceased = (listDeceased.get(tp) == null) ? 0 : listDeceased.get(tp);  
+								percentageDeceased = calculatePercentage(numberDeceased, listInfected.get(tp));
 							
-							line = writeLine(tp, listInfected.get(tp), totalPopulation.get(tp), numberDeceased, 
-									percentageInfected, percentageDeceased);
-							bf.write(line);
+								line = writeLine(tp, listInfected.get(tp), totalPopulation.get(tp), numberDeceased, 
+										percentageInfected, percentageDeceased);
+								bf.write(line);
+							}
 						}
 					}
 				}
@@ -145,7 +171,7 @@ public class Main {
 		try {
 			while ((line = br.readLine()) != null) {
 				if (line.contains("places__body")) {
-					cities = line.split("<li class=\"places__item\">");
+					cities = line.split("<li class=\"places__item");
 				}	
 			}
 
@@ -157,24 +183,14 @@ public class Main {
 			Map<String, Integer> citiesXCases = new HashMap<String, Integer>();
 
 			for (int i = 0; i < list.size(); i++) {
-				if (list.get(i).contains(",")) {
-
-					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)).replace(".", "");
+				if (list.get(i).contains(". ")) {
+					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 4) + 1, indexOf(list.get(i), "<", 4)).replace(".", "");
 					if (!cityInfectedString.isEmpty())
 					{
-						cityName = list.get(i).substring(list.get(i).indexOf(".") + 2, list.get(i).indexOf(",")+4);
+						cityName = list.get(i).substring(list.get(i).indexOf(".") + 2, indexOf(list.get(i), "<", 2));
 						cityInfected = Integer.parseInt(cityInfectedString);
 						if (cityInfected != 0) //the data brings some cities with 0 cases, I added this line to avoid them
 							citiesXCases.put(cityName, cityInfected);
-					}
-				}
-				else
-				{
-					if (list.get(i).toLowerCase().contains("informado"))
-					{
-						cityInfected = Integer.parseInt(list.get(i).substring(indexOf(list.get(i), ">", 3) + 1, indexOf(list.get(i), "<", 4)).replace(".", ""));
-						cityName = "Nao informado";
-						citiesXCases.put(cityName, cityInfected);
 					}
 				}
 			}
@@ -214,7 +230,7 @@ public class Main {
 			ftp.enterLocalPassiveMode();
 			
 			InputStream is = ftp.retrieveFileStream(remotePath);
-			BufferedReader br = new BufferedReader(new InputStreamReader(is, ISO));
+			BufferedReader br = new BufferedReader(new InputStreamReader(is, UTF_8));
 			lstFTP = new ArrayList<String>();
 			lstFTP = br.lines().collect(Collectors.toList());
 			lstFTP.removeAll(Arrays.asList("", null));
@@ -234,12 +250,11 @@ public class Main {
 	}
 	
 	//this method returns a map with the name of the city + state acronym as key, and the population as value
-	public static Map<String, Integer> readTotalPopulationFromFTP(String server, String username, String password,
-																  String citiesPopulationRemotePath, String stateAcronymRemotePath) {
+	public static Map<String, Integer> readTotalPopulationFromFTP(String citiesPopulationRemotePath, String stateAcronymRemotePath) {
 		Map<String, Integer> mapTotalPopulation = new HashMap<String, Integer>();
 		try {
 			
-			String cityName, acronym;
+			String cityName, state, acronym;
 			Integer cityPopulation;
 			
 			/* formatted like: state "\t" acronym
@@ -253,18 +268,14 @@ public class Main {
 			for (String cityPop : lstCitiesPopulation)
 			{
 				cityName = cityPop.substring(0, cityPop.indexOf("\t")).trim();
+				state = cityPop.substring(cityPop.indexOf("\t"), indexOf(cityPop, "\t", 2)).trim();
 				cityPopulation = Integer.parseInt(cityPop.substring(indexOf(cityPop, "\t", 2)).trim());
-					
-				//return the line from the lstStateAcronym that contains the state of the lstCitiesPopulation
-				List<String> lstGetStateAcronym = lstStateAcronym
-						.stream()
-			            .filter(x -> x.contains(cityPop.substring(cityPop.indexOf("\t"), indexOf(cityPop, "\t", 2)).trim())) //state
-			            .collect(Collectors.toList());	
 				
-				if (!lstGetStateAcronym.isEmpty()) {
-					String stringMatchingStateAcronym = lstGetStateAcronym.get(0);
-					acronym = stringMatchingStateAcronym.substring(stringMatchingStateAcronym.indexOf("\t")).trim();
-					mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
+				for (String stateAcr : lstStateAcronym)
+				{
+					acronym = stateAcr.substring(stateAcr.indexOf("\t")).trim();
+					if (stateAcr.equalsIgnoreCase(state + "\t" + acronym))
+						mapTotalPopulation.put(cityName + ", " + acronym, cityPopulation);
 				}
 			}
 		}
@@ -292,8 +303,20 @@ public class Main {
 			boolean completed = ftp.completePendingCommand();
 			if (completed) {
 				System.out.println("Upload de arquivo realizado com sucesso");
+			}
+			
+			String[] ftpFiles = ftp.listNames();
+			List<String> lstFiles = Arrays.asList(ftpFiles);
+			lstFiles.forEach(System.out::println);
+			
+			System.out.println(file.getName());
+			if (lstFiles.contains(file.getName()))
+			{
+				System.out.println("Upload de arquivo realizado com sucesso");
 				return;
 			}
+		
+			ftp.logout();
 			is.close();
 		} catch (SocketException e) {
 			// TODO Auto-generated catch block
@@ -319,6 +342,26 @@ public class Main {
 		}
 	}
 
+	public static File saveFile(WebDriver driver, String filename)
+	{
+		File file = new File(filename);
+		try {
+			
+			BufferedWriter bf = new BufferedWriter(new FileWriter(file));
+			bf.write(new String(driver.getPageSource().getBytes(ISO)));
+			bf.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return file;
+	}
+	
+	public static String returnFilename(String filename)
+	{
+		return System.getProperty("user.home") + System.getProperty("file.separator") + getTodayDate() + filename;
+	}
+	
 	public static List<File> getWebPageData(String url) throws Exception {
 		
 		if (System.getProperty("os.name").toLowerCase().contains("win"))
@@ -328,30 +371,23 @@ public class Main {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
-		String todayDate = getTodayDate();
 		
 		//now the page shows by default the number of deaths
-		File deaths = new File(System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "Deaths.txt");
-		BufferedWriter bf = new BufferedWriter(new FileWriter(deaths));
-		bf.write(new String(driver.getPageSource().getBytes(UTF_8), ISO));
-		bf.close();		
+		File deaths = saveFile(driver, returnFilename("Deaths.txt"));
 		
 		//clicks the element that shows number of cases
 		driver.findElement(By.cssSelector(".cases-overview.cases-overview--cases")).click();
 		
 		//and saves the file with the web content that now shows number of cases
-		File cases = new File(System.getProperty("user.home") + System.getProperty("file.separator") + todayDate + "Cases.txt");
-		BufferedWriter bf2 = new BufferedWriter(new FileWriter(cases));
-		bf2.write(new String(driver.getPageSource().getBytes(UTF_8), ISO));
-		bf2.close();
+		File cases = saveFile(driver, returnFilename("Cases.txt"));
 		
-		List<File> tst = new ArrayList<File>();
-		tst.add(deaths);
-		tst.add(cases);
+		List<File> lstFiles = new ArrayList<File>();
+		lstFiles.add(deaths);
+		lstFiles.add(cases);
 		
 		driver.quit();
 		
-		return tst;
+		return lstFiles;
     }
 	
 	public static void main(String[] args) throws Exception {
@@ -359,13 +395,10 @@ public class Main {
 		Properties prop = new Properties();
 		prop.load(new FileInputStream(System.getProperty("user.home") + System.getProperty("file.separator") + "data.properties"));
 		
-		String server = prop.getProperty("server").trim();
-		Integer port = Integer.parseInt(prop.getProperty("port"));
-		String username = prop.getProperty("username").trim();
-		String password = prop.getProperty("password").trim();
-		
-		String citiesPopulationRemotePath = "/MyDocuments/cidadesXPopulacao.txt";
-		String stateAcronymRemotePath 	  = "/MyDocuments/EstadosxSigla.txt";
+		server = prop.getProperty("server").trim();
+		port = Integer.parseInt(prop.getProperty("port"));
+		username = prop.getProperty("username").trim();
+		password = prop.getProperty("password").trim();
 		
 		System.out.println("Iniciando carga de arquivos");
 		  
@@ -374,6 +407,11 @@ public class Main {
 		Map<String, Integer> deceasedToday = listInfectedToday(listFiles.get(0));
 		Map<String, Integer> infectedToday = listInfectedToday(listFiles.get(1));
 		
+		for (File f : listFiles)
+		{
+			f.delete();
+		}
+		
 		//if data can't be read from web page, abort program
 		if (deceasedToday.isEmpty() || infectedToday.isEmpty())
 		{
@@ -381,11 +419,7 @@ public class Main {
 			return;
 		}
 		
-		for (File f :listFiles) {
-			f.deleteOnExit(); }
-		
-		Map<String, Integer> totalPopulation = readTotalPopulationFromFTP(server,
-												username, password, citiesPopulationRemotePath, stateAcronymRemotePath); 
+		Map<String, Integer> totalPopulation = readTotalPopulationFromFTP(citiesPopulationRemotePath, stateAcronymRemotePath); 
 		
 		if (totalPopulation == null || infectedToday == null || deceasedToday == null) 
 		{
