@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -86,6 +87,8 @@ public class Main {
 			throws IOException {
 		File file = new File(returnFilename("Analysis.txt"));
 		
+		Integer infectedValue;
+		
 		OutputStreamWriter bf = new OutputStreamWriter(new FileOutputStream(file), StandardCharsets.ISO_8859_1);
 		
 		//comparing strings ignoring special characters from ISO_8859_1
@@ -95,7 +98,6 @@ public class Main {
 		try {
 			Double percentageInfected, percentageDeceased;
 			List<String> lInfected = new ArrayList<String>(listInfected.keySet());
-			Collections.sort(lInfected);
 			
 			List<String> lTotalPopulation = new ArrayList<String>(totalPopulation.keySet());
 			
@@ -107,38 +109,73 @@ public class Main {
 			Double finalInfectedPercentage = calculatePercentage(totalInfected, totalPop);
 			Double finalDeceasedPercentage = calculatePercentage(totalDeceased, totalInfected);
 			
+			//it isn't a city, I don't need it anymore
+			lInfected.remove("Não informado");
+			
+			List<String> citiesNotFound = new ArrayList<String>();
+			
+			Iterator<String> itInfected = lInfected.listIterator();
+			while (itInfected.hasNext())
+			{
+				String s = itInfected.next();
+				//if a city with infected population can't be found in the list of cities, then we have a problem
+				
+				if (!lTotalPopulation.contains(s))
+				{
+					//detecting cities that the web page mistakenly attributed to the wrong state
+					String cityName = s.substring(0, s.indexOf(","));
+					String state = s.substring(s.indexOf(",")+2).trim();
+					
+					String cityTotalPopulation = lTotalPopulation.stream()
+							  .filter(cityList -> collator.compare(cityName, cityList.substring(0, cityList.indexOf((",")))) == 0)
+							 // cityName.equalsIgnoreCase(cityList.substring(0, cityList.indexOf((",")))))
+							  .findAny()
+							  .orElse(null);
+					if (cityTotalPopulation != null)
+					{
+						String totPopState = cityTotalPopulation.substring(cityTotalPopulation.indexOf(",")+2).trim();
+						
+						itInfected.remove(); //remove wrong city + state from list
+						citiesNotFound.add(cityTotalPopulation);
+							
+						//find value with the wrong key in the map, delete it, and add the value with the right key
+						infectedValue = listInfected.get(s);
+						listInfected.remove(s);
+						listInfected.put(cityTotalPopulation, infectedValue);
+						
+						if (!state.equalsIgnoreCase(totPopState)) //only shows the warning if the states are different
+							System.out.println("Cidade " + s + " foi atribuida ao estado errado pela pagina da Web. Valor corrigido: " + cityTotalPopulation + ".");
+						
+					}
+					else //if city still couldn't be found, then we really have a problem
+						System.out.println("Cidade " + s + " nao encontrada na lista de cidades do Brasil. Favor verificar.");
+				}
+			}
+			
+			for (String city : citiesNotFound) {
+				lInfected.add(city); }
+			
+			//now, sort list of infected
+			Collections.sort(lInfected);
+			
 			String line = writeLine("Brasil", totalInfected, totalPop, totalDeceased, 
 					finalInfectedPercentage, finalDeceasedPercentage);
 			bf.write(line);
 			System.out.println(line);
-			//it isn't a city, I only need non informed cases to sum the total of cases
-			lInfected.remove("Não informado");
-			
-			for (String s : lInfected)
-			{
-				if (!lTotalPopulation.contains(s))
-				{
-					System.out.println("Cidade " + s + " não encontrada na lista de cidades do Brasil. Favor verificar.");
-				}
-			}
 			
 			for (String l : lInfected) {
 				for (String tp : lTotalPopulation) {
-					
-					if (tp != null && l != null) //got a NullPointerException in the line, so I added this if
-					{
-						if (collator.compare(l.trim(), tp.trim()) == 0) {
-							if (listInfected.get(tp) != null && totalPopulation.get(tp) != null)
-							{
-								percentageInfected = calculatePercentage(listInfected.get(tp), totalPopulation.get(tp));
-							
-								numberDeceased = (listDeceased.get(tp) == null) ? 0 : listDeceased.get(tp);  
-								percentageDeceased = calculatePercentage(numberDeceased, listInfected.get(tp));
-							
-								line = writeLine(tp, listInfected.get(tp), totalPopulation.get(tp), numberDeceased, 
-										percentageInfected, percentageDeceased);
-								bf.write(line);
-							}
+					if (collator.compare(l, tp) == 0) {
+						if (listInfected.get(tp) != null && totalPopulation.get(tp) != null)
+						{
+							percentageInfected = calculatePercentage(listInfected.get(tp), totalPopulation.get(tp));
+						
+							numberDeceased = (listDeceased.get(tp) == null) ? 0 : listDeceased.get(tp);  
+							percentageDeceased = calculatePercentage(numberDeceased, listInfected.get(tp));
+						
+							line = writeLine(tp, listInfected.get(tp), totalPopulation.get(tp), numberDeceased, 
+									percentageInfected, percentageDeceased);
+							bf.write(line);
 						}
 					}
 				}
