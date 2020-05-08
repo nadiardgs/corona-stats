@@ -481,7 +481,7 @@ Biguaçu	 Santa Catarina	68481
 Lençóis Paulista	 São Paulo	68432
 Peruíbe	 São Paulo	68284
 Araranguá	 Santa Catarina	68228
-Itapecuru-Mirim	 Maranhão	68203
+Itapecuru Mirim	 Maranhão	68203
 Icó	 Ceará	68018
 Caicó	 Rio Grande do Norte	67952
 Januária	 Minas Gerais	67742
@@ -1019,7 +1019,7 @@ Domingos Martins	 Espírito Santo	33850
 Padre Bernardo	 Goiás	33835
 João Alfredo	 Pernambuco	33822
 São Luís de Montes Belos	 Goiás	33817
-Eldorado dos Carajás	Pará	33808
+Eldorado do Carajás	Pará	33808
 Matões	 Maranhão	33782
 Miguel Alves	 Piauí	33760
 São Desidério	Bahia	33742
@@ -2155,7 +2155,7 @@ Pindaí	Bahia	16260
 Lago Verde	 Maranhão	16257
 Urucará	 Amazonas	16256
 Cidreira	 Rio Grande do Sul	16254
-Conceição do Lago Açu	 Maranhão	16237
+Conceição do Lago-Açu	 Maranhão	16237
 Poxoréu	 Mato Grosso	16219
 Getúlio Vargas	 Rio Grande do Sul	16212
 Santa Margarida	 Minas Gerais	16208
@@ -2433,7 +2433,7 @@ Frecheirinha	 Ceará	14072
 Balneário Pinhal	 Rio Grande do Sul	14068
 Itaguaçu	 Espírito Santo	14066
 Bom Princípio	 Rio Grande do Sul	14055
-Santa Luzia do Itanhi	 Sergipe	14035
+Santa Luzia do Itanhy	 Sergipe	14035
 São Sebastião do Uatumã	 Amazonas	14020
 Siderópolis	 Santa Catarina	14007
 Santa Juliana	 Minas Gerais	14003
@@ -3465,7 +3465,7 @@ Cabeceiras	 Goiás	7993
 São João do Arraial	 Piauí	7989
 São Luiz	 Roraima	7986
 Tiradentes	 Minas Gerais	7981
-Lindoia	 São Paulo	7980
+Lindóia	 São Paulo	7980
 Estrela do Sul	 Minas Gerais	7978
 Maravilhas	 Minas Gerais	7976
 Campo do Tenente	 Paraná	7971
