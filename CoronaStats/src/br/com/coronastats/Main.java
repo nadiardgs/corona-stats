@@ -83,6 +83,13 @@ public class Main {
 				+ "%; Mortalidade: " + percentageDeceased + "%. \n";
 	}
 	
+	public static Integer getTotalByState(Map<String, Integer> map, String state)
+	{
+		return map.entrySet().stream()
+				.filter(list -> list.getKey().contains(state.substring(state.indexOf("\t")).trim()))
+				.map(list -> list.getValue()).collect(Collectors.summingInt(Integer::intValue));
+	}
+	
 	public static File generateAnalytics(Map<String, Integer> listInfected, Map<String, Integer> listDeceased, Map<String, Integer> totalPopulation)
 			throws IOException {
 		File file = new File(returnFilename("Analysis.txt"));
@@ -100,6 +107,8 @@ public class Main {
 			List<String> lInfected = new ArrayList<String>(listInfected.keySet());
 			
 			List<String> lTotalPopulation = new ArrayList<String>(totalPopulation.keySet());
+			
+			List<String> lstStateAcronym = generateListFromConnection(server, username, password, stateAcronymRemotePath);
 			
 			Integer totalInfected = listInfected.values().stream().mapToInt(Integer::intValue).sum();
 			Integer totalDeceased = listDeceased.values().stream().mapToInt(Integer::intValue).sum();
@@ -160,8 +169,25 @@ public class Main {
 			
 			String line = writeLine("Brasil", totalInfected, totalPop, totalDeceased, 
 					finalInfectedPercentage, finalDeceasedPercentage);
-			bf.write(line);
+			bf.write(line + "\n");
 			System.out.println(line);
+			
+			//generate statistics per state
+			for (String state : lstStateAcronym)
+			{
+					
+				Integer totalInfPerState = getTotalByState(listInfected, state);
+				Integer totalDecPerState = getTotalByState(listDeceased, state);	
+				Integer totalPopPerState = getTotalByState(totalPopulation, state);
+				
+				percentageInfected = calculatePercentage(totalInfPerState, totalPopPerState);
+				percentageDeceased = calculatePercentage(totalDecPerState, totalInfPerState);
+					
+				line = writeLine(state.substring(0, state.indexOf("\t")), totalInfPerState, totalPopPerState, totalDecPerState, percentageInfected, percentageDeceased);
+				bf.write(line);
+			}
+			
+			bf.write("\n");
 			
 			for (String l : lInfected) {
 				for (String tp : lTotalPopulation) {
