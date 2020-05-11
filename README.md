@@ -1,7 +1,7 @@
 Hello, there!
 
 You are currently at the corona-stats' GitHub repository.
-corona-stats reads today's data on coronavirus spread in brazilian cities (available at https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/), and uploads a file to a FTP remote server containing the populations' contamination percentage.
+corona-stats reads today's data on coronavirus spread in Brazilian cities (available at https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/), and uploads a file to a FTP remote server containing the populations' contamination percentage.
 
 You are free to download and modify this project.
 
