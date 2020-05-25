@@ -80,13 +80,13 @@ public class Main {
 		
 		return city + ": " + numberInfected + " de " + numberPopulation + 
 				" habitantes infectados, com " + numberDeceased + stringDeceased + "Percentagem de infectados: " + percentageInfected
-				+ "%; Mortalidade: " + percentageDeceased + "%. \n";
+				+ "%; Mortalidade: " + percentageDeceased + "%.\n";
 	}
 	
 	public static Integer getTotalByState(Map<String, Integer> map, String state)
 	{
 		return map.entrySet().stream()
-				.filter(list -> list.getKey().contains(state.substring(state.indexOf("\t")).trim()))
+				.filter(list -> list.getKey().contains(", " + state.substring(state.indexOf("\t")).trim()))
 				.map(list -> list.getValue()).collect(Collectors.summingInt(Integer::intValue));
 	}
 	
@@ -175,7 +175,6 @@ public class Main {
 			//generate statistics per state
 			for (String state : lstStateAcronym)
 			{
-					
 				Integer totalInfPerState = getTotalByState(listInfected, state);
 				Integer totalDecPerState = getTotalByState(listDeceased, state);	
 				Integer totalPopPerState = getTotalByState(totalPopulation, state);
@@ -183,7 +182,8 @@ public class Main {
 				percentageInfected = calculatePercentage(totalInfPerState, totalPopPerState);
 				percentageDeceased = calculatePercentage(totalDecPerState, totalInfPerState);
 					
-				line = writeLine(state.substring(0, state.indexOf("\t")), totalInfPerState, totalPopPerState, totalDecPerState, percentageInfected, percentageDeceased);
+				line = writeLine(state.substring(0, state.indexOf("\t")), totalInfPerState, totalPopPerState, totalDecPerState, 
+						percentageInfected, percentageDeceased);
 				bf.write(line);
 			}
 			
