@@ -35,12 +35,12 @@ import org.apache.commons.net.ftp.FTP;
 import org.apache.commons.net.ftp.FTPConnectionClosedException;
 import org.apache.commons.net.ftp.FTPSClient;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 public class Main {
 
-	private final static String url = "https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/#/";
+	private final static String urlCases = "https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/#/?cases";
+	private final static String urlDeaths = "https://especiais.g1.globo.com/bemestar/coronavirus/mapa-coronavirus/#/?deaths";
 
 	private static final Charset UTF_8 = Charset.forName("UTF-8");
 	private static final Charset ISO = Charset.forName("ISO-8859-1");
@@ -233,12 +233,13 @@ public class Main {
 
 		try {
 			while ((line = br.readLine()) != null) {
-				if (line.contains("places__body")) {
-					cities = line.split("<li class=\"places__item");
+				if (line.contains("c-timeline__button c-timeline__button-play")) {
+					cities = line.split("<div class=\"c-places__list-item--identifier\">");
 				}	
 			}
 
 			List<String> list = Arrays.asList(cities);
+			
 			String cityName;
 			String cityInfectedString;
 			Integer cityInfected;
@@ -247,17 +248,17 @@ public class Main {
 
 			for (int i = 0; i < list.size(); i++) {
 				if (list.get(i).contains(". ")) {
-					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 4) + 1, indexOf(list.get(i), "<", 4)).replace(".", "");
+					cityInfectedString = list.get(i).substring(indexOf(list.get(i), ">", 2) + 1, indexOf(list.get(i), "<", 3)).replace(".", "");
 					if (!cityInfectedString.isEmpty())
 					{
-						cityName = list.get(i).substring(list.get(i).indexOf(".") + 2, indexOf(list.get(i), "<", 2));
+						cityName = list.get(i).substring(list.get(i).indexOf(".") + 2, list.get(i).indexOf("<"));
 						cityInfected = Integer.parseInt(cityInfectedString);
 						if (cityInfected != 0) //the data brings some cities with 0 cases, I added this line to avoid them
 							citiesXCases.put(cityName, cityInfected);
 					}
 				}
 			}
-
+			 
 			br.close();
 
 			if (!citiesXCases.isEmpty())
@@ -367,17 +368,6 @@ public class Main {
 			if (completed) {
 				System.out.println("Upload de arquivo realizado com sucesso");
 			}
-			
-			String[] ftpFiles = ftp.listNames();
-			List<String> lstFiles = Arrays.asList(ftpFiles);
-			lstFiles.forEach(System.out::println);
-			
-			System.out.println(file.getName());
-			if (lstFiles.contains(file.getName()))
-			{
-				System.out.println("Upload de arquivo realizado com sucesso");
-				return;
-			}
 		
 			ftp.logout();
 			is.close();
@@ -425,7 +415,7 @@ public class Main {
 		return System.getProperty("user.home") + System.getProperty("file.separator") + getTodayDate() + filename;
 	}
 	
-	public static List<File> getWebPageData(String url) throws Exception {
+	public static File getWebPageData(String url) throws Exception {
 		
 		if (System.getProperty("os.name").toLowerCase().contains("win"))
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + System.getProperty("file.separator") + "chromedriver.exe");
@@ -435,22 +425,14 @@ public class Main {
 		WebDriver driver = new ChromeDriver();
 		driver.get(url);
 		
-		//now the page shows by default the number of deaths
-		File deaths = saveFile(driver, returnFilename("Deaths.txt"));
+		File file;
 		
-		//clicks the element that shows number of cases
-		driver.findElement(By.cssSelector(".cases-overview.cases-overview--cases")).click();
+		if (url.toString().contains("cases"))
+			file = saveFile(driver, returnFilename("Cases.txt"));
+		else
+			file = saveFile(driver, returnFilename("Deaths.txt"));
 		
-		//and saves the file with the web content that now shows number of cases
-		File cases = saveFile(driver, returnFilename("Cases.txt"));
-		
-		List<File> lstFiles = new ArrayList<File>();
-		lstFiles.add(deaths);
-		lstFiles.add(cases);
-		
-		driver.quit();
-		
-		return lstFiles;
+		return file;
     }
 	
 	public static void main(String[] args) throws Exception {
@@ -465,15 +447,15 @@ public class Main {
 		
 		System.out.println("Iniciando carga de arquivos");
 		  
-		List<File> listFiles = getWebPageData(url);
+		File deaths = getWebPageData(urlDeaths);
+		File cases = getWebPageData(urlCases);
 		
-		Map<String, Integer> deceasedToday = listInfectedToday(listFiles.get(0));
-		Map<String, Integer> infectedToday = listInfectedToday(listFiles.get(1));
 		
-		for (File f : listFiles)
-		{
-			f.delete();
-		}
+		Map<String, Integer> deceasedToday = listInfectedToday(deaths);
+		Map<String, Integer> infectedToday = listInfectedToday(cases);
+		
+		deaths.deleteOnExit();
+		cases.deleteOnExit();
 		
 		//if data can't be read from web page, abort program
 		if (deceasedToday.isEmpty() || infectedToday.isEmpty())
